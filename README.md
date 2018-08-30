@@ -2,8 +2,9 @@
 Code used all the time, needs some updates
 
 # Todo
-1 - readme.md in each folder
-2 - Clean up folders
+
+ - readme.md in each folder
+ - Clean up folders
 
 
 # Booking System (PHP)
@@ -26,6 +27,7 @@ password : admin1
 /js/basicCore
 
 Basic Ajax file uploader , security tokens included, Server Side PHP also
+
 - ACL, user management, register SMS notification
 - GRUD - Server side , via post and secure token 
 - Uploader Images , Photos
