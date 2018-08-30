@@ -1,0 +1,391 @@
+[
+    {
+        "$unwind": {
+            "path": "$ageGenderEmotionCounts"
+        }
+    },
+    {
+        "$group": {
+            "_id": "$momentId",
+            "age_0_18_Count": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$lte": [
+                                "$ageGenderEmotionCounts.age",
+                                18
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_0_18_Count_Female": {
+                "$sum": {
+                    "$cond": [
+
+                        {
+                        "$and": [
+                           {
+                              "$lte": [
+                                "$ageGenderEmotionCounts.age",
+                                18
+                             ]
+                           },
+                           {
+
+                            		"$eq": [
+                                		"$ageGenderEmotionCounts.gender",
+                                		"female"
+                            		]
+                            }
+                         ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_0_18_Count_Male": {
+                "$sum": {
+                    "$cond": [
+
+                        {
+                        "$and": [
+                           {
+                              "$lte": [
+                                "$ageGenderEmotionCounts.age",
+                                18
+                             ]
+                           },
+                           {
+
+                            		"$eq": [
+                                		"$ageGenderEmotionCounts.gender",
+                                		"male"
+                            		]
+                            }
+                         ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_19_39_Count": {
+                "$sum": {
+                    "$cond": [
+                        {
+                          "$and": [
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        19
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        39
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_19_39_Count_Male": {
+                "$sum": {
+                    "$cond": [
+                        {
+                          "$and": [
+                               {
+
+                            		"$eq": [
+                                		"$ageGenderEmotionCounts.gender",
+                                		"male"
+                            		]
+                            	  },
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        19
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        39
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_19_39_Count_Female": {
+                "$sum": {
+                    "$cond": [
+                        {
+                          "$and": [
+                               {
+
+                              		"$eq": [
+                                  		"$ageGenderEmotionCounts.gender",
+                                  		"female"
+                              		]
+                            	  },
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        19
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        39
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_40_59_Count": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$and": [
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        40
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        59
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_40_59_Count_Female": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$and": [
+                              {
+
+                                 "$eq": [
+                                     "$ageGenderEmotionCounts.gender",
+                                     "female"
+                                 ]
+                               },
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        40
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        59
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_40_59_Count_Male": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$and": [
+                              {
+
+                                 "$eq": [
+                                     "$ageGenderEmotionCounts.gender",
+                                     "male"
+                                 ]
+                               },
+                                {
+                                    "$gte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        40
+                                    ]
+                                },
+                                {
+                                    "$lte": [
+                                        "$ageGenderEmotionCounts.age",
+                                        59
+                                    ]
+                                }
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_59_plus_Count": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$gte": [
+                                "$ageGenderEmotionCounts.age",
+                                60
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_59_plus_Count_Female": {
+                "$sum": {
+                    "$cond": [
+                        {
+                          "$and": [
+                             {
+                                "$gte": [
+                                  "$ageGenderEmotionCounts.age",
+                                  60
+                               ]
+                             },
+                             {
+
+                              		"$eq": [
+                                  		"$ageGenderEmotionCounts.gender",
+                                  		"female"
+                              		]
+                              }
+                           ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "age_59_plus_Count_Male": {
+                "$sum": {
+                    "$cond": [
+                        {
+                          "$and": [
+                             {
+                                "$gte": [
+                                  "$ageGenderEmotionCounts.age",
+                                  60
+                               ]
+                             },
+                             {
+
+                              		"$eq": [
+                                  		"$ageGenderEmotionCounts.gender",
+                                  		"male"
+                              		]
+                              }
+                           ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "faceCount": {
+                "$sum": "$ageGenderEmotionCounts.count"
+            },
+            "femaleCount": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$eq": [
+                                "$ageGenderEmotionCounts.gender",
+                                "female"
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "maleCount": {
+                "$sum": {
+                    "$cond": [
+                        {
+                            "$eq": [
+                                "$ageGenderEmotionCounts.gender",
+                                "male"
+                            ]
+                        },
+                        "$ageGenderEmotionCounts.count",
+                        0
+                    ]
+                }
+            },
+            "averageAge":{
+              "$sum": {
+                "$multiply": [ "$ageGenderEmotionCounts.count",
+                          "$ageGenderEmotionCounts.age"
+                        ]
+              }
+            }
+        }
+    },
+    {
+        "$project": {
+            "_id": 0,
+            "moment": {
+                "$concat": [
+                    "$_id.date",
+                    "-",
+                    "$_id.startTime",
+                    "-",
+                    "$_id.endTime",
+                    "-",
+                    "$_id.venueId",
+                    "-",
+                    "$_id.subjectId"
+                ]
+            },
+            "age_0_18_Count_Male": "$age_0_18_Count_Male",
+            "age_0_18_Count_Female": "$age_0_18_Count_Female",
+            "age_0_18_Count_All_Genders": "$age_0_18_Count",
+            "age_19_39_Count_Male": "$age_19_39_Count_Male",
+            "age_19_39_Count_Female": "$age_19_39_Count_Female",
+            "age_19_39_Count_All_Genders": "$age_19_39_Count",
+            "age_40_59_Count_Male": "$age_40_59_Count_Male",
+            "age_40_59_Count_Female": "$age_40_59_Count_Female",
+            "age_40_59_Count_All_Genders": "$age_40_59_Count_All_Genders",
+            "age_59_plus_Count_Male": "$age_59_plus_Count_Male",
+            "age_59_plus_Count_Female": "$age_59_plus_Count_Female",
+            "age_59_plus_Count_All_Genders": "$age_59_plus_Count",
+            "date": "$_id.date",
+            "end": "$_id.endTime",
+            "female": "$femaleCount",
+            "male": "$maleCount",
+            "start": "$_id.startTime",
+            "team": "$_id.subjectId",
+            "average_age": { "$divide" : ["$averageAge", "$faceCount"] },
+            "total": "$faceCount",
+            "venue": "$_id.venueId"
+        }
+    }
+]
