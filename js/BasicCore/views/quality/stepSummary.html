@@ -1,0 +1,43 @@
+<div>
+   <div>
+      <h3 class="animated fadeIn mb-4"></h3>
+      <div id="pucButtonContainer"></div>
+
+ 	  <div class="row">
+      <div class="col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepContainer.html" class="btn button btn-primary roundbtn">Back</button>
+    	</div>
+	  </div>
+ 	  <div class="row">
+      <div class="col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+        <button type="button" eltarget = "dashboardContent" url="views/quality/stepPreview.html" class="btn button btn-primary btn-success roundbtn">Go to Preview</button>
+      </div>
+	  </div>
+
+    </div>
+
+</div>
+
+<script>
+$( document ).ready(function() {
+  var count = 0;
+  $.each(listPuc,function(){
+    var buttonColor = "roundbtnred";
+    var buttonTitle = "Start";
+    var pucCode = this.toString();
+    $.each(donePuc,function(){
+       var PucA = pucCode;
+       var PucB = this.toString();
+       if(PucB == PucA){
+         buttonColor = "btn-warning";
+         buttonTitle = "Redo";
+       }
+    });
+
+    $('#pucButtonContainer').append('<div class="row"><div class="col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">  <button action ="stepSummaryPuc" pucId="'+count+'" pucNo="'+pucCode+'" eltarget = "dashboardContent" url="views/quality/stepType.html" type="button" class="btn button '+buttonColor+'">' + buttonTitle + ' : PUC# '+pucCode+'</button></div></div>');
+    count = count + 1;
+  });
+
+});
+
+</script>

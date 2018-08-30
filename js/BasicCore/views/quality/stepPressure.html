@@ -1,0 +1,232 @@
+<div>
+   <div>
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 topcol" >
+				<p class="toptitle" id="stepPressureHeader"></p>
+			</div>
+		</div>
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Pressure</p>
+            </div>
+            <div class="col-md-12 col-xs-6" >
+				<input type="text" class="form-control py-0" id="stepPressureFruit"  placeholder="">
+
+            </div>
+            <div class="col-md-12 col-xs-2 ffwhite">
+                <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">g </p>
+            </div>
+        </div>
+
+       <div id="pressureUploadNewImage" class="row" style="margin-top:15px; ">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Upload Image/Camera</p>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:15px;">
+            <div id="imageHolderPressure" class="col-md-12 col-xs-10 col-xs-offset-1" style="text-align:center;">
+				<input type="file" name="fileToUpload" id="pressureImgupload" style="display:none"/><input type= "hidden" id="pressureImageRotationValue">
+				<img onclick="PressureTakepictureView();" id="pressureFileToUploadSrc" src="assets/img/place_holder.jpg" class="img-fluid z-depth-4 placeholderImg fileToUploadSrc" alt="1" style="width:100%;border:3px #274775 solid;border-radius:10px;display:none">
+				<div class="mask flex-center waves-effect waves-light">
+					<p id="imageLabel"class="white-text" style="display:none">Pressure</p>
+				</div>
+			</div>
+        </div>
+
+       <div id="pressureRotateImageleft" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Left</p>
+            </div>
+        </div>
+        <div id="pressureRotateImageright" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Right</p>
+            </div>
+        </div>
+        <div id="pressureRotateImagereset" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate None</p>
+            </div>
+        </div>
+        <div id="pressureUploadNewImageAgain" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Replace Img</p>
+            </div>
+        </div>
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepPressurePuc">Grading</h5>
+			</div>
+		</div>
+
+        <div class="form-inline">
+
+          <div class="form-check">
+
+              <label class="form-check-label" for="exampleRadiosInline1">
+                  <img class="selectImg" src="assets/img/green64x64.png">Green [7-10]
+              </label>
+              <input class="form-check-input stepPressureGrading" type="radio" name="exampleRadios" id="stepPressureGradingGreen" value="1">
+          </div>
+          <div class="form-check">
+
+              <label class="form-check-label" for="exampleRadiosInline2">
+                  <img class="selectImg" src="assets/img/amber64x64.png">Amber [4-6]
+              </label>
+              <input class="form-check-input stepPressureGrading" type="radio" name="exampleRadios" id="stepPressureGradingAmber" value="2">
+          </div>
+          <div class="form-check">
+
+              <label class="form-check-label" for="exampleRadiosInline3">
+                  <img class="selectImg" src="assets/img/red64x64.png">Red [1-3]
+              </label>
+             <input class="form-check-input stepPressureGrading" type="radio" name="exampleRadios" id="stepPressureGradingRed" value="3">
+          </div>
+        </div>
+     </div>
+	<br>
+	<div class="topWarning"><p id="qcMsg"></p></div>
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepWeight.html" class="btn button btn-primary rounded">Back</button>
+
+          <button action ="stepPressureNext" type="button" eltarget = "dashboardContent" url="views/quality/stepBrix.html" class="btn button btn-primary rounded">Next : brix</button>
+    </div>
+    <div class="spacer"></div>
+    <div id="debug"></div>
+</div>
+<script>
+$(document).ready(function(){
+  var top=0;
+  var gradeValue = contianerDetails.puc[currentPucCount].pressure_grading;
+	if(gradeValue == 1){
+		$('#stepPressureGradingGreen').prop('checked', true);
+	}
+	if(gradeValue == 2){
+		$('#stepPressureGradingAmber').prop('checked', true);
+	}
+	if(gradeValue == 3){
+		$('#stepPressureGradingRed').prop('checked', true);
+	}
+  $('#stepPressureHeader').html('Step 3: Pressure </br>PUC# ' +contianerDetails.puc[currentPucCount].number);
+  $('#stepPressureFruit').val(contianerDetails.puc[currentPucCount].pressure);
+  $('#pressureImageRotationValue').val(contianerDetails.puc[currentPucCount].pressure_image_orientation);
+
+  if(contianerDetails.puc[currentPucCount].pressure_image_temp_data != ""){
+    $('#pressureFileToUploadSrc').attr('src', contianerDetails.puc[currentPucCount].pressure_image_temp_data);
+	  $('#pressureRotateImageleft').show();
+	  $('#pressureRotateImageright').show();
+	  $('#pressureRotateImagereset').show();
+	  $('#pressureUploadNewImageAgain').show();
+	  $('#pressureFileToUploadSrc').show();
+	  $('#pressureUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+	  if (contianerDetails.puc[currentPucCount].pressure_image_orientation != '00')
+	  {
+		setImageCSS('pressureFileToUploadSrc','imageHolderPressure','pressureImageRotationValue',1); // The "1" indicates to the function that this is a reload (from back button)
+		}
+	}
+
+
+
+  $('#pressureFileToUploadSrc').css({
+      "-webkit-transform": "rotate(" + contianerDetails.puc[currentPucCount].pressure_image_orientation + "deg)",
+      "-moz-transform": "rotate(" + contianerDetails.puc[currentPucCount].pressure_image_orientation + "deg)",
+      "transform": "rotate(" + contianerDetails.puc[currentPucCount].pressure_image_orientation + "deg)"
+      /* For modern browsers(CSS3)  */
+  });
+
+  $('#pressureRotateImageright').click(function(){
+      setImageCSS('pressureFileToUploadSrc','imageHolderPressure','pressureImageRotationValue',0);
+      $('#pressureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#pressureImageRotationValue').val('90');
+	  contianerDetails.puc[currentPucCount].pressure_image_orientation = $('#pressureImageRotationValue').val();
+  });
+
+  $('#pressureRotateImagereset').click(function(){
+      resetImageCSS("pressureFileToUploadSrc","imageHolderPressure");
+      $('#pressureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(00deg)",
+          "-moz-transform": "rotate(00deg)",
+          "transform": "rotate(00deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#pressureImageRotationValue').val('00');
+	  contianerDetails.puc[currentPucCount].pressure_image_orientation = $('#pressureImageRotationValue').val();
+  });
+  $('#pressureRotateImageleft').click(function(){
+      setImageCSS('pressureFileToUploadSrc','imageHolderPressure','pressureImageRotationValue',0);
+      $('#pressureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(270deg)",
+          "-moz-transform": "rotate(270deg)",
+          "transform": "rotate(270deg)" /* For modern browsers(CSS3)  */
+      });
+        $('#pressureImageRotationValue').val('270');
+	  contianerDetails.puc[currentPucCount].pressure_image_orientation = $('#pressureImageRotationValue').val();
+  });
+
+  $('#pressureUploadNewImage').click(function(){
+    resetImageCSS("pressureFileToUploadSrc","imageHolderPressure");
+	$('#pressureRotateImagereset').trigger('click');
+    $('#pressureImgupload').trigger('click');
+  });
+
+  $('#pressureUploadNewImageAgain').click(function(){
+    resetImageCSS("pressureFileToUploadSrc","imageHolderPressure");
+	$('#pressureRotateImagereset').trigger('click');
+    $('#pressureImgupload').trigger('click');
+  });
+
+  function readURL(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $('#pressureFileToUploadSrc').attr('src', e.target.result);
+        contianerDetails.puc[currentPucCount].pressure_image_temp_data = e.target.result;
+        pressure_file = $('#pressureImgupload').prop('files')[0];
+        //$('#debug').html(e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+
+	  $('#pressureRotateImageleft').show();
+	  $('#pressureRotateImageright').show();
+	  $('#pressureRotateImagereset').show();
+	  $('#pressureUploadNewImageAgain').show();
+	  $('#pressureFileToUploadSrc').show();
+	  $('#pressureUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+
+
+    }
+  }
+  $("#pressureImgupload").change(function() {
+    readURL(this);
+  });
+
+  function PressureTakepictureView() {
+   $('#pressureImgupload').trigger('click');
+  }
+
+  $(window).scroll(function(){
+    var st=$(this).scrollTop();
+    if($(window).scrollTop() + window.innerHeight == $(document).height()){
+      //$("#stepPressureScrollDownArrow").css("display","none");
+
+    }else{
+       //$("#stepPressureScrollDownArrow").css("display","block");
+
+    }
+  });
+});
+</script>

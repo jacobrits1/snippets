@@ -1,0 +1,21 @@
+pipelines:
+  custom: # Pipelines that are triggered manually
+    init: # -- First time init
+    - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp init --user med@medmin.co.za --passwd Jac0Br1ts ftp://ftp.medmin.co.za/fruitflo/production
+    deploy-all: # -- Deploys all files from the selected commit
+    - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp init --user med@medmin.co.za --passwd Jac0Br1ts ftp://ftp.medmin.co.za/fruitflo/production
+  branches: # Automated triggers on commits to branches
+    master: # -- When committing to mast branch
+    - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp init --user med@medmin.co.za --passwd Jac0Br1ts ftp://ftp.medmin.co.za/fruitflo/production

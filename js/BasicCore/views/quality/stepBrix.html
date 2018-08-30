@@ -1,0 +1,237 @@
+<div>
+   <div>
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 topcol" >
+				<p class="toptitle" id="stepBrixHeader"></p>
+			</div>
+		</div>
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Brix</p>
+            </div>
+            <div class="col-md-12 col-xs-6" >
+				<input type="text" class="form-control py-0" id="stepBrixFruit"  placeholder="">
+
+                <!-- <input type="text" style="width:100%;padding-top:5px;padding-bottom:2px;line-height:10px;border:none;outline:none;text-decoration:none;"> -->
+            </div>
+            <div class="col-md-12 col-xs-2 ffwhite">
+                <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°Bx </p>
+            </div>
+        </div>
+
+       <div id="brixUploadNewImage" class="row" style="margin-top:15px; ">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Upload Image/Camera</p>
+            </div>
+        </div>
+
+       <div class="row" style="margin-top:15px;">
+            <div id="imageHolderBrix" class="col-md-12 col-xs-10 col-xs-offset-1" style="text-align:center;">
+				<input type="file" name="fileToUpload" id="brixImgupload" style="display:none"/><input type= "hidden" id="brixImageRotationValue">
+				<img onclick="brixTakepictureView();" id="brixFileToUploadSrc" src="assets/img/place_holder.jpg" class="img-fluid z-depth-4 placeholderImg fileToUploadSrc" alt="1" style="width:100%;border:3px #274775 solid;border-radius:10px;display:none">
+				<div class="mask flex-center waves-effect waves-light">
+					<p id="imageLabel"class="white-text" style="display:none">Brix</p>
+				</div>
+			</div>
+        </div>
+
+       <div id="brixRotateImageleft" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Left</p>
+            </div>
+        </div>
+        <div id="brixRotateImageright" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Right</p>
+            </div>
+        </div>
+        <div id="brixRotateImagereset" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate None</p>
+            </div>
+        </div>
+        <div id="brixUploadNewImageAgain" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Replace Img</p>
+            </div>
+        </div>
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepBrixPuc">Grading</h5>
+			</div>
+		</div>
+
+        <div class="form-inline marginLeft">
+
+          <div class="form-check">
+              <label class="form-check-label" for="exampleRadiosInline1">
+                  <img class="selectImg" src="assets/img/green64x64.png">Green [7-10]
+              </label>
+			  <input class="form-check-input stepBrixGrading" type="radio" name="exampleRadios" id="stepBrixGradingGreen" value="1">
+
+          </div>
+          <div class="form-check">
+              <label class="form-check-label" for="exampleRadiosInline2">
+                  <img class="selectImg" src="assets/img/amber64x64.png">Amber [4-6]
+              </label>
+			  <input class="form-check-input stepBrixGrading" type="radio" name="exampleRadios" id="stepBrixGradingAmber" value="2">
+
+          </div>
+          <div class="form-check">
+              <label class="form-check-label" for="exampleRadiosInline3">
+                  <img class="selectImg" src="assets/img/red64x64.png">Red [1-3]
+              </label>
+              <input class="form-check-input stepBrixGrading" type="radio" name="exampleRadios" id="stepBrixGradingRed" value="3">
+
+          </div>
+        </div>
+    </div>
+	<br>
+	<div class="topWarning"><p id="qcMsg"></p></div>
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepPressure.html" class="btn button btn-primary rounded">Back</button>
+
+          <button action ="stepBrixNext" type="button" eltarget = "dashboardContent" url="views/quality/stepTemprature.html" class="btn button btn-primary rounded">Next : Temperature</button>
+    </div>
+    <div class="spacer"></div>
+    <div id="debug"></div>
+
+</div>
+<script>
+$(document).ready(function(){
+  var top=0;
+  var gradeValue = contianerDetails.puc[currentPucCount].brix_grading;
+	if(gradeValue == 1){
+		$('#stepBrixGradingGreen').prop('checked', true);
+	}
+	if(gradeValue == 2){
+		$('#stepBrixGradingAmber').prop('checked', true);
+	}
+	if(gradeValue == 3){
+		$('#stepBrixGradingRed').prop('checked', true);
+	}
+  $('#stepBrixHeader').html('<b>Step 4: Brix </br>PUC# ' +contianerDetails.puc[currentPucCount].number);
+  $('#stepBrixFruit').val(contianerDetails.puc[currentPucCount].brix);
+  $('#brixImageRotationValue').val(contianerDetails.puc[currentPucCount].brix_image_orientation);
+
+  console.log('brix rotation:'+contianerDetails.puc[currentPucCount].brix_image_orientation  );
+  console.log('brix count:'+currentPucCount);
+
+  if(contianerDetails.puc[currentPucCount].brix_image_temp_data != ""){
+    $('#brixFileToUploadSrc').attr('src', contianerDetails.puc[currentPucCount].brix_image_temp_data);
+	  $('#brixRotateImageleft').show();
+	  $('#brixRotateImageright').show();
+	  $('#brixRotateImagereset').show();
+	  $('#brixUploadNewImageAgain').show();
+	  $('#brixFileToUploadSrc').show();
+	  $('#brixUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+	  if (contianerDetails.puc[currentPucCount].brix_image_orientation != '00')
+	  {
+		setImageCSS('brixFileToUploadSrc','imageHolderBrix','brixImageRotationValue',1); // The "1" indicates to the function that this is a reload (from back button)
+		}
+	}
+
+
+
+  $('#brixFileToUploadSrc').css({
+      "-webkit-transform": "rotate(" + contianerDetails.puc[currentPucCount].brix_image_orientation + "deg)",
+      "-moz-transform": "rotate(" + contianerDetails.puc[currentPucCount].brix_image_orientation + "deg)",
+      "transform": "rotate(" + contianerDetails.puc[currentPucCount].brix_image_orientation + "deg)"
+      /* For modern browsers(CSS3)  */
+  });
+
+  $('#brixRotateImageright').click(function(){
+   setImageCSS('brixFileToUploadSrc','imageHolderBrix','brixImageRotationValue',0);
+      $('#brixFileToUploadSrc').css({
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#brixImageRotationValue').val('90');
+	  contianerDetails.puc[currentPucCount].brix_image_orientation = $('#brixImageRotationValue').val();
+  });
+
+  $('#brixRotateImagereset').click(function(){
+   resetImageCSS("brixFileToUploadSrc","imageHolderBrix");
+      $('#brixFileToUploadSrc').css({
+          "-webkit-transform": "rotate(00deg)",
+          "-moz-transform": "rotate(00deg)",
+          "transform": "rotate(00deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#brixImageRotationValue').val('00');
+	  contianerDetails.puc[currentPucCount].brix_image_orientation = $('#brixImageRotationValue').val();
+  });
+
+  $('#brixRotateImageleft').click(function(){
+    setImageCSS('brixFileToUploadSrc','imageHolderBrix','brixImageRotationValue',0);
+      $('#brixFileToUploadSrc').css({
+          "-webkit-transform": "rotate(270deg)",
+          "-moz-transform": "rotate(270deg)",
+          "transform": "rotate(270deg)" /* For modern browsers(CSS3)  */
+      });
+        $('#brixImageRotationValue').val('270');
+	  contianerDetails.puc[currentPucCount].brix_image_orientation = $('#brixImageRotationValue').val();
+  });
+
+  $('#brixUploadNewImage').click(function(){
+    resetImageCSS("brixFileToUploadSrc","imageHolderBrix");
+	$('#brixRotateImagereset').trigger('click');
+    $('#brixImgupload').trigger('click');
+  });
+
+    $('#brixUploadNewImageAgain').click(function(){
+	resetImageCSS("brixFileToUploadSrc","imageHolderBrix");
+	$('#brixRotateImagereset').trigger('click');
+    $('#brixImgupload').trigger('click');
+  });
+
+  function readURL(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $('#brixFileToUploadSrc').attr('src', e.target.result);
+        contianerDetails.puc[currentPucCount].brix_image_temp_data = e.target.result;
+        brix_file = $('#brixImgupload').prop('files')[0];
+        //$('#debug').html(e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+
+	  $('#brixRotateImageleft').show();
+	  $('#brixRotateImageright').show();
+	  $('#brixRotateImagereset').show();
+	  $('#brixUploadNewImageAgain').show();
+	  $('#brixFileToUploadSrc').show();
+	  $('#brixUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+
+    }
+  }
+  $("#brixImgupload").change(function() {
+    readURL(this);
+  });
+
+  function brixTakepictureView() {
+   $('#brixImgupload').trigger('click');
+  }
+
+  $(window).scroll(function(){
+    var st=$(this).scrollTop();
+    if($(window).scrollTop() + window.innerHeight == $(document).height()){
+      //$("#stepBrixScrollDownArrow").css("display","none");
+
+    }else{
+      //$("#stepBrixScrollDownArrow").css("display","block");
+
+    }
+  });
+});
+</script>

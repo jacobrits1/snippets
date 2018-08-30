@@ -1,0 +1,82 @@
+<div>
+   <div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12  topcol" >
+				<p class="toptitle" id="stepCustomMetricHeader"></p>
+			</div>
+		</div>
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Value</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				       <input type="text" class="form-control py-0" id="stepCustomMetricValue"  placeholder="Eg: 100">
+
+            </div>
+          </div>
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Unit</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				<input type="text" class="form-control py-0" id="stepCustomMetricMetric"  placeholder="Eg: mm / cm / gr / kg">
+
+            </div>
+          </div>
+		</br>
+
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepCustomMetricGradingP">Grading</h5>
+			</div>
+		</div>
+
+         <div class="form-inline">
+
+           <div class="form-check">
+               <label class="form-check-label" for="exampleRadiosInline1">
+                    <img class="selectImg" src="assets/img/green64x64.png">Green [7-10]
+               </label>
+			   <input class="form-check-input stepCustomMetric" type="radio" name="exampleRadios" id="stepCustomGradingGreen" value="1">
+           </div>
+           <div class="form-check">
+               <label class="form-check-label" for="exampleRadiosInline2">
+                    <img class="selectImg" src="assets/img/amber64x64.png">Amber [4-6]
+               </label>
+			   <input class="form-check-input stepCustomMetric" type="radio" name="exampleRadios" id="stepCustomGradingAmber" value="2">
+           </div>
+           <div class="form-check">
+               <label class="form-check-label" for="exampleRadiosInline3">
+                    <img class="selectImg" src="assets/img/red64x64.png">Red [1-3]
+               </label>
+			   <input class="form-check-input stepCustomMetric" type="radio" name="exampleRadios" id="stepCustomGradingRed" value="3">
+           </div>
+         </div>
+      </div>
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepInternalExternal.html" id="stepSixCancel" class="btn button btn-primary rounded">Back</button>
+
+          <button type="button" action = "stepCustomMetric" eltarget = "dashboardContent" url="views/quality/stepCustomComment.html" id="stepSixNext" class="btn button btn-primary rounded">Next : Comment</button>
+    </div>
+  <div class="spacer"></div>
+</div>
+
+<script>
+  var gradeValue = contianerDetails.puc[currentPucCount].custom_grading;
+  if(gradeValue == 1){
+    $('#stepCustomGradingGreen').prop('checked', true);
+  }
+  if(gradeValue == 2){
+    $('#stepCustomGradingAmber').prop('checked', true);
+  }
+  if(gradeValue == 3){
+    $('#stepCustomGradingRed').prop('checked', true);
+  }
+  $('#stepCustomMetricHeader').html('<b>Step 6 Custom Metric </br>PUC# ' +contianerDetails.puc[currentPucCount].number);
+  $('#stepCustomMetricValue').val(contianerDetails.puc[currentPucCount].custom);
+  $('#stepCustomMetricMetric').val(contianerDetails.puc[currentPucCount].custom_metric);
+</script>

@@ -1,0 +1,226 @@
+<div>
+   <div>
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 topcol" >
+				<p class="toptitle" id="stepTemperatureHeader"></p>
+			</div>
+		</div>
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-5 ffblue" >
+                <p class="inputLeft">Temperature</p>
+            </div>
+            <div class="col-md-12 col-xs-5" >
+				<input type="text" class="form-control py-0" id="stepTemperatureFruit"  placeholder="">
+
+            </div>
+            <div class="col-md-12 col-xs-2 ffwhite">
+                <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°C </p>
+            </div>
+        </div>
+
+       <div id="temperatureUploadNewImage" class="row" style="margin-top:15px; ">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Upload Image/Camera</p>
+            </div>
+        </div>
+
+       <div class="row" style="margin-top:15px;">
+            <div id="imageHolderTemperature" class="col-md-12 col-xs-10 col-xs-offset-1" style="text-align:center;">
+				<input type="file" name="fileToUpload" id="temperatureImgupload" style="display:none"/><input type= "hidden" id="temperatureImageRotationValue">
+				<img onclick="temperatureTakepictureView();" id="temperatureFileToUploadSrc" src="assets/img/place_holder.jpg" class="img-fluid z-depth-4 placeholderImg fileToUploadSrc" alt="1" style="width:100%;border:3px #274775 solid;border-radius:10px;display:none">
+				<div class="mask flex-center waves-effect waves-light">
+					<p id="imageLabel"class="white-text" style="display:none">Temperature</p>
+				</div>
+			</div>
+        </div>
+
+       <div id="temperatureRotateImageleft" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Left</p>
+            </div>
+        </div>
+        <div id="temperatureRotateImageright" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Right</p>
+            </div>
+        </div>
+        <div id="temperatureRotateImagereset" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate None</p>
+            </div>
+        </div>
+        <div id="temperatureUploadNewImageAgain" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Replace Img</p>
+            </div>
+        </div>
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepTemperaturePuc">Grading</h5>
+			</div>
+		</div>
+
+        <div class="form-inline">
+
+          <div class="form-check">
+              <label class="form-check-label" for="exampleRadiosInline1">
+                 <img class="selectImg" src="assets/img/green64x64.png">Green [7-10]
+              </label>
+			  <input class="form-check-input stepTemperatureGrading" type="radio" name="exampleRadios" id="stepTemperatureGradingGreen" value="1">
+          </div>
+          <div class="form-check">
+
+              <label class="form-check-label" for="exampleRadiosInline2">
+                  <img class="selectImg" src="assets/img/amber64x64.png">Amber [4-6]
+              </label>
+				<input class="form-check-input stepTemperatureGrading" type="radio" name="exampleRadios" id="stepTemperatureGradingAmber" value="2">
+          </div>
+          <div class="form-check">
+
+              <label class="form-check-label" for="exampleRadiosInline3">
+                   <img class="selectImg" src="assets/img/red64x64.png">Red [1-3]
+              </label>
+			  <input class="form-check-input stepTemperatureGrading" type="radio" name="exampleRadios" id="stepTemperatureGradingRed" value="3">
+          </div>
+        </div>
+     </div>
+    <br>
+
+	<div class="topWarning"><p id="qcMsg"></p></div>
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepBrix.html" class="btn button btn-primary rounded">Back</button>
+
+          <button action ="stepTemperatureNext" type="button" eltarget = "dashboardContent" url="views/quality/stepInternalExternal.html" class="btn button btn-primary rounded">Next : Internal </button>
+    </div>
+    <div class="spacer"></div>
+
+</div>
+<script>
+$(document).ready(function(){
+  var top=0;
+  var gradeValue = contianerDetails.puc[currentPucCount].temperature_grading;
+	if(gradeValue == 1){
+		$('#stepTemperatureGradingGreen').prop('checked', true);
+	}
+	if(gradeValue == 2){
+		$('#stepTemperatureGradingAmber').prop('checked', true);
+	}
+	if(gradeValue == 3){
+		$('#stepTemperatureGradingRed').prop('checked', true);
+	}
+  $('#stepTemperatureHeader').html('Step 5 Temperature </br>PUC# ' +contianerDetails.puc[currentPucCount].number);
+  $('#stepTemperatureFruit').val(contianerDetails.puc[currentPucCount].temperature);
+  $('#temperatureImageRotationValue').val(contianerDetails.puc[currentPucCount].temperature_image_orientation);
+
+  if(contianerDetails.puc[currentPucCount].temperature_image_temp_data != ""){
+    $('#temperatureFileToUploadSrc').attr('src', contianerDetails.puc[currentPucCount].temperature_image_temp_data);
+	  $('#temperatureRotateImageleft').show();
+	  $('#temperatureRotateImageright').show();
+	  $('#temperatureRotateImagereset').show();
+	  $('#temperatureUploadNewImageAgain').show();
+	  $('#temperatureFileToUploadSrc').show();
+	  $('#temperatureUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+	  if (contianerDetails.puc[currentPucCount].temperature_image_orientation != '00')
+	  {
+		setImageCSS('temperatureFileToUploadSrc','imageHolderTemperature','temperatureImageRotationValue',1); // The "1" indicates to the function that this is a reload (from back button)
+		}
+	}
+
+
+
+  $('#temperatureFileToUploadSrc').css({
+      "-webkit-transform": "rotate(" + contianerDetails.puc[currentPucCount].temperature_image_orientation + "deg)",
+      "-moz-transform": "rotate(" + contianerDetails.puc[currentPucCount].temperature_image_orientation + "deg)",
+      "transform": "rotate(" + contianerDetails.puc[currentPucCount].temperature_image_orientation + "deg)"
+      /* For modern browsers(CSS3)  */
+  });
+
+  $('#temperatureRotateImageright').click(function(){
+      setImageCSS('temperatureFileToUploadSrc','imageHolderTemperature','temperatureImageRotationValue',0);
+      $('#temperatureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#temperatureImageRotationValue').val('90');
+	  contianerDetails.puc[currentPucCount].temperature_image_orientation = $('#temperatureImageRotationValue').val();
+  });
+
+  $('#temperatureRotateImagereset').click(function(){
+	  resetImageCSS("temperatureFileToUploadSrc","imageHolderTemperature");
+      $('#temperatureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(0deg)",
+          "-moz-transform": "rotate(0deg)",
+          "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#temperatureImageRotationValue').val('00');
+	  contianerDetails.puc[currentPucCount].temperature_image_orientation = $('#temperatureImageRotationValue').val();
+  });
+  $('#temperatureRotateImageleft').click(function(){
+      setImageCSS('temperatureFileToUploadSrc','imageHolderTemperature','temperatureImageRotationValue',0);
+      $('#temperatureFileToUploadSrc').css({
+          "-webkit-transform": "rotate(270deg)",
+          "-moz-transform": "rotate(270deg)",
+          "transform": "rotate(270deg)" /* For modern browsers(CSS3)  */
+      });
+        $('#temperatureImageRotationValue').val('270');
+	  contianerDetails.puc[currentPucCount].temperature_image_orientation = $('#temperatureImageRotationValue').val();
+  });
+
+  $('#temperatureUploadNewImage').click(function(){
+    resetImageCSS("temperatureFileToUploadSrc","imageHolderTemperature");
+	$('#temperatureRotateImagereset').trigger('click');
+    $('#temperatureImgupload').trigger('click');
+  });
+
+  $('#temperatureUploadNewImageAgain').click(function(){
+    resetImageCSS("temperatureFileToUploadSrc","imageHolderTemperature");
+	$('#temperatureRotateImagereset').trigger('click');
+    $('#temperatureImgupload').trigger('click');
+  });
+
+  function readURL(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $('#temperatureFileToUploadSrc').attr('src', e.target.result);
+        contianerDetails.puc[currentPucCount].temperature_image_temp_data = e.target.result;
+        temperature_file = $('#temperatureImgupload').prop('files')[0];
+      }
+      reader.readAsDataURL(input.files[0]);
+
+	  $('#temperatureRotateImageleft').show();
+	  $('#temperatureRotateImageright').show();
+	  $('#temperatureRotateImagereset').show();
+	  $('#temperatureUploadNewImageAgain').show();
+	  $('#temperatureFileToUploadSrc').show();
+	  $('#temperatureUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+    }
+  }
+  $("#temperatureImgupload").change(function() {
+    readURL(this);
+  });
+
+  function temperatureTakepictureView() {
+   $('#temperatureImgupload').trigger('click');
+  }
+
+  $(window).scroll(function(){
+    var st=$(this).scrollTop();
+    if($(window).scrollTop() + window.innerHeight == $(document).height()){
+      //$("#stepTemperatureScrollDownArrow").css("display","none");
+    }else{
+       //$("#stepTemperatureScrollDownArrow").css("display","block");
+    }
+  });
+});
+</script>

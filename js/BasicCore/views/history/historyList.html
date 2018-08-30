@@ -1,0 +1,52 @@
+<div>
+   <div class="flex-center flex-column">
+       <h4 class="animated fadeIn mb-4" id="historyListTitle">History of reports</h4>
+       <br>
+       <!--Table-->
+        <table class="table table-striped">
+           <!--Table body-->
+           <tbody>
+               <tr class='clickable-row' eltarget = "dashboardContent" loadUrl="views/history/historyReport.html" report="1">
+                   <th scope="row">2018-05-03</th>
+                   <td>Container : CA5644825 <br>
+                       PUC # 123354
+                       PUC # 123354
+                   </td>
+               </tr>
+               <tr>
+                   <th scope="row">2018-05-03</th>
+                   <td>Container : CA5644825 <br>
+                       PUC # 123354
+                       PUC # 123354
+                   </td>
+               </tr>
+               <tr>
+                   <th scope="row">2018-05-03</th>
+                   <td>Container : CA5644825 <br>
+                       PUC # 123354
+                       PUC # 123354
+                   </td>
+               </tr>
+
+           </tbody>
+           <!--Table body-->
+
+        </table>
+        <!--Table-->
+    </div>
+
+
+    <div class="spacer"></div>
+
+</div>
+<script>
+$(document).ready(function(){
+  $(".clickable-row").click(function() {
+      var eltarget1 = $(this).attr("eltarget");
+      var loadUrl1 = $(this).attr("loadUrl");
+      console.log(eltarget1);
+      console.log(loadUrl1);
+      $('#'+eltarget1).load(loadUrl1);
+  });
+});
+</script>
