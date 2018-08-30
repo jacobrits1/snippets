@@ -1,0 +1,73 @@
+<?php
+header('content-type: application/json; charset=utf-8');
+header("access-control-allow-origin: *");
+ini_set('display_startup_errors',1);
+ini_set('display_errors',1);
+error_reporting(-1);
+
+require_once 'db_functions.php';
+$db = new DB_Functions();
+
+$cardnumber = false;
+$expiry = false;
+$ccvnum = false;
+$cardname = false;
+$cardtype = false;
+$cli_id = false;
+
+//Test Data:
+// $cardnumber = "1234123412341234";
+// $expiry = "19/03";
+// $ccvnum = "123";
+// $cardname = "MR P POMPIES";
+// $cardtype = "PERSONAL";
+// $cli_id = "100";
+
+$result = false;
+$cli_result = false;
+
+if (isset($_POST['cardnumber']))
+	$cardnumber = $_POST['cardnumber'];
+if (isset($_POST['expiry']))
+	$expiry = $_POST['expiry'];
+if (isset($_POST['ccvnum']))
+	$ccvnum = $_POST['ccvnum'];
+if (isset($_POST['cardname']))
+	$cardname =	$_POST['cardname'];
+if (isset($_POST['cardtype']))
+	$cardtype =	$_POST['cardtype'];
+if (isset($_POST['cli_id']))
+	$cli_id = $_POST['cli_id'];
+
+
+$con=mysqli_connect("localhost","medminco_demo","D3m0!234","medminco_giftdrop");
+// Check connection
+
+if (mysqli_connect_errno())
+{
+  echo "return: error - Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+//Add new card
+if (!empty($cardnumber) && !empty($expiry) && !empty($ccvnum) && !empty($cardname) && !empty($cardtype) && !empty($cli_id))
+	{
+	//Temp bypass to test
+    $qStr = "INSERT INTO `card_details` (`card_cli_id`,`card_cardnumber`,`card_expiry`,`card_ccvnum`,`card_cardname`,`card_cardtype`,`card_date_added`)";
+    $qStr = $qStr." VALUES";
+    $qStr = $qStr." ('".$cli_id."','".$cardnumber."','".$expiry."','".$ccvnum."','".$cardname."','".$cardtype."',NOW());";
+	$result = mysqli_query($con,$qStr);
+
+	$sql2 = "SELECT card_id FROM card_details WHERE card_cli_id = '".$cli_id."'";
+	$result2 = mysqli_query($con,$sql2);
+	while($e2=mysqli_fetch_assoc($result2)){
+	 $cli_id =  $e2['card_id'];
+	}
+	print json_encode($cli_id);
+	
+	} else return false;
+	
+
+
+mysqli_close($con);
+exit;
+?>
