@@ -1,0 +1,30 @@
+<div>
+  <!-- <nav class="flex-center navbar navbar-dark primary-color">
+    <h3 class="animated fadeIn mb-4">Welcome</h3>
+  </nav> -->
+
+   <!-- <div class="spacer"></div> -->
+      <div class="flex-center flex-column">
+
+        <img src="assets/img/ffLogo.png" class="logoTop" alt="1">
+
+        <br>
+          <h3 class="animated fadeIn mb-3">Welcome</h3>
+
+          <p class="animated fadeIn text-muted" id="dashboardWelcomeName"></p>
+      </div>
+   </div>
+
+</div>
+
+<script>
+$( document ).ready(function() {
+
+  $('#dashboardWelcomeName').append(currentUserName);
+
+  setTimeout(function(){
+        $("#mainContent").load("views/dashboard/dashboard.html");
+  }, 2000);
+
+});
+</script>

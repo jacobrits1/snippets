@@ -1,0 +1,91 @@
+<div>
+  <nav class="navbar fixed-top navbar-dark primary-color navTitle">
+    <i class="fa navIcons fa-bars"></i>
+      <h3 class="mx-auto navbar-brand">Register</h3> 
+  </nav>
+  
+  <div class="spacer"></div>
+  
+ <div class="topWarning"><p id="registerErr"></p></div>
+   
+  
+  <div>
+  
+  		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12  topcol" >
+				<p class="toptitle" id="registerDetailsHeader">User Registartion at {{auto-populate-from-register}}</p>
+			</div>
+		</div>
+		
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Name:</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				<input type="text" class="form-control py-0" id="registerDetailsName"  placeholder="">
+
+                <!-- <input type="text" style="width:100%;padding-top:5px;padding-bottom:2px;line-height:10px;border:none;outline:none;text-decoration:none;"> -->
+            </div>
+            <!-- <div class="col-md-12 col-xs-2 ffwhite"> -->
+                <!-- <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°C </p>  -->
+            <!-- </div> -->
+        </div>	
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Surname:</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				<input type="text" class="form-control py-0" id="registerDetailsSurname"  placeholder="">
+
+                <!-- <input type="text" style="width:100%;padding-top:5px;padding-bottom:2px;line-height:10px;border:none;outline:none;text-decoration:none;"> -->
+            </div>
+            <!-- <div class="col-md-12 col-xs-2 ffwhite"> -->
+                <!-- <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°C </p>  -->
+            <!-- </div> -->
+        </div>	
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Mobile:</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				<input type="text" class="form-control py-0" id="registerDetailsMobile"  placeholder="">
+
+                <!-- <input type="text" style="width:100%;padding-top:5px;padding-bottom:2px;line-height:10px;border:none;outline:none;text-decoration:none;"> -->
+            </div>
+            <!-- <div class="col-md-12 col-xs-2 ffwhite"> -->
+                <!-- <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°C </p>  -->
+            <!-- </div> -->
+        </div>	
+
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-4 ffblue" >
+                <p class="inputLeft">Email:</p>
+            </div>
+            <div class="col-md-12 col-xs-7" >
+				<input type="text" class="form-control py-0" id="registerDetailsEmail"  placeholder="">
+
+                <!-- <input type="text" style="width:100%;padding-top:5px;padding-bottom:2px;line-height:10px;border:none;outline:none;text-decoration:none;"> -->
+            </div>
+            <!-- <div class="col-md-12 col-xs-2 ffwhite"> -->
+                <!-- <p style="margin:0p;margin-bottom:0px;padding-top:2px;padding-bottom:4px;color:#274775;padding-right:0px;">°C </p>  -->
+            <!-- </div> -->
+        </div>			
+
+ 
+
+    </div>
+	
+   <div class="spacer50"></div>
+    <div class="form-row flex-center">
+      <button type="button" eltarget = "mainContent" url="views/register/register.html" class="btn button btn-primary rounded">Back</button>
+
+      <button action="registerDetails" type="button" eltarget = "mainContent" url="views/register/registerDob.html" class="btn button btn-primary rounded">Next</button>
+    </div>
+
+</div>
+<script>
+$('#registerDetailsHeader').html('User Registartion at ' + globalRegCode);
+
+</script>

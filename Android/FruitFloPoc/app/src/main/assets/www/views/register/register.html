@@ -1,0 +1,86 @@
+<div>
+  <nav class="navbar fixed-top navbar-dark primary-color navTitle">
+    <i class="fa navIcons fa-bars"></i>
+      <h3 class="mx-auto navbar-brand">Register</h3> 
+  </nav>
+  
+  <div class="spacer"></div>
+  
+  	<div class="topWarning"><p id="registerErr"></p></div>
+  
+       <div class="row rowstyle lessMargin">
+            <div class="col-md-5 col-xs-5 ffblue">
+                <p class="inputLeft">Producer:</p>
+            </div>
+            <div class="col-md-7 col-xs-7 ffwhite">
+				<select id="registerPuc" class="stepContainerSelect PucWidth selectstyle">
+					<option value="" selected>Select Producer / PUC Code</option>
+				</select>
+            </div>
+        </div>
+		
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepPressurePuc">OR</h5>
+			</div>
+		</div>
+
+       <div class="row rowstyle lessMargin">
+            <div class="col-md-5 col-xs-5 ffblue">
+                <p class="inputLeft">Exporter:</p>
+            </div>
+            <div class="col-md-7 col-xs-7 ffwhite">
+          <select id="registerExporter" class="stepContainerSelect PucWidth selectstyle">
+              <option value="" selected>Select Exporter Code</option>
+          </select>
+            </div>
+        </div>	
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepPressurePuc">OR</h5>
+			</div>
+		</div>	
+		
+       <div class="row rowstyle lessMargin">
+            <div class="col-md-5 col-xs-5 ffblue">
+                <p class="inputLeft">Importer:</p>
+            </div>
+            <div class="col-md-7 col-xs-7 ffwhite">
+          <select id="registerImporter" class="stepContainerSelect PucWidth selectstyle">
+              <option value="" selected>Select Importer Code</option>
+          </select>	
+            </div>
+        </div>		
+
+   <div class="spacer50"></div>
+    <div class="form-row flex-center">
+
+      <div class="form-row align-items-center">
+        <button type="button" eltarget = "mainContent" url="index.php" class="btn button btn-primary rounded">Cancel</button>
+
+        <button action="registerPUC" type="button" eltarget = "mainContent" url="views/register/registerDetails.html" class="btn button btn-primary rounded">Next</button>
+      </div>
+    </div>
+
+</div>
+
+<script>
+$( document ).ready(function() {
+  $.ajax({
+    type: "POST",
+    url: "api/allPucs.php",
+    data : {'apikey': "cd8f23a8e07a223e8d89f3fbf42c3874"},
+    dataType: "html",
+    success: function(data){
+            $('#registerPuc').append(data);
+              $('#registerExporter').append(data);
+              $('#registerImporter').append(data);
+            options = data;
+    },
+    failure: function(errMsg) {
+        console.log(errMsg);
+    }
+  });
+});
+</script>

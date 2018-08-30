@@ -1,0 +1,23 @@
+<div>
+   <div class="flex-center flex-column">
+      <div class="spacer"></div>
+	  <br>
+      <i class="fa fa-times-circle errorColor"></i>
+
+      <p class="animated fadeIn text-muted">This user details already exist</p>
+      <br>
+      <p class="animated fadeIn text-muted">We will shortly redirect <br> you to login screen</p>
+
+    </div>
+
+</div>
+
+<script>
+$( document ).ready(function() {
+
+  setTimeout(function(){
+        window.location.reload();
+  }, 4000);
+
+});
+</script>

@@ -1,0 +1,65 @@
+<div>
+
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12  topcol" >
+				<p class="toptitle" id="stepSendHeader">Send QC Report</p>
+			</div>
+		</div>   
+
+    <div class = "sendmargin">
+      <div class="form-check">
+
+         
+          <label class="form-check-label" for="filledInCheckbox1">
+              Office
+          </label>
+		   <input class="form-check-input filled-in" id="stepSendOffice" type="checkbox" value="" name="stepSendOffice">
+
+      </div>
+      <div class="form-check">
+
+         
+          <label class="form-check-label" for="filledInCheckbox1">
+              Exporter
+          </label>
+		   <input class="form-check-input filled-in" id="stepSendExporter" type="checkbox" value="" name="stepSendExpoter">
+
+      </div>
+      <br>
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle">List of PUC's</h5>
+			</div>
+		</div>	
+      <div id="stepSendListPuc">
+        <!-- <div class="form-check">
+            <input class="form-check-input filled-in" type="checkbox" value="" id="stepSendPuc">
+            <label class="form-check-label" for="filledInCheckbox1">
+                PUC 123-456
+            </label>
+        </div> -->
+     </div>
+    </div>
+    <div class="form-row flex-center">
+
+          <button type="button" action="stepSend" eltarget = "dashboardContent" url="views/quality/stepThankYou.html" class="btn button btn-primary rounded">Send</button>
+    </div>
+
+</div>
+<script>
+$( document ).ready(function() {
+  var count = 0;
+  $.each(listPuc,function(){
+    var pucCode = this;
+
+    var checkboxPuc = '<div class="form-check">'
+						+'<label class="form-check-label" for="filledInCheckbox1">' + pucCode + '</label>'
+                        +'<input class="form-check-input filled-in" id="checkboxes" type="checkbox" name="' + pucCode + '" id="stepSendPuc"></div>';
+                        
+
+    $('#stepSendListPuc').append(checkboxPuc);
+
+  });
+
+});
+</script>

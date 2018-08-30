@@ -1,0 +1,371 @@
+<div>
+   <div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12  topcol" >
+				<p class="toptitle" id="stepInternalHeader"></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepInternalPuc">Internal Image</h5>
+			</div>
+		</div>
+
+
+       <div id="internalUploadNewImage" class="row" style="margin-top:0px; ">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Upload Image/Camera</p>
+            </div>
+        </div>
+
+       <div class="row" style="margin-top:15px;">
+            <div id="imageHolderInternal" class="col-md-12 col-xs-10 col-xs-offset-1" style="text-align:center;">
+				<input type="file" name="fileToUpload" id="internalImgupload" style="display:none"/><input type= "hidden" id="internalImageRotationValue">
+				<img onclick="internalTakepictureView();" id="internalFileToUploadSrc" src="assets/img/place_holder.jpg" class="img-fluid z-depth-4 placeholderImg fileToUploadSrc" alt="1" style="width:100%;border:3px #274775 solid;border-radius:10px;display:none">
+				<div class="mask flex-center waves-effect waves-light">
+					<p id="imageLabel"class="white-text" style="display:none">Internal</p>
+				</div>
+			</div>
+        </div>
+
+       <div id="internalRotateImageleft" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Left</p>
+            </div>
+        </div>
+        <div id="internalRotateImageright" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Right</p>
+            </div>
+        </div>
+        <div id="internalRotateImagereset" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate None</p>
+            </div>
+        </div>
+        <div id="internalUploadNewImageAgain" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Replace Img</p>
+            </div>
+        </div>
+
+		<div class="row">
+			<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 midcol" >
+				<h5 class="midTitle" id="stepExternalPuc">External Image</h5>
+			</div>
+		</div>
+
+
+       <div id="externalUploadNewImage" class="row" style="margin-top:0px; ">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Upload Image/Camera</p>
+            </div>
+        </div>
+
+       <div class="row" style="margin-top:15px;">
+            <div id="imageHolderExternal" class="col-md-12 col-xs-10 col-xs-offset-1" style="text-align:center;">
+				<input type="file" name="fileToUpload" id="externalImgupload" style="display:none"/><input type= "hidden" id="externalImageRotationValue">
+				<img onclick="externalTakepictureView();" id="externalFileToUploadSrc" src="assets/img/place_holder.jpg" class="img-fluid z-depth-4 placeholderImg fileToUploadSrc" alt="1" style="width:100%;border:3px #274775 solid;border-radius:10px;display:none">
+				<div class="mask flex-center waves-effect waves-light">
+					<p id="imageLabel2"class="white-text" style="display:none">External</p>
+				</div>
+			</div>
+        </div>
+
+       <div id="externalRotateImageleft" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Left</p>
+            </div>
+        </div>
+        <div id="externalRotateImageright" class="row" style="margin-top:15px; display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate Right</p>
+            </div>
+        </div>
+        <div id="externalRotateImagereset" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Rotate None</p>
+            </div>
+        </div>
+        <div id="externalUploadNewImageAgain" class="row" style="margin-top:15px;display:none;">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-4" style="/*padding-right:15px;*/background-color:#274775;border-radius:7px;text-align:center;font-size:15px;line-height:28px;margin-right:10px;">
+                <p style="margin:0p;margin-bottom:0px;padding-top:4px;padding-bottom:4px;color:#fff;">Replace Img</p>
+            </div>
+        </div>
+
+
+
+     </div>
+
+
+     <!-- <div class="arrow bounce" id="stepInternalScrollDownArrow"> -->
+       <!-- <a class="fa fa-arrow-down fa-2x" href="#"></a> -->
+     <!-- </div> -->
+      <br>
+
+
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepTemprature.html" class="btn button btn-primary rounded">Back</button>
+
+          <button action ="stepInternalNext" type="button" eltarget = "dashboardContent" url="views/quality/stepCustomMetric.html" class="btn button btn-primary rounded">Next : Custom</button>
+    </div>
+    <div class="spacer"></div>
+    <div id="debug"></div>
+    <div id="debug2"></div>
+
+</div>
+<script>
+$(document).ready(function(){
+  var top=0;
+
+  $('#stepInternalHeader').html('<b>Step 6 Internal/External images </br>PUC# ' +contianerDetails.puc[currentPucCount].number);
+  $('#internalImageRotationValue').val(contianerDetails.puc[currentPucCount].internal_image_orientation);
+  $('#externalImageRotationValue').val(contianerDetails.puc[currentPucCount].external_image_orientation);
+
+  if(contianerDetails.puc[currentPucCount].internal_image_temp_data != ""){
+    $('#internalFileToUploadSrc').attr('src', contianerDetails.puc[currentPucCount].internal_image_temp_data);
+
+	  $('#internalRotateImageleft').show();
+	  $('#internalRotateImageright').show();
+	  $('#internalRotateImagereset').show();
+	  $('#internalUploadNewImageAgain').show();
+	  $('#internalFileToUploadSrc').show();
+	  $('#internalUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+
+	  if (contianerDetails.puc[currentPucCount].internal_image_orientation != '00')
+	  {
+		setImageCSS('internalFileToUploadSrc','imageHolderInternal','internalImageRotationValue',1); // The "1" indicates to the function that this is a reload (from back button)
+		}
+	}
+
+$('#internalFileToUploadSrc').css({
+      "-webkit-transform": "rotate(" + contianerDetails.puc[currentPucCount].internal_image_orientation + "deg)",
+      "-moz-transform": "rotate(" + contianerDetails.puc[currentPucCount].internal_image_orientation + "deg)",
+     "transform": "rotate(" + contianerDetails.puc[currentPucCount].internal_image_orientation + "deg)" /* For modern browsers(CSS3)  */
+  });
+
+
+  if(contianerDetails.puc[currentPucCount].external_image_temp_data != ""){
+    $('#externalFileToUploadSrc').attr('src', contianerDetails.puc[currentPucCount].external_image_temp_data);
+
+	  $('#externalRotateImageleft').show();
+	  $('#externalRotateImageright').show();
+	  $('#externalRotateImagereset').show();
+	  $('#externalUploadNewImageAgain').show();
+	  $('#externalFileToUploadSrc').show();
+	  $('#externalUploadNewImage').hide();
+
+	  $('#imageLabel2').show();
+
+	  if (contianerDetails.puc[currentPucCount].external_image_orientation != '00')
+	  {
+		setImageCSS('externalFileToUploadSrc','imageHolderExternal','externalImageRotationValue',1); // The "1" indicates to the function that this is a reload (from back button)
+		}
+	}
+
+
+ $('#externalFileToUploadSrc').css({
+      "-webkit-transform": "rotate(" + contianerDetails.puc[currentPucCount].external_image_orientation + "deg)",
+      "-moz-transform": "rotate(" + contianerDetails.puc[currentPucCount].external_image_orientation + "deg)",
+     "transform": "rotate(" + contianerDetails.puc[currentPucCount].external_image_orientation + "deg)" /* For modern browsers(CSS3)  */
+  });
+
+
+  $('#internalRotateImageright').click(function(){
+      setImageCSS('internalFileToUploadSrc','imageHolderInternal','internalImageRotationValue',0);
+      $('#internalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#internalImageRotationValue').val('90');
+	  contianerDetails.puc[currentPucCount].internal_image_orientation = $('#internalImageRotationValue').val();
+
+  });
+
+  $('#internalRotateImagereset').click(function(){
+      resetImageCSS("internalFileToUploadSrc","imageHolderInternal");
+      $('#internalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(0deg)",
+          "-moz-transform": "rotate(0deg)",
+          "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#internalImageRotationValue').val('00');
+	  contianerDetails.puc[currentPucCount].internal_image_orientation = $('#internalImageRotationValue').val();
+
+  });
+
+  $('#internalRotateImageleft').click(function(){
+     setImageCSS('internalFileToUploadSrc','imageHolderInternal','internalImageRotationValue',0);
+      $('#internalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(270deg)",
+          "-moz-transform": "rotate(270deg)",
+          "transform": "rotate(270deg)" /* For modern browsers(CSS3)  */
+      });
+        $('#internalImageRotationValue').val('270');
+		contianerDetails.puc[currentPucCount].internal_image_orientation = $('#internalImageRotationValue').val();
+
+  });
+
+  $('#internalUploadNewImage').click(function(){
+    resetImageCSS("internalFileToUploadSrc","imageHolderInternal");
+	$('#internalRotateImagereset').trigger('click');
+    $('#internalImgupload').trigger('click');
+  });
+
+  $('#internalUploadNewImageAgain').click(function(){
+    resetImageCSS("internalFileToUploadSrc","imageHolderInternal");
+	$('#internalRotateImagereset').trigger('click');
+    $('#internalImgupload').trigger('click');
+  });
+
+  function readInURL(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $('#internalFileToUploadSrc').attr('src', e.target.result);
+        contianerDetails.puc[currentPucCount].internal_image_temp_data = e.target.result;
+        internal_file = $('#internalImgupload').prop('files')[0];
+        //$('#debug').html(e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+
+	  $('#internalRotateImageleft').show();
+	  $('#internalRotateImageright').show();
+	  $('#internalRotateImagereset').show();
+	  $('#internalUploadNewImageAgain').show();
+	  $('#internalFileToUploadSrc').show();
+	  $('#internalUploadNewImage').hide();
+
+	  $('#imageLabel').show();
+
+
+    }
+  }
+  $("#internalImgupload").change(function() {
+    readInURL(this);
+  });
+
+  function internalTakepictureView() {
+   $('#internalUploadNewImage').trigger('click');
+  }
+ /*
+External JS start, keeping it seperate data codide and ghosting
+ */
+  $(window).scroll(function(){
+    var st=$(this).scrollTop();
+    if($(window).scrollTop() + window.innerHeight == $(document).height()){
+      $("#stepInternalScrollDownArrow").css("display","none");
+
+    }else{
+       $("#stepInternalScrollDownArrow").css("display","block");
+
+    }
+  });
+
+  //External
+
+  $('#externalRotateImageright').click(function(){
+      setImageCSS('externalFileToUploadSrc','imageHolderExternal','externalImageRotationValue',0);
+      $('#externalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#externalImageRotationValue').val('90');
+	   contianerDetails.puc[currentPucCount].external_image_orientation = $('#externalImageRotationValue').val();
+  });
+
+  $('#externalRotateImagereset').click(function(){
+      resetImageCSS("externalFileToUploadSrc","imageHolderExternal");
+      $('#externalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(0deg)",
+          "-moz-transform": "rotate(0deg)",
+          "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+      });
+      $('#externalImageRotationValue').val('00');
+	   contianerDetails.puc[currentPucCount].external_image_orientation = $('#externalImageRotationValue').val();
+  });
+
+  $('#externalRotateImageleft').click(function(){
+     setImageCSS('externalFileToUploadSrc','imageHolderExternal','externalImageRotationValue',0);
+      $('#externalFileToUploadSrc').css({
+          "-webkit-transform": "rotate(270deg)",
+          "-moz-transform": "rotate(270deg)",
+          "transform": "rotate(270deg)" /* For modern browsers(CSS3)  */
+      });
+        $('#externalImageRotationValue').val('270');
+		 contianerDetails.puc[currentPucCount].external_image_orientation = $('#externalImageRotationValue').val();
+
+  });
+
+  $('#externalUploadNewImage').click(function(){
+    resetImageCSS("externalFileToUploadSrc","imageHolderExternal");
+	$('#externalRotateImagereset').trigger('click');
+    $('#externalImgupload').trigger('click');
+  });
+
+  $('#externalUploadNewImageAgain').click(function(){
+    resetImageCSS("externalFileToUploadSrc","imageHolderExternal");
+	$('#externalRotateImagereset').trigger('click');
+    $('#externalImgupload').trigger('click');
+  });
+
+  function readExtURL(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $('#externalFileToUploadSrc').attr('src', e.target.result);
+        contianerDetails.puc[currentPucCount].external_image_temp_data = e.target.result;
+        external_file = $('#externalImgupload').prop('files')[0];
+        $('#debug2').html(e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+
+	  $('#externalRotateImageleft').show();
+	  $('#externalRotateImageright').show();
+	  $('#externalRotateImagereset').show();
+	  $('#externalUploadNewImageAgain').show();
+	  $('#externalFileToUploadSrc').show();
+	  $('#externalUploadNewImage').hide();
+
+	  $('#imageLabel2').show();
+
+
+    }
+  }
+  $("#externalImgupload").change(function() {
+    readExtURL(this);
+  });
+
+  function externalTakepictureView() {
+   $('#externalUploadNewImage').trigger('click');
+  }
+ /*
+External JS start, keeping it seperate data codide and ghosting
+ */
+  $(window).scroll(function(){
+    var st=$(this).scrollTop();
+    if($(window).scrollTop() + window.innerHeight == $(document).height()){
+      $("#stepExternalScrollDownArrow").css("display","none");
+
+    }else{
+       $("#stepExternalScrollDownArrow").css("display","block");
+
+    }
+  });
+
+
+
+});
+</script>

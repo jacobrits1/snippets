@@ -1,0 +1,49 @@
+<div>
+  <nav class="navbar navbarTop fixed-top navbar-dark primary-color">
+		<div class="row" style="width:100%;">
+		<div  id="menu_button" class="col-md-2 col-sm-2 col-xs-2">
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1" style="display:inherit;float:right;">
+			<i class="fa navIcons fa-bars"></i></button>
+		</div>
+		<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 navTitle">
+			<h3 class="mx-auto navbar-brand">FruitFlo</h3>
+			
+		</div>
+		</div>
+						
+		<div class="collapse navbar-collapse" id="navcol-1" style="border:none;">
+			<ul class="nav navbar-nav navbar-right" >
+				<li id="menu1" class="button" role="presentation" eltarget = "mainContent" url="views/dashboard/dashboard.html" ><a href="#">Home</a></li>
+				<li id="menu1" class="button" role="presentation" action="updateProfile" eltarget = "mainContent" url="views/register/profileDetails.html"><a href="#">Profile</a></li>
+				<li id="menu1" role="presentation" onclick="logOut();"><a href="#">Log Out</a></li>
+			</ul>
+		</div>  
+  </nav> 
+
+	<div id="dashboardContent" class="dashboardStyle">
+		  <div class="spacer50"></div>
+		  <div class="spacer"></div>
+			  <div class="row">
+				  <div class="col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+
+					  <button type="button" eltarget = "dashboardContent" url="views/quality/stepContainer.html" class="btn button btn-primary roundbtn">New Quality Control</button>
+
+				  </div>
+			   </div>
+				  <!-- <div class="row"> -->
+					  <!-- <div class="col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2"> -->
+
+						  <!-- <button type="button" eltarget = "dashboardContent" url="views/history/historyList.html" class="btn button btn-success roundbtn">Previous QAs</button> -->
+
+					  <!-- </div> -->
+				  <!-- </div> -->
+	 </div>
+
+ 
+ <nav class="navbar fixed-bottom navbar-dark primary-color bg-faded">
+  <i class="fa navIcons button fa-home" eltarget = "mainContent" url="views/dashboard/dashboard.html" ></i>
+  <i class="navIcons button margin-right fa fa-user"  action="updateProfile" eltarget = "mainContent" url="views/register/profileDetails.html"></i>
+ </nav>
+</div>
+
+

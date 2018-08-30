@@ -1,0 +1,42 @@
+<div>
+   <div>
+	<div class="row">
+        <div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 topcol" >   
+			<p class="animated fadeIn toptitle" id="stepTypeHeader">Capturing Data for <br> PUC : </p>
+		</div>
+	</div>
+	
+	<div class="topWarning"><p id="qcMsg"></p></div>
+		
+        <div class="row rowstyle">
+            <div class="col-md-12 col-xs-6 ffblue" >
+                <p class="inputLeft"> Fruit Type</p>
+            </div>
+            <div class="col-md-12 col-xs-6" >
+              <input type="text" class="form-control py-0" id="stepTypeFruitType"  placeholder="Fruit Type">
+            </div>
+        </div>
+
+         <div class="row rowstyle">
+            <div class="col-md-12 col-xs-6 ffblue" >
+                <p class="inputLeft"> Variety</p>
+            </div>
+            <div class="col-md-12 col-xs-6" >
+              <input type="text" class="form-control py-0" id="stepTypeVariety"  placeholder="Variety">
+            </div>
+        </div>
+    </div>
+	<div class="spacer50"></div>
+    <div class="form-row flex-center">
+
+          <button type="button" eltarget = "dashboardContent" url="views/quality/stepSummary.html" class="btn button btn-primary rounded">BACK</button>
+
+          <button type="button" action="stepTypeNext" eltarget = "dashboardContent" url="views/quality/stepWeight.html" class="btn button btn-primary rounded">Next : Weight</button>
+    </div>
+
+</div>
+<script>
+  $('#stepTypeHeader').html('Capturing Data for <br> PUC : ' +contianerDetails.puc[currentPucCount].number);
+  $('#stepTypeFruitType').val(contianerDetails.puc[currentPucCount].fruit_type);
+  $('#stepTypeVariety').val(contianerDetails.puc[currentPucCount].fruit_variety);
+</script>
