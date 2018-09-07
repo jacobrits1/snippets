@@ -1,9 +1,4 @@
-#script DAV to mp4 and then to screenshots
-
 #!/usr/bin/python
-
-
-print "Fancam Converting all of the .dav files to png screenshots every second"
 import os
 from subprocess import call
 
