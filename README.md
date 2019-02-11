@@ -35,3 +35,6 @@ Basic Ajax file uploader , security tokens included, Server Side PHP also
 - Graphs and reports
 - Emails notification
 
+# Fruitflo (Android Hybrid App)
+ - Basic Android webview with location activation
+ 
