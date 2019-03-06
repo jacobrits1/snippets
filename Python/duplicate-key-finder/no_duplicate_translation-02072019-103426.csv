@@ -1,0 +1,1939 @@
+translationKey,sourceValue,overrideValue
+sms_invalid_request_response,"The sent message does not contain a valid request. Please start your message with 'REQUEST', 'RESEND MY VOUCHERS', 'VERIFY', 'REDEEM' or 'REGISTER' followed by a space and then the correct details for the specific request.","The sent message does not contain a valid request. Please start your message with 'REQUEST', 'RESEND MY VOUCHERS', 'VERIFY', 'REDEEM' or 'REGISTER' followed by a space and then the correct details for the specific request."
+custom_header.reportsgenerictemplate_column_date5,{ReportsGenericViewerLabels:column_date5},{ReportsGenericViewerLabels:column_date5}
+reports_depotagrodealer.Depot/Agro_Dealer,Depot/Agro Dealer,Depot/Agro Dealer
+alert_error.invalid_gender,No gender specified.,No gender specified.
+reportstableheading.Farmer_Registration_Answers,Farmer Registration Answers,Farmer Registration Answers
+button_heading.comments,Show Comments,Show Comments
+table_heading.test_data_generation,Test data generation,Test data generation
+column.Paid_By,Paid By,Paid By
+view_heading.order_management,Order Management,Order Management
+confirm_subject.Archive_Question,Archive Question,Archive Question
+column_heading.Product_Code,Product Code,Product Code
+custom_header.reportsgenerictemplate_column_string6,{ReportsGenericViewerLabels:column_string6},{ReportsGenericViewerLabels:column_string6}
+info.approved,Messages approved.,Messages approved.
+alerts.common.generic,{message},{message}
+confirm_body.archive_generic,Are you sure you would like to delete this record?,Are you sure you would like to delete this record?
+info.Notes,Notes,Notes
+view_heading.view_Location,View Location,View Location
+column_heading.bags_av,# av,# av
+button.Find_Farmer,Find Farmer,Find Farmer
+custom_header.crop62,{DashboardUtil:uCrop62},{DashboardUtil:uCrop62}
+stringgroup.GroupType,GroupType,GroupType
+label.governmentPersonneleNumber,GovernmentPersonneleNumber,GovernmentPersonneleNumber
+button_heading.Select_All_Orders,Select All Orders,Select All Orders
+input_label.registered_on_farm,Registered on farm,Registered on farm
+column_heading.farmer.identificationtype,identificationtype,identificationtype
+alert.farmer.request.voucher_error,Something went wrong creating the Voucher,Something went wrong creating the Voucher
+button.Submit_for_approval,Submit for approval,Submit for approval
+column_heading.location_level_two,Level 2,Level 2
+custom_header.crop44,{DashboardUtil:uCrop44},{DashboardUtil:uCrop44}
+custom_header.crop72,{DashboardUtil:uCrop72},{DashboardUtil:uCrop72}
+custom_header.crop67,{DashboardUtil:uCrop67},{DashboardUtil:uCrop67}
+view_heading.Create_Voucher_Batch,Create Voucher Batch,Create Voucher Batch
+custom_header.stock_current_cost_price,current_cost_price,current_cost_price
+info.scheduled_function_config_triggered,Scheduled Function manually triggered,Scheduled Function manually triggered
+table_title.identification_types,Identification types,Identification types
+view_heading.manage_role_group_profile,Manage role group profile,Manage role group profile
+column_heading.priority,Priority,Priority
+column.stock_level,Stock level,Stock level
+label.Enterprise_Ownership,Enterprise Ownership,Enterprise Ownership
+view_heading.edit_season,Edit season,Edit season
+label.Current_Cost_Price,Current Cost Price,Current Cost Price
+alert.object.voucher_batch_start_end_date,Start date needs to be less than End date,Start date needs to be less than End date
+button.Save,Save,Save
+info.File_Name,File Name,File Name
+label.Filter_By_Location,Filter By Location,Filter By Location
+view_heading.web_User_Profile,Web User Profile,Web User Profile
+view_heading.Form_Report,Form Report,Form Report
+column_heading.region,Region,Region
+label.desc,Desc,Desc
+input.description,Description,Description
+reports_allocationorbudgetksh.Allocation_or_Budget_(Ksh),Allocation or Budget (Ksh),Allocation or Budget (Ksh)
+label.type,Type,Type
+column_heading.Group_Price,Group Price,Group Price
+alert.common.generic,{message},{message}
+button.Create_langfileentries,Create langfileentries,Create langfileentries
+view_heading.Search_For_Farmer_To_Verify,Search For Farmer To Verify,Search For Farmer To Verify
+info.daily_registration,Please note that the report is updated daily at 22:00.,Please note that the report is updated daily at 22:00.
+reportstableheading.Mobile_Users,Mobile Users,Mobile Users
+label.national_id,National id,National id
+column_heading.customer_mobile,Customer Mobile Number,Customer Mobile Number
+alert.object.voucher_batch_invalid_end_date,End date needs to be greater than today's date,End date needs to be greater than today's date
+button.Edit,Edit,Edit
+button.Load_Translations,Load Translations,Load Translations
+button.add,Add,Add
+custom_header.crop49,{DashboardUtil:uCrop49},{DashboardUtil:uCrop49}
+alert_error.heirerchy_setup,Please create full user hierarchy first,Please create full user hierarchy first
+alert.voucher.not_found,Voucher {fCode} not found.,Voucher {fCode} not found.
+menu_item.Farmers,Farmers,Farmers
+confirm_subject.archive_location,Delete Location,Delete Location
+custom_header.reportsgenerictemplate_column_int7,{ReportsGenericViewerLabels:column_int7},{ReportsGenericViewerLabels:column_int7}
+custom_header.crop51,{DashboardUtil:uCrop51},{DashboardUtil:uCrop51}
+label.Stock_Type,Stock Type,Stock Type
+column_heading.status,Status,Status
+view_heading.edit_farmer_crop,Edit farmer crop,Edit farmer crop
+column.esub_status,Esub status,Esub status
+label.Failed_Crops,Failed Enterprises,Failed Enterprises
+column_heading.Order_Number,Order Number,Order Number
+table.Questions,Questions,Questions
+view_heading.manage_voucher_batch,Manage voucher batch,Manage voucher batch
+view_heading.create_benefit_template,Create benefit template,Create benefit template
+label.datetime_modified,Datetime modified,Datetime modified
+column_heading.farmer.physicaladdress,physicaladdress,physicaladdress
+enum.ORDER_STATUS.Paid,Paid,Paid
+table_heading.crop_type,Enterprise type,Enterprise type
+column.businessName,BusinessName,BusinessName
+button.edit,Edit,Edit
+view_heading.view_Voucher_Batch,View Voucher Batch,View Voucher Batch
+view_heading.manage_action,Manage action,Manage action
+reports_generic.Date_Created,Date Created,Date Created
+custom_header.crop90,{DashboardUtil:uCrop90},{DashboardUtil:uCrop90}
+table_heading.Types,Types,Types
+view_heading.manage_agro_dealer_transaction,Manage agro dealer transaction,Manage agro dealer transaction
+label.Bags_Subsidy_Amount,Bags Subsidy Amount,Bags Subsidy Amount
+column.lipa_mpesa_number,Lipa mpesa number,Lipa mpesa number
+view_heading.Redeem_Voucher,Redeem Voucher,Redeem Voucher
+view_heading.Create_fertilizer_template,Create fertilizer template,Create fertilizer template
+textfield.New_Comment,New Comment,New Comment
+label.processed,Processed,Processed
+column.crop,Crop,Crop
+column.Preferred_Language,Preferred Language,Preferred Language
+label.new_quantity,New quantity,New quantity
+column_heading.order,Order,Order
+reports_farmername.Farmer_Name,Farmer Name,Farmer Name
+label.Voucher_Code,Voucher Code,Voucher Code
+string_label.Last_Processed,Last Processed,Last Processed
+result.config_value_not_set,Config value not set.,Config value not set.
+custom_header.crop18,{DashboardUtil:uCrop18},{DashboardUtil:uCrop18}
+alert.object.crop_active_vouchers,Crop in use by Voucher Templates/Batches,Crop in use by Voucher Templates/Batches
+view_heading.view_group_members,View group members,View group members
+custom_header.crop15,{DashboardUtil:uCrop15},{DashboardUtil:uCrop15}
+string_label.parent_location,Parent location,Parent location
+custom_header.crop100,{DashboardUtil:uCrop100},{DashboardUtil:uCrop100}
+custom_header.crop4,{DashboardUtil:uCrop4},{DashboardUtil:uCrop4}
+custom_header.crop50,{DashboardUtil:uCrop50},{DashboardUtil:uCrop50}
+column_heading.date_created,Date created,Date created
+custom_header.crop26,{DashboardUtil:uCrop26},{DashboardUtil:uCrop26}
+column_heading.Translation,Translation,Translation
+custom_header.crop47,{DashboardUtil:uCrop47},{DashboardUtil:uCrop47}
+alert.object.created,{uObjectName} created.,{uObjectName} created.
+button.Approve,Approve,Approve
+label.end,End,End
+reportsviewheading.Configurable_Forms,Configurable Forms,Configurable Forms
+column_heading.Value_Chain,Value Chain,Value Chain
+input_label.is_mobile_action,Is mobile action,Is mobile action
+row_action.change_state,Change state,Change state
+view_heading.Manage_Stock_At_Locations,Manage Stock At Locations,Manage Stock At Locations
+alert.select_start_status.error,Please Select a Start Date,Please Select a Start Date
+column_heading.farmer.postaladdress,postaladdress,postaladdress
+custom_header.crop79,{DashboardUtil:uCrop19},{DashboardUtil:uCrop19}
+table_heading.farmer_crop,Farmer crop,Farmer crop
+button.Upload_heading_langfileentry,Upload heading langfileentry,Upload heading langfileentry
+info.messageCommand,MessageCommand,MessageCommand
+column.units,Units,Units
+column_heading.location_level_nine,Level 9,Level 9
+reportstableheading.Daily_Beneficiary_List_Report,Daily Beneficiary List Report,Daily Beneficiary List Report
+string_label._Function_name,Function name,Function name
+view_heading.Stock_Recon,Stock Reconciliation,Stock Reconciliation
+label.Failed_Farmers,Failed Farmers,Failed Farmers
+label.Report_Description,Report Description,Report Description
+info.BitBucketInformation,BitBucketInformation,BitBucketInformation
+view_heading.Question_Setup,Question Setup,Question Setup
+column_heading.type,Type,Type
+column_heading.Date_Paid,Date Paid,Date Paid
+reportsviewheading.Set_Available_Object_Types,Set Available Object Types,Set Available Object Types
+custom_header.crop59,{DashboardUtil:uCrop19},{DashboardUtil:uCrop19}
+custom_header.crop91,{DashboardUtil:uCrop91},{DashboardUtil:uCrop91}
+column.partial,Partial,Partial
+alert_error.webuser.role_assigned,Role already assigned to Web User.,Role already assigned to Web User.
+column.Last_Connected,Last Connected,Last Connected
+column_heading.event,Event,Event
+row_action.Unassign,Unassign,Unassign
+button.Re-enroll,Re-enroll,Re-enroll
+button.Files_with_errors,Files with errors,Files with errors
+button.crops,Enterprises,Enterprises
+column.middleName,MiddleName,MiddleName
+custom_header.crop32,{DashboardUtil:uCrop32},{DashboardUtil:uCrop32}
+column.GPS_lat,GPS lat,GPS lat
+string_label.Re_Enrollment_Request,Re Enrollment Request,Re Enrollment Request
+view_heading.view_action,View action,View action
+column_heading.country,Country,Country
+label.bag_cost,Unit cost,Unit cost
+column.kephisCertNumber,KephisCertNumber,KephisCertNumber
+button_label.Display_Report,Display Report,Display Report
+label.Description,Description,Description
+reportsviewheading.Assign_Report,Assign Report,Assign Report
+alert.service_point_duplicate,A service point with this name exists already,A service point with this name exists already
+custom_header.crop74,{DashboardUtil:uCrop74},{DashboardUtil:uCrop74}
+label.Service_Point,Service Point,Service Point
+custom_header.crop84,{DashboardUtil:uCrop84},{DashboardUtil:uCrop84}
+column_heading.Created,Created,Created
+alert.voucher.found,Voucher found.,Voucher found.
+result.config_description_not_set,Config description not set.,Config description not set.
+alert_error.invalid_lastname,No last name specified.,No last name specified.
+confirm_subject.archive_farmer,Delete Farmer,Delete Farmer
+custom_header.crop83,{DashboardUtil:uCrop83},{DashboardUtil:uCrop83}
+reportstableheading.Reports,Reports,Reports
+reports_subcounty.Sub_County,Sub County,Sub County
+alert.error.farmer_not_18,Farmer needs to be at least 18 to be eligible for the programme.,Farmer needs to be at least 18 to be eligible for the programme.
+reportsviewheading.Farmer_Registration_Report_By_County,Farmer Registration Report By County,Farmer Registration Report By County
+column.lipaMpesaTillNumber,LipaMpesaTillNumber,LipaMpesaTillNumber
+view_heading.create_crop,Create crop,Create crop
+string_label.Name,Name,Name
+label.location,Location,Location
+button.Update_Dropdown_List,Update Dropdown List,Update Dropdown List
+input.order,Order,Order
+button.Actions,Actions,Actions
+custom_header.crop80,{DashboardUtil:uCrop80},{DashboardUtil:uCrop80}
+input.config_description,Config description,Config description
+table_heading.voucher_category,Voucher category,Voucher category
+custom_header.crop7,{DashboardUtil:uCrop7},{DashboardUtil:uCrop7}
+sms.voucher_dealer_notification,"Dear {fAgroDealerName}, you have issued {fFarmerName} with {fUnitQuantity} {fUnits} of {fProductName} with a value of {fCurrency}{fAmount} from voucher code(s): {fVoucherCodes}.","Dear {fAgroDealerName}, you have issued {fFarmerName} with {fUnitQuantity} {fUnits} of {fProductName} with a value of {fCurrency}{fAmount} from voucher code(s): {fVoucherCodes}."
+view_heading.Add_Fertilizer_To_Voucher_Template,Add Fertilizer To Voucher Template,Add Fertilizer To Voucher Template
+button.Add_Config_Pair,Add Config Pair,Add Config Pair
+alert_error.invalid_enterprisecategory,Please note the enterprise category is required.,Please note the enterprise category is required.
+custom_header.crop71,{DashboardUtil:uCrop71},{DashboardUtil:uCrop71}
+column_heading.farmer_name,Farmer Name,Farmer Name
+column.role_group_name,Role group name,Role group name
+view_heading.Edit_Config_Pair,Edit Config Pair,Edit Config Pair
+label.gender,Gender,Gender
+column_heading.object,Object,Object
+button.Mobile_Users,Mobile Users,Mobile Users
+button.send,Send,Send
+column_heading.start,Start,Start
+view_heading.Product_Aggregation_List,Product Aggregation List,Product Aggregation List
+reports_crop.Crop,Enterprise,Enterprise
+sms.voucher_redemption.cropvoucher_redeemed,"Dear {fFarmerName}, by redeeming voucher code {fVoucherCode} you have redeemed all voucher codes for your {fCrop} enterprise. Thank you - {fProviderName}.","Dear {fFarmerName}, by redeeming voucher code {fVoucherCode} you have redeemed all voucher codes for your {fCrop} enterprise. Thank you - {fProviderName}."
+view_heading.farmer_Profile_-_SMS,Farmer Profile - SMS,Farmer Profile - SMS
+alert.user_re-enrolling_not_exist,"Cannot re-enroll this user as it was never invited, please deselect 'Re-Enroll'.","Cannot re-enroll this user as it was never invited, please deselect 'Re-Enroll'."
+custom_header.question_9,{Reportviewer:uQuestion9Header},{Reportviewer:uQuestion9Header}
+custom_header.hierarchy_level_four,Hierarchy level four,Hierarchy level four
+column.Transaction_Value,Transaction Value,Transaction Value
+alert.role_archived,Role archived.,Role archived.
+reportsviewheading.Reports_Persmission,Reports Persmission,Reports Persmission
+column.Quantity_Redeemed,Quantity Redeemed,Quantity Redeemed
+menu_item.settings,Settings,Settings
+custom_header.crop3,{DashboardUtil:uCrop3},{DashboardUtil:uCrop3}
+view_heading.Location_Hierarchy,Location Hierarchy,Location Hierarchy
+reportstableheading.Zanaco_Payment_Report,Zanaco Payment Report,Zanaco Payment Report
+view_heading.View_TranslationPair_LangFile,View TranslationPair LangFile,View TranslationPair LangFile
+label.template,Template,Template
+button.capture,Capture,Capture
+sms.voucher_redemption.voucher_already_redeemed,"Dear {fFarmerName}, you have redeemed all the available vouchers for this voucher code {fRequestCode}. Thank you - {fProviderName}.","Dear {fFarmerName}, you have redeemed all the available vouchers for this voucher code {fRequestCode}. Thank you - {fProviderName}."
+column_heading.Mobile_Number,Mobile Number,Mobile Number
+view_heading.create_role_group,Create role group,Create role group
+label.initial_budget,Initial budget,Initial budget
+enum.ORDER_STATUS.BankDeposit,Bank Deposit,Bank Deposit
+custom_header.Total_Answers,{Reportviewer:uTotalHeader},{Reportviewer:uTotalHeader}
+custom_header.Farmers_by_Level4,Farmers by {DashboardUtil:uLevel4},Farmers by {DashboardUtil:uLevel4}
+reports_subcounty.Sub-County,Sub-County,Sub-County
+button.Assign,Assign,Assign
+view_heading.inject_message,Inject message,Inject message
+table_heading.comments,Comments,Comments
+button.refresh,Refresh,Refresh
+alert.object.voucher_batch_finalised,Voucher Batch Finalised,Voucher Batch Finalised
+alert_error.template_upload,Please remove template data.,Please remove template data.
+button_heading.Show_Comments,Show Comments,Show Comments
+label.Default_Descriptions,Default Descriptions,Default Descriptions
+custom_header.Voucher_Value_Redeemed,Voucher Value Redeemed,Voucher Value Redeemed
+reports_balance.Balance_(Bags),Balance (Bags),Balance (Bags)
+table_heading.Pending_Orders,Pending Orders,Pending Orders
+table_column_heading.location_level_ten,location_level_ten,location_level_ten
+sms.sms_opt_out.success,"Dear {fUserName}, you will no longer receive SMSes for {solutionName}.","Dear {fUserName}, you will no longer receive SMSes for {solutionName}."
+reports_voucherid.Voucher_ID,Voucher ID,Voucher ID
+view_heading.Mobile_User_Details,Mobile User Details,Mobile User Details
+sms.registration,"Dear {uUserName}, you have been registered for {solutionName}.","Dear {uUserName}, you have been registered for {solutionName}."
+datefield.Start_Date,Start Date,Start Date
+select_user,Select User,Select User
+label.Voucher_Batch,Voucher Batch,Voucher Batch
+view_heading.Manage_fertilizer_template,Manage fertilizer template,Manage fertilizer template
+confirmation.reject_bulk_message_body,Do not send these messages?,Do not send these messages?
+alert.object.archived,{uObjectName} archived.,{uObjectName} archived.
+button_heading.submitComment,Submit,Submit
+column_heading.action,Action,Action
+reportsviewheading.Farmer_Registration_Status,Farmer Registration Status,Farmer Registration Status
+custom_header.reportsgenerictemplate_column_decimal6,{ReportsGenericViewerLabels:column_decimal6},{ReportsGenericViewerLabels:column_decimal6}
+custom_header.crop57,{DashboardUtil:uCrop57},{DashboardUtil:uCrop57}
+custom_header.crop55,{DashboardUtil:uCrop55},{DashboardUtil:uCrop55}
+column_heading.object_uuid,Object uuid,Object uuid
+custom_header.crop81,{DashboardUtil:uCrop81},{DashboardUtil:uCrop81}
+table_heading.Top_10_Value_Chains,Top 10 Value Chains,Top 10 Value Chains
+table_heading.internal_support,Internal support,Internal support
+label.plot_LR,Plot LR,Plot LR
+column_heading.date_edited,Date edited,Date edited
+button.Process,Process,Process
+column_heading.Female_Farmers,Female Farmers,Female Farmers
+reportstableheading.Farmer_Registration_Status,Farmer Registration Status,Farmer Registration Status
+label.expiry_days,Expiry days,Expiry days
+custom_header.crop73,{DashboardUtil:uCrop73},{DashboardUtil:uCrop73}
+menu_item.groups,Groups,Groups
+alert_error.sms.no_mobile,No mobile number.,No mobile number.
+input.Unit_Test_Value,Unit Test Value,Unit Test Value
+custom_header.reportsgenerictemplate_column_location3,{ReportsGenericViewerLabels:column_location3},{ReportsGenericViewerLabels:column_location3}
+alert_error.invalid_farm_size,Invalid farm size.,Invalid farm size.
+button.profile,Profile,Profile
+column.paid,Paid,Paid
+label.service_point_type,Service point type,Service point type
+button.Create_Enterprise_Group,Create Enterprise Group,Create Enterprise Group
+column.Service_Point,Service Point,Service Point
+sms.voucher_redemption.not_qualified,"Dear {fFarmerName}, you do not qualify for vouchers from request code: {fRequestCode}.","Dear {fFarmerName}, you do not qualify for vouchers from request code: {fRequestCode}."
+label.Farmers_Uploaded,Farmers Uploaded,Farmers Uploaded
+view_heading.manage_extension_officer_profile,Manage extension officer profile,Manage extension officer profile
+column.EnrollmentSMS,EnrollmentSMS,EnrollmentSMS
+alert_error.no_actions_assigned,Please contact your system administrator to add actions for this Role.,Please contact your system administrator to add actions for this Role.
+table_heading.Mobile_User_Details,Mobile User Details,Mobile User Details
+button.manage,Manage,Manage
+string_label.Device_Model,Device Model,Device Model
+input.Message_Id,Message Id,Message Id
+alert.uploadfile.confirmschedulebody,Please confirm that you wish to schedule this uploaded file for processing?,Please confirm that you wish to schedule this uploaded file for processing?
+column_heading.Order_Total,Order Total,Order Total
+label.date,Date,Date
+view_heading.Edit_Sms_Type,Edit Sms Type,Edit Sms Type
+button.add_farmer,Add farmer,Add farmer
+column_heading.last_name,Last name,Last name
+custom_header.reportsgenerictemplate_column_date4,{ReportsGenericViewerLabels:column_date4},{ReportsGenericViewerLabels:column_date4}
+table_heading.season,Season,Season
+table_heading.available_web_users_for_Service_Point,Available web users for Service Point,Available web users for Service Point
+column_heading.Key,Key,Key
+reports_received.Quantity_Received,Quantity Received,Quantity Received
+button.View_LangFile,View LangFile,View LangFile
+button_heading.Select,Select,Select
+column.paymentPreference,PaymentPreference,PaymentPreference
+view_heading.Manage_Stock_Locations,Manage Stock Locations,Manage Stock Locations
+confirm_body.finalise,Are you sure you want to finalise voucher {uCropVoucherCode}.?,Are you sure you want to finalise voucher {uCropVoucherCode}.?
+alert.object.voucher_template_no_days,Please enter a valid number for Active voucher days.,Please enter a valid number for Active voucher days.
+column_heading.direction,Direction,Direction
+view_heading.Capture_Stock,Capture Stock,Capture Stock
+label.id_number,Id number,Id number
+column.amount_redeemed,Amount redeemed,Amount redeemed
+column_heading.modified,Modified,Modified
+view_heading.Farmer_Search,Farmer Search,Farmer Search
+label.id,Id,Id
+row_action.Remove,Remove,Remove
+custom_header.question_8,{Reportviewer:uQuestion8Header},{Reportviewer:uQuestion8Header}
+reports_allocated.Allocated)(Bags),Allocated)(Bags),Allocated)(Bags)
+column_heading.Status_Date,Status Date,Status Date
+label.lipaMpesaTillNumber,LipaMpesaTillNumber,LipaMpesaTillNumber
+column_heading.user_name,User name,User name
+alert_error.no_message_origin,alert_error.no_message_origin,alert_error.no_message_origin
+view_heading.Manage_Mobile_Users,Manage Mobile Users,Manage Mobile Users
+alert.farmer.request.code_null,Request code is null,Request code is null
+column_heading.voucher_batch_location,Voucher batch location,Voucher batch location
+column_heading.farmer.nokrelationshiptype,nokrelationshiptype,nokrelationshiptype
+view_heading.farmer_sms_log,Farmer sms log,Farmer sms log
+reports_fertilizerquantity.Fertilizer_Quantity_Gone_to_the_Crop_(Bags),Product Quantity Gone to the Enterprise (Bags),Product Quantity Gone to the Enterprise (Bags)
+column_heading.Question,Question,Question
+button.Complete,Complete,Complete
+column.member_count,Member count,Member count
+input.langfile_csv,Langfile csv,Langfile csv
+label.Last_Updated,Last Updated,Last Updated
+button.Delete,Delete,Delete
+string_label.Current_Role,Current Role,Current Role
+label.custom_Role_Name,Custom Role Name,Custom Role Name
+view_heading.edit_Service_Point,Edit Service Point,Edit Service Point
+column.farmer_mobile,Farmer mobile,Farmer mobile
+alert_error.function_name_required,Please enter a name for the scheduled function.,Please enter a name for the scheduled function.
+confirm_body.removing_identity,Are you sure you would like to delete this kind of identification?,Are you sure you would like to delete this kind of identification?
+view_heading.View_Paid_Deposits,View Deposit Paid Orders,View Deposit Paid Orders
+confirm_body.archive_user_?,Are you sure?,Are you sure?
+reports_reportdescription.Date_Created,Date Created,Date Created
+label.nok_last_name,Nok last name,Nok last name
+custom_header.crop95,{DashboardUtil:uCrop95},{DashboardUtil:uCrop95}
+input.label.fromDate,FromDate,FromDate
+label.module,Module,Module
+view_heading.edit_farmer,Edit farmer,Edit farmer
+column.origin,Origin,Origin
+label.reserved_total,Reserved total,Reserved total
+column.Event_Description,Event Description,Event Description
+custom_header.crop6,{DashboardUtil:uCrop6},{DashboardUtil:uCrop6}
+reports_generic.Date_Modified,Date Modified,Date Modified
+view_heading.Bank_Deposits,Bank Deposits,Bank Deposits
+custom_header.reportsgenerictemplate_column_int5,{ReportsGenericViewerLabels:column_int5},{ReportsGenericViewerLabels:column_int5}
+reportstableheading.Reports_Available,Reports Available,Reports Available
+column.yield_estimate,Yield estimate,Yield estimate
+view_heading.error_logs,Error logs,Error logs
+column.new_quantity,New quantity,New quantity
+label.paid_On,Paid On,Paid On
+custom_header.crop5,{DashboardUtil:uCrop5},{DashboardUtil:uCrop5}
+column_heading.Processed_Time,Processed Time,Processed Time
+custom_header.stock_units,units,units
+column_heading.field_description,Field description,Field description
+custom_header.Aggregation_By_Type,{Reportviewer:uAggregationHeader},{Reportviewer:uAggregationHeader}
+alert.select.error,Please select order you wish to confirm,Please select order you wish to confirm
+info.locations_with_errors,Locations with errors,Locations with errors
+label.vatNumber,VatNumber,VatNumber
+column.Content,Content,Content
+label.stock_item,Stock item,Stock item
+custom_header.crop33,{DashboardUtil:uCrop33},{DashboardUtil:uCrop33}
+view_heading.manage_stock_item,Manage stock item,Manage stock item
+view_heading.manage_Location,Manage Location,Manage Location
+alert.active_stock_found,Cannot archived as there is still stock available.,Cannot archived as there is still stock available.
+alert.crop.still_active,Crop is still in use by the system.,Crop is still in use by the system.
+column.max_bags,Max bags,Max bags
+column.archived,Archived,Archived
+alert_error.bulk_message_null,Bulk Message could not be created.,Bulk Message could not be created.
+button_heading.Submit,Submit,Submit
+column.Destination_Account,Destination Account,Destination Account
+column_heading.user_role,User role,User role
+label.Duplicate_Farmers,Duplicate Farmers,Duplicate Farmers
+label.Stock_Type_*,Stock Type *,Stock Type *
+alert.Configurable_Object_Still_Active,Configurable Object still active,Configurable Object still active
+confirm_body.Archive_Question,Are you sure you would like to archive this question?,Are you sure you would like to archive this question?
+column.amount,Amount,Amount
+label.nationalid_*,Nationalid *,Nationalid *
+alert.notification.preregisteredfarmers,"Dear Extension Officer, {fCount} farmers have been pre-registered in your ward: {fLocation}. Please login to register them. Thank You.","Dear Extension Officer, {fCount} farmers have been pre-registered in your ward: {fLocation}. Please login to register them. Thank You."
+label.role_group,Role group,Role group
+button.toggle,Toggle,Toggle
+error.no_recipients,No recipients specified.,No recipients specified.
+menu_item.messaging,Messaging,Messaging
+column_heading.mobile,Mobile,Mobile
+confirm_body.remove_role,Are you sure you would like to remove this Report from this Role?,Are you sure you would like to remove this Report from this Role?
+view_heading.farmer_Profile_-_Vouchers,Farmer Profile - Vouchers,Farmer Profile - Vouchers
+alert.error.farmer_not_found,Farmer not found,Farmer not found
+alert.uploadfile.confirmprocesssubject,Process Confirmation,Process Confirmation
+sms.voucher_redemption.voucher_redeemed,"Dear {fFarmerName}, you have now redeemed all the available {fUnits} for voucher batch: {fRequestCode}. Thank you - {fProviderName}.","Dear {fFarmerName}, you have now redeemed all the available {fUnits} for voucher batch: {fRequestCode}. Thank you - {fProviderName}."
+button.check,Check,Check
+view_heading.manage_farmer_payment,Manage farmer payment,Manage farmer payment
+label.business_Permit_Number,Business Permit Number,Business Permit Number
+table_heading.fertilizer_templates,Fertilizer templates,Fertilizer templates
+view_heading.view_fertilizer_template,View fertilizer template,View fertilizer template
+label.identification_type,Identification type,Identification type
+label.crop_*,Enterprise *,Enterprise *
+reports_redeemed.Quantity_Redeemed_(Bags),Quantity Redeemed (Bags),Quantity Redeemed (Bags)
+custom_header.crop66,{DashboardUtil:uCrop66},{DashboardUtil:uCrop66}
+column.bags_per_acre,Product Items/Enterprise Unit,Product Items/Enterprise Unit
+label.mobile_triggered,Mobile triggered,Mobile triggered
+alert.error.farmer_not_found_in_location,Farmer not found in this location,Farmer not found in this location
+button_heading.test,Create Test,Create Test
+column_heading.message,Message,Message
+button.Bulk_Management,Bulk Management,Bulk Management
+column.level,Level,Level
+view_heading.System_Initiator,System Initiator,System Initiator
+alert.stock.stock_recieved,Stock received,Stock received
+view_heading.edit_Voucher_Template,Edit Voucher Template,Edit Voucher Template
+view_heading.extension_Officer_Profile,Extension Officer Profile,Extension Officer Profile
+view_heading.Create_Service_Point,Create Service Point,Create Service Point
+table_heading.selected_web_users_for_Service_Point,Selected web users for Service Point,Selected web users for Service Point
+label.archived,Archived,Archived
+button_heading.load,Load,Load
+view_heading.edit_role_group,Edit role group,Edit role group
+table_heading.Vouchers,Vouchers,Vouchers
+custom_header.crop92,{DashboardUtil:uCrop92},{DashboardUtil:uCrop92}
+custom_header.crop60,{DashboardUtil:uCrop60},{DashboardUtil:uCrop60}
+alert_error.template.required_field,Please note this field is required: {field},Please note this field is required: {field}
+custom_header.reportsgenerictemplate_column_string1,{ReportsGenericViewerLabels:column_string1},{ReportsGenericViewerLabels:column_string1}
+sms.farmer_qualifies_for_subsidy,Dear {fFarmerName} You are eligible for {categoryName} vouchers from {fProviderName}. Please send an SMS containing 'REQUEST {voucherBatchCode}' to {fShortCode}.,Dear {fFarmerName} You are eligible for {categoryName} vouchers from {fProviderName}. Please send an SMS containing 'REQUEST {voucherBatchCode}' to {fShortCode}.
+table_heading.Config_Pairs,Config Pairs,Config Pairs
+alert.field.validation.string,{uFieldName} needs to be valid alphanumeric text.,{uFieldName} needs to be valid alphanumeric text.
+view_heading.Create_Voucher_Template,Create Voucher Template,Create Voucher Template
+confirm_subject.removing_identity,Delete identification,Delete identification
+label.bank_Account_Number,Bank Account Number,Bank Account Number
+button.Clear,Clear,Clear
+alert.uploadfile.confirmdeletesubject,Delete Confirmation,Delete Confirmation
+custom_header.stock_name,name,name
+alert_error.empty_group_collection,"Group is empty, please add some people.","Group is empty, please add some people."
+button.add_voucher_template,Add voucher template,Add voucher template
+label.Duplicate_Crops,Duplicate Enterprises,Duplicate Enterprises
+table_heading.Error_Log,Error Log,Error Log
+view_heading.bulk_communication,Bulk communication,Bulk communication
+view_heading.Manage_Farmer_Groups,Manage Farmer Groups,Manage Farmer Groups
+view_heading.Message_Schedule_Configuration,Message Schedule Configuration,Message Schedule Configuration
+info.priority,Priority,Priority
+view_heading.edit_agro_dealer_profile,Edit agro dealer profile,Edit agro dealer profile
+label.Service_Point_Stock_Totals,Service Point Stock Totals,Service Point Stock Totals
+reportsviewheading.Daily_Beneficiary_List_Report,Daily Beneficiary List Report,Daily Beneficiary List Report
+column_heading.webUser,User Name,User Name
+column.date_redeemed,Date redeemed,Date redeemed
+table_title.upload_files,Upload files,Upload files
+button.add_benefit_template,Add benefit template,Add benefit template
+column_heading.farmer,Farmer,Farmer
+column_heading.farmer.mobilenumber,mobilenumber,mobilenumber
+label.Total_Amount,Total Amount,Total Amount
+reports_sno.S/No,S/No,S/No
+view_heading.Manage_Role_Groups,Manage Role Groups,Manage Role Groups
+column.stock_name,Stock name,Stock name
+reports_subcounty.County,County,County
+table_heading.Farmers_by_Gender,Farmers by Gender,Farmers by Gender
+column.User,User,User
+sms.voucher_notfication,"Dear {fFarmerName}, you have a voucher code: {fVoucherCode} for {fUnitQuantity} {fUnits} of {fProductName}. This voucher will not expire in {fDays} days.","Dear {fFarmerName}, you have a voucher code: {fVoucherCode} for {fUnitQuantity} {fUnits} of {fProductName}. This voucher will not expire in {fDays} days."
+button.top_up,Top up,Top up
+custom_header.crop42,{DashboardUtil:uCrop42},{DashboardUtil:uCrop42}
+button.add_crop,Add crop,Add crop
+reports_agrodealerorncpbdepot.Agro_Dealer/NCPB_Depots,Agro Dealer/NCPB Depots,Agro Dealer/NCPB Depots
+view_heading.view_crop,View enterprise,View enterprise
+column_heading.Message_Id,Message Id,Message Id
+button.add_agro_dealer_transaction,Add agro dealer transaction,Add agro dealer transaction
+column_heading.key,Key,Key
+column.bankAccountNumber,BankAccountNumber,BankAccountNumber
+custom_header.reportsgenerictemplate_column_decimal4,{ReportsGenericViewerLabels:column_decimal4},{ReportsGenericViewerLabels:column_decimal4}
+label.kephisCertNumber,KephisCertNumber,KephisCertNumber
+view_heading.Assign_Web_User_Roles,Assign Web User Roles,Assign Web User Roles
+column.path,Path,Path
+table_heading.locations_to_upload,Locations to Upload,Locations to Upload
+column_heading.bags_red,# red,# red
+custom_header.reportsgenerictemplate_column_string8,{ReportsGenericViewerLabels:column_string8},{ReportsGenericViewerLabels:column_string8}
+label.bag_subsidy,Bag subsidy,Bag subsidy
+custom_header.crop64,{DashboardUtil:uCrop64},{DashboardUtil:uCrop64}
+alert_error.max_uploads,Maximum number of successful uploads reached.,Maximum number of successful uploads reached.
+alert.voucher.redeem.available_bags_exceeded,Available bags exceeded,Available bags exceeded
+view_heading.Voucher_Batch_Fertilizers,Voucher Batch Fertilizers,Voucher Batch Fertilizers
+reports_value.Value,Value,Value
+button.execute_event,Execute event,Execute event
+column_heading.schedule,Schedule,Schedule
+custom_header.crop25,{DashboardUtil:uCrop25},{DashboardUtil:uCrop25}
+view_heading.Stock_Items_Uploads_with_errors,Stock Items Uploads with errors,Stock Items Uploads with errors
+info.Uploader_Name,Uploader Name,Uploader Name
+column_heading.Number_of_Farmers,Number of Farmers,Number of Farmers
+reports_voucherstatus.Voucher_Status,Voucher Status,Voucher Status
+input.config_key,Config key,Config key
+alert.matches_found,{fCount} {fDesc} found.,{fCount} {fDesc} found.
+button.add_service_point,Add service point,Add service point
+table.Upload_Log,Upload Log,Upload Log
+column.Farmer_Name,Farmer Name,Farmer Name
+view_heading.edit_Service_Point_Type,Edit Service Point Type,Edit Service Point Type
+table_heading.key_scheduled_event_logs,Key scheduled event logs,Key scheduled event logs
+column_heading.archived,Archived,Archived
+column_heading.Current_Translation,Current Translation,Current Translation
+button.save,Save,Save
+reports_region.Region,Region,Region
+table_heading.Enterprises_by_Region,Enterprises by Region,Enterprises by Region
+custom_header.crop20,{DashboardUtil:uCrop20},{DashboardUtil:uCrop20}
+alert.error.valid_dob,Please enter a valid date of birth,Please enter a valid date of birth
+view_heading.view_agro_dealer_transaction,View agro dealer transaction,View agro dealer transaction
+custom_header.crop88,{DashboardUtil:uCrop88},{DashboardUtil:uCrop88}
+label.bankAccountHolder,BankAccountHolder,BankAccountHolder
+column_heading.regex,Regex,Regex
+column_heading.farmer.dateofbirth,dateofbirth,dateofbirth
+custom_header.crop13,{DashboardUtil:uCrop13},{DashboardUtil:uCrop13}
+custom_header.reportsgenerictemplate_column_decimal10,{ReportsGenericViewerLabels:column_decimal10},{ReportsGenericViewerLabels:column_decimal10}
+view_heading.Messaging_menu,Messaging menu,Messaging menu
+table_heading.pending_transfers,Pending transfers,Pending transfers
+menu_item.Dashboard,Dashboard,Dashboard
+confirm_body.Archive_Item,Are you sure you would like to archive this drop down item?,Are you sure you would like to archive this drop down item?
+reports_totalhandlingcostksh.Total_handling_cost_(Ksh),Total handling cost (Ksh),Total handling cost (Ksh)
+view_heading.edit_Web_User,Edit Web User,Edit Web User
+input.Comment,Comment,Comment
+column_heading.question_description,Question description,Question description
+label.date_created,Date created,Date created
+column_heading.Farmer,Farmer,Farmer
+table._, , 
+column.mobile_triggered,Mobile triggered,Mobile triggered
+column_heading.Code_Source,Code Source,Code Source
+info.DateTimeLastUpdated,DateTimeLastUpdated,DateTimeLastUpdated
+label.bankName,BankName,BankName
+alert_error.object_not_found,Object not found.,Object not found.
+Select_Delivery_Status,Select Delivery Status,Select Delivery Status
+table_heading.farmer_sms_logs,Farmer sms logs,Farmer sms logs
+confirmation.reactivate_messages_subject,Re-active Mobile Number,Re-active Mobile Number
+view_heading.audit_Logs,Audit Logs,Audit Logs
+column.Verified_Size,Verified Size,Verified Size
+button.Add_Voucher_Code,Add Voucher Code,Add Voucher Code
+column.Shortcode,Shortcode,Shortcode
+label.datetime_archived,Datetime archived,Datetime archived
+column.status,Status,Status
+column.request_code,Request code,Request code
+label.group,Group,Group
+column_heading.name,Name,Name
+view_heading.upload_locations,Upload locations,Upload locations
+label.leased_lr_number,Leased lr number,Leased lr number
+button.Unarchive_All,Unarchive All,Unarchive All
+table_title.farmers,Farmers,Farmers
+column.Date_Created,Date Created,Date Created
+column_heading.Customer_Mobile,Customer Mobile,Customer Mobile
+input.farmer,Farmer,Farmer
+column.agro_dealer,Agro dealer,Agro dealer
+view_heading.Order_Items,Order Items,Order Items
+custom_header.Ward_Header,{Reportviewer:uWardHeader},{Reportviewer:uWardHeader}
+sms.voucher_redemption.cropvoucher_bags_redeemed,You have successfully redeemed {fUnitQuantity} {fUnits} of {fProductName} from voucher code: {fVoucherCode}. Thank You - {fProviderName}.,You have successfully redeemed {fUnitQuantity} {fUnits} of {fProductName} from voucher code: {fVoucherCode}. Thank You - {fProviderName}.
+confirmation.send_bulk_message_body,Send message to recipients?,Send message to recipients?
+view_heading.Stock_Item_Upload_File,Stock Item Upload File,Stock Item Upload File
+label.Total_Value,Total Value,Total Value
+row_action.Add,Add,Add
+sms.sms_opt_out.fail,"Dear user, we could not cancel SMSes for {solutionName}. Please contact support.","Dear user, we could not cancel SMSes for {solutionName}. Please contact support."
+enum.ORDER_STATUS.Partial_Delivery,Partial Delivery,Partial Delivery
+reportsviewheading.Daily_Beneficiary_Total_Report,Daily Beneficiary Total Report,Daily Beneficiary Total Report
+alert.date_status.error,End Date Can Not Be Less Than Start Date,End Date Can Not Be Less Than Start Date
+column_heading.outcome,Outcome,Outcome
+custom_header.crop21,{DashboardUtil:uCrop21},{DashboardUtil:uCrop21}
+menu_item.Registration_Forms,Registration Forms,Registration Forms
+column.farmer,Farmer,Farmer
+table_heading.StringGroups,StringGroups,StringGroups
+reportsviewheading.Redeemed_vouchers,Redeemed vouchers,Redeemed vouchers
+button.add_institute_config,Add institute config,Add institute config
+column_heading.location_level_three,Level 3,Level 3
+label.Info,Info,Info
+custom_header.reportsgenerictemplate_column_location1,{ReportsGenericViewerLabels:column_location1},{ReportsGenericViewerLabels:column_location1}
+label.Group_Price,Group Price,Group Price
+custom_header.question_10,{Reportviewer:uQuestion10Header},{Reportviewer:uQuestion10Header}
+alert_error.duplicate_scheduled_function_config,Unable to save new scheduled function.,Unable to save new scheduled function.
+custom_header.crop22,{DashboardUtil:uCrop22},{DashboardUtil:uCrop22}
+table_heading.scheduled_events,Scheduled events,Scheduled events
+table_heading.Translation_Keys,Translation Keys,Translation Keys
+column.Questions_Answered,Questions Answered,Questions Answered
+column_heading.datetimestampFinished,DatetimestampFinished,DatetimestampFinished
+confirm_subject.finalise,Finalise Voucher,Finalise Voucher
+custom_header.crop19,{DashboardUtil:uCrop19},{DashboardUtil:uCrop19}
+button_heading.Filter_By_User,Filter By User,Filter By User
+column.code,Code,Code
+table.Category_List,Category List,Category List
+column_heading.voucher_batch,Voucher batch,Voucher batch
+view_heading.manage_stock_transaction,Manage stock transaction,Manage stock transaction
+view_heading.Upload_Stock_Items,Upload Stock Items,Upload Stock Items
+custom_header.Subcounty_Header,{Reportviewer:uSubCountyHeader},{Reportviewer:uSubCountyHeader}
+info.Processed_Time,Processed Time,Processed Time
+custom_header.crop27,{DashboardUtil:uCrop27},{DashboardUtil:uCrop27}
+custom_header.crop35,{DashboardUtil:uCrop35},{DashboardUtil:uCrop35}
+input.messageOrigin,MessageOrigin,MessageOrigin
+label.date_modified,Date modified,Date modified
+reportstableheading.Farmer_Registration_Report_By_County,Farmer Registration Report By County,Farmer Registration Report By County
+column.active,Active,Active
+label.String_Value,String Value,String Value
+table_previousfiles.Previous_Fileuploads,Previous Fileuploads,Previous Fileuploads
+custom_header.crop37,{DashboardUtil:uCrop37},{DashboardUtil:uCrop37}
+column_heading.farmer.noklastname,noklastname,noklastname
+sms.voucher_redemption.no_vouchers_available,"Dear {fFarmerName}, you currently have no available vouchers. Thank you - {fProviderName}.","Dear {fFarmerName}, you currently have no available vouchers. Thank you - {fProviderName}."
+label.Report,Report,Report
+view_heading.edit_voucher_category,Edit voucher category,Edit voucher category
+label.Code,Code,Code
+column.businessPermitNumber,BusinessPermitNumber,BusinessPermitNumber
+label.leased_LR_number,Leased LR number,Leased LR number
+string_label.level,Level,Level
+menu_item.Crops,Enterprises,Enterprises
+label.Total_Owed,Total Owed,Total Owed
+label.From_Date,From Date,From Date
+column_heading.location,Location,Location
+table_heading.SMS_log,SMS log,SMS log
+string_label.Notification_Sent,Notification Sent,Notification Sent
+email.subjectKey,{emailSubject},{emailSubject}
+alert.voucher.redeem.selected_bags_exceeded,Nothing left to remove,Nothing left to remove
+view_heading.Manage_Location_Levels,Manage Location Levels,Manage Location Levels
+menu_item.users,Users,Users
+button.Mobile_Details,Mobile Details,Mobile Details
+column_heading._Unit,Unit,Unit
+label.Iterate_Through_Levels,Iterate Through Levels,Iterate Through Levels
+column_heading.description,Description,Description
+button_label.Filter_Remove,Filter Remove,Filter Remove
+info.Number_of_recipients,Number of recipients,Number of recipients
+column_heading.form_description,Form description,Form description
+custom_header.crop24,{DashboardUtil:uCrop24},{DashboardUtil:uCrop24}
+column.Recipient_Number,Recipient Number,Recipient Number
+confirm_body.archive_farmer,Are you sure you would like to delete this Farmer?,Are you sure you would like to delete this Farmer?
+label.Bags_per_acres,Bags per acres,Bags per acres
+column_heading._, , 
+view_heading.view_voucher_template,View voucher template,View voucher template
+column_heading.farmer.locationlevel5,locationlevel5,locationlevel5
+column.type,Type,Type
+button.users,Users,Users
+button_heading.Confirm_Deposit,Confirm Deposit,Confirm Deposit
+column.size,Size,Size
+button.hierarchy,Hierarchy,Hierarchy
+column.Balance_After,Balance After,Balance After
+custom_header.crop48,{DashboardUtil:uCrop48},{DashboardUtil:uCrop48}
+alert.error.service_point.invalid_location,Please select a location,Please select a location
+reportsviewheading.Voucher_report_per_county_per_depot,Voucher report per county per depot,Voucher report per county per depot
+column_heading.farmer.village,village,village
+model.logs.activity_log,Activity Log,Activity Log
+column.bankAccountHolder,BankAccountHolder,BankAccountHolder
+alert.object.inactivate,{uObjectName} set to inactive.,{uObjectName} set to inactive.
+sms.messageContent,{messageContent},{messageContent}
+column.paymentCode,PaymentCode,PaymentCode
+table_heading.Translation_Key_Logs,Translation Key Logs,Translation Key Logs
+column.EnrollmentBarcode,EnrollmentBarcode,EnrollmentBarcode
+column.available,Available,Available
+button.Add,Add,Add
+label.postal_address,Postal address,Postal address
+info.user_role,User role,User role
+column.Object_Description,Object Description,Object Description
+column.qty_eligible,Qty eligible,Qty eligible
+custom_header.crop53,{DashboardUtil:uCrop53},{DashboardUtil:uCrop53}
+alert.object.voucher_batch_name_required,Voucher Batch name required,Voucher Batch name required
+custom_header.crop38,{DashboardUtil:uCrop38},{DashboardUtil:uCrop38}
+label.Location_Start,Location Start,Location Start
+label.businessPermitNumber,BusinessPermitNumber,BusinessPermitNumber
+alert_error.template.exists,{field}: already exists.,{field}: already exists.
+label.esub_status,Esub status,Esub status
+custom_header.reportsgenerictemplate_column_decimal8,{ReportsGenericViewerLabels:column_decimal8},{ReportsGenericViewerLabels:column_decimal8}
+column_heading.DateArchived,DateArchived,DateArchived
+view_heading.view_mobile_user,View mobile user,View mobile user
+table_heading.action,Action,Action
+table_heading.Content,Content,Content
+view_heading.view_voucher_category,View voucher category,View voucher category
+view_heading.manage_institute_config,Manage institute config,Manage institute config
+label.Price_per_Measure,Price per Measure,Price per Measure
+reportsviewheading.Enterprise_Summary_Report,Enterprise Summary Report,Enterprise Summary Report
+label.voucher_category,Voucher category,Voucher category
+input_label.stock_item,Stock item,Stock item
+input.select_reporting_object,Select reporting object,Select reporting object
+column.user_group,User group,User group
+custom_header.crop98,{DashboardUtil:uCrop98},{DashboardUtil:uCrop98}
+error.location_level_seven,Level 7 cannot be empty,Level 7 cannot be empty
+alert.object.voucher_batch_no_season,Please select a season.,Please select a season.
+view_heading.Manage_Message_Schedule_Configuration,Manage Message Schedule Configuration,Manage Message Schedule Configuration
+column_heading.order_paid_date,Date Paid,Date Paid
+view_heading.view_crop_voucher,View enterprise voucher,View enterprise voucher
+custom_header.crop78,{DashboardUtil:uCrop78},{DashboardUtil:uCrop78}
+custom_header.crop2,{DashboardUtil:uCrop2},{DashboardUtil:uCrop2}
+button.issue,Issue,Issue
+alert.uploadfile.confirmschedulesubject,Schedule Confirmation,Schedule Confirmation
+column_heading.Item,Item,Item
+label.farmer_ward,Farmer ward,Farmer ward
+label.Bags_Handling_Fee,Bags Handling Fee,Bags Handling Fee
+column.farm_size,Enterprise units,Enterprise units
+column_heading.Date,Date,Date
+view_heading.view_deposits_orders,View Deposited Orders,View Deposited Orders
+view_heading.create_Service_Point_Type,Create Service Point Type,Create Service Point Type
+reports_commissionperbagksh.Commission_per_Bag_(Ksh),Commission per Bag (Ksh),Commission per Bag (Ksh)
+menu_item.tasks,Tasks,Tasks
+label.nok_relationship_type,Nok relationship type,Nok relationship type
+column.GPS_long,GPS long,GPS long
+alert.field.empty,{uFieldName} is empty.,{uFieldName} is empty.
+sms.farmer.invite,"Dear {fFarmerName}, you have been registered for {fSolutionName}.","Dear {fFarmerName}, you have been registered for {fSolutionName}."
+column_heading.GroupType,GroupType,GroupType
+column_heading.Stock_Item,Stock Item,Stock Item
+column_heading.length,Length,Length
+column_heading.farmer.nationalid,nationalid,nationalid
+button_heading.Remove_All_Orders,Remove All Orders,Remove All Orders
+custom_header.crop94,{DashboardUtil:uCrop94},{DashboardUtil:uCrop94}
+view_heading.edit_role_group_profile,Edit role group profile,Edit role group profile
+alert.parameter.null,Null parameter passed {fSource},Null parameter passed {fSource}
+alert.button.error,No comment added,No comment added
+row_action.Select,Select,Select
+label.verified,Verified,Verified
+alert_error.invalid_enterprise_group_name,A name must be specified for the Enterprise Group,A name must be specified for the Enterprise Group
+label.Manual_Changes_Required,Manual Changes Required,Manual Changes Required
+label.Total_Voucher_Value,Total Voucher Value,Total Voucher Value
+custom_header.reportsgenerictemplate_column_date2,{ReportsGenericViewerLabels:column_date2},{ReportsGenericViewerLabels:column_date2}
+column_heading.category,Category,Category
+alert_success.resend.vouchers_found,There were {count} vouchers found. Notifications sent.,There were {count} vouchers found. Notifications sent.
+label.sms_date,Sms date,Sms date
+view_heading.view_farmer_crop,View farmer crop,View farmer crop
+table_heading.available_role_groups_for_location_level,Available role groups for location level,Available role groups for location level
+string_label.URL,URL,URL
+view_heading.view_Service_Point_Users,View Service Point Users,View Service Point Users
+table.Added_groups,Added groups,Added groups
+custom_header.crop28,{DashboardUtil:uCrop28},{DashboardUtil:uCrop28}
+alert_error.duplicate_farmer_csv,Farmer with mobile number already exists. Additional crops can be captured during registration.,Farmer with mobile number already exists. Additional crops can be captured during registration.
+reportstableheading.Unassigned_Mobile_Users,Unassigned Mobile Users,Unassigned Mobile Users
+string_label.first_name,First name,First name
+column_heading.order_number,Order Number,Order Number
+column_heading.Service_Point,Service Point,Service Point
+custom_header.level4,{DashboardUtil:uLevel4},{DashboardUtil:uLevel4}
+column.start,Start,Start
+label.customRoleName,CustomRoleName,CustomRoleName
+column.service_point_name,Service point name,Service point name
+button.Load,Load,Load
+view_heading.manage_mobile_user,Manage mobile user,Manage mobile user
+reports_budgetoutstandingksh.Budget_outstanding_(Ksh),Budget outstanding (Ksh),Budget outstanding (Ksh)
+table_column_heading.location_level_five,location_level_five,location_level_five
+button.Select,Select,Select
+column_heading.role,Role,Role
+textfield.addComment,New Comment,New Comment
+column.Location,Location,Location
+column.plotLR,PlotLR,PlotLR
+select.user.error,User required,User required
+column_heading.Customer_Name,Customer Name,Customer Name
+reportsviewheading.Distribution_Costs_per_Depot,Distribution Costs per Depot,Distribution Costs per Depot
+view_heading.farmer_Profile_-_Crops,Farmer Profile - Crops,Farmer Profile - Crops
+button.add_voucher_category,Add voucher category,Add voucher category
+button.Create_message,Create message,Create message
+column.net_stock_movement,Net stock movement,Net stock movement
+button.Upload_Stock,Upload Stock,Upload Stock
+row_action._Archive,Archive,Archive
+table_title.SMS_Content,SMS Content,SMS Content
+view_heading.view_season,View season,View season
+input.recipient(s),Recipient(s),Recipient(s)
+table_heading.Available_Actions,Available Actions,Available Actions
+column_heading.Quantity,Quantity,Quantity
+label.datetime_created,Datetime created,Datetime created
+view_heading.Manage_Settings,Manage Settings,Manage Settings
+view_heading.manage_Voucher_Template,Manage Voucher Template,Manage Voucher Template
+menu_item.menu,Menu,Menu
+custom_header.crop10,{DashboardUtil:uCrop10},{DashboardUtil:uCrop10}
+button.add_stock_transaction,Add stock transaction,Add stock transaction
+column.Success,Success,Success
+button_heading.Load,Load,Load
+label.Max_Bags_Allowed_per_Voucher,Max Product Items Allowed per Voucher,Max Product Items Allowed per Voucher
+column.mobile_Number,Mobile Number,Mobile Number
+info.Uploader_Mobile,Uploader Mobile,Uploader Mobile
+reportstableheading.Farmer_Voucher_Adoption,Farmer Voucher Adoption,Farmer Voucher Adoption
+stringgroup.Translation,Translation,Translation
+view_heading.View_Agro_Dealer_Transaction_Fee_Payment_History,View Agro Dealer Transaction Fee Payment History,View Agro Dealer Transaction Fee Payment History
+column.sub_depot,Sub depot,Sub depot
+label.Role_Location,Role Location,Role Location
+reports_county.County,County,County
+alert_error.no_file,No file found.,No file found.
+info.status,Status,Status
+button.add_internal_support,Add internal support,Add internal support
+string_label.Lastname,Lastname,Lastname
+view_heading.edit_stock_transaction,Edit stock transaction,Edit stock transaction
+column_heading.characters,Characters,Characters
+submit.save,Save,Save
+button.select,Select,Select
+alert_error.invalid_ward_name,Invalid ward specified.,Invalid ward specified.
+custom_header.crop17,{DashboardUtil:uCrop17},{DashboardUtil:uCrop17}
+input.Name,Name,Name
+view_heading.Order_List,Order List,Order List
+alert_error.invalid_mobile_number,Invalid mobile number.,Invalid mobile number.
+alert.object.voucher_batch_request_code_exists,Request code {fAttributeName} already in user by another Voucher Batch,Request code {fAttributeName} already in user by another Voucher Batch
+enum.ORDER_STATUS.Received,Received,Received
+button.update,Update,Update
+info.action,Action,Action
+column_heading.Active,Active,Active
+button.pay,Pay,Pay
+sms.voucher_redemption.voucher_batch_inactive,VoucherBatch {fRequestCode} is no longer active.,VoucherBatch {fRequestCode} is no longer active.
+view_heading.edit_mobile_user,Edit mobile user,Edit mobile user
+info.Total_Farmers,Total Farmers,Total Farmers
+alert.uploadfile.confirmuploaddone,The file has been uploaded.,The file has been uploaded.
+label.Max_crop_size,Max enterprise size,Max enterprise size
+confirm_body.archive_web_user,Archive Web User,Archive Web User
+alert_error.please_select_one,Please select at least one {fDesc}.,Please select at least one {fDesc}.
+label.crop,Crop,Crop
+label.template_name,Template name,Template name
+label.Include_Parent,Include Parent,Include Parent
+custom_header.question_5,{Reportviewer:uQuestion5Header},{Reportviewer:uQuestion5Header}
+column_heading.user,User,User
+reportsviewheading.Forms_Captured_Report,Forms Captured Report,Forms Captured Report
+alert.uploadfile.confirmprocesswitherrors,The uploaded file has been processed with some errors. Please see error log below.,The uploaded file has been processed with some errors. Please see error log below.
+alert.user_re-enrolling_exists,"This user exists, please search thoroughly.","This user exists, please search thoroughly."
+label.Unit_Price,Unit Price,Unit Price
+table_heading.voucher_batch_transaction,Voucher batch transaction,Voucher batch transaction
+confirm_subject.archive,Archive?,Archive?
+label.transaction,Transaction,Transaction
+view_heading.sms_log,Sms log,Sms log
+view_heading.manage_Agro_Dealer_Payments,Manage Agro Dealer Payments,Manage Agro Dealer Payments
+view_heading.view_stock_item,View stock item,View stock item
+custom_header.reportsgenerictemplate_column_date1,{ReportsGenericViewerLabels:column_date1},{ReportsGenericViewerLabels:column_date1}
+view_heading.transaction_fee_history,Transaction fee history,Transaction fee history
+column_heading.date,Date,Date
+reports_redeemed.QTY_Redeemed,QTY Redeemed,QTY Redeemed
+column.crop_variety,Crop variety,Crop variety
+alert.select_order_status.error,Please Select an Order Status,Please Select an Order Status
+view_heading.Voucher_Log,Voucher Log,Voucher Log
+alert.crop.active_croptype,Enterprise is still in use by active VoucherBatches.,Enterprise is still in use by active VoucherBatches.
+reports_farmersinvolved.Farmers_Involved_(No),Farmers Involved (No),Farmers Involved (No)
+column_heading.field_order,Field order,Field order
+table_heading.Assigned_Role_Groups,Assigned Role Groups,Assigned Role Groups
+custom_header.stock_stock_type,stock_type,stock_type
+alert_error.Required_Number,Please note this field is required and may contain numbers only.,Please note this field is required and may contain numbers only.
+view_heading.view_voucher_batch,View voucher batch,View voucher batch
+sms.stock_transaction.stock_issued,"Dear {fUserName}, {fStockAmount} {fUnits} of {fStockName} have been issued to {fServicePoint}.","Dear {fUserName}, {fStockAmount} {fUnits} of {fStockName} have been issued to {fServicePoint}."
+column.date_modified,Date modified,Date modified
+custom_header.crop65,{DashboardUtil:uCrop65},{DashboardUtil:uCrop65}
+label.lipa_Mpesa_Till_Number,Lipa Mpesa Till Number,Lipa Mpesa Till Number
+view_heading.manage_location_level,Manage location level,Manage location level
+custom_header.crop14,{DashboardUtil:uCrop14},{DashboardUtil:uCrop14}
+menu_item.Receipts,Receipts,Receipts
+reports_balance.Quantity_Balance,Quantity Balance,Quantity Balance
+info.scheduled_function_config_archived,Scheduled Function archived,Scheduled Function archived
+error.location_level_six,Level 6 cannot be empty,Level 6 cannot be empty
+column.location,Location,Location
+column.Stock_Type,Stock Type,Stock Type
+custom_header.reportsgenerictemplate_column_datetime1,{ReportsGenericViewerLabels:column_datetime1},{ReportsGenericViewerLabels:column_datetime1}
+view_heading.manage_agro_dealer_profile,Manage agro dealer profile,Manage agro dealer profile
+table_heading.service_point,Service point,Service point
+model.roles.initiator,Initiator,Initiator
+column_heading.cropname,Cropname,Cropname
+menu_item.logs,Logs,Logs
+label.Order_Total,Order Total,Order Total
+column_heading.response,Response,Response
+table_heading.Download_and_Fix,Download and Fix,Download and Fix
+column.Percentage_of_farmers_with_GPS_coordinates,Percentage of farmers with GPS coordinates,Percentage of farmers with GPS coordinates
+label.nationalCerealsandProduceBoard,NationalCerealsandProduceBoard,NationalCerealsandProduceBoard
+label.county,County,County
+alert.user_group.archive_system,Cannot delete a System User Group,Cannot delete a System User Group
+view_heading.create_farmer,Create farmer,Create farmer
+custom_header.County_Header,{Reportviewer:uCountyHeader},{Reportviewer:uCountyHeader}
+label.businessName,BusinessName,BusinessName
+label.bank_Account_Holder,Bank Account Holder,Bank Account Holder
+confirm_body.archive_location,Are you sure you would like to delete this Location?,Are you sure you would like to delete this Location?
+column.Mobile_Number,Mobile Number,Mobile Number
+column_heading.qualifiedName,QualifiedName,QualifiedName
+label.path,Path,Path
+button_heading.remove,Remove,Remove
+custom_header.question_3,{Reportviewer:uQuestion3Header},{Reportviewer:uQuestion3Header}
+alert.farmer.not_found_mobile,Farmer not found with mobile number: {mobileNumber},Farmer not found with mobile number: {mobileNumber}
+custom_header.stock_unit_price,unit_price,unit_price
+reportsviewheading.Farmer_Registration_Answers_Report,Farmer Registration Answers Report,Farmer Registration Answers Report
+view_heading.stock_menu,Stock menu,Stock menu
+button.receive,Receive,Receive
+string_label.Enrolled,Enrolled,Enrolled
+view_heading.identification_management,Identification management,Identification management
+reportsviewheading.Reports,Reports,Reports
+reportstableheading.Enterprise_Summary_Report,Enterprise Summary Report,Enterprise Summary Report
+button.delete,Delete,Delete
+button.add_season,Add season,Add season
+alert_error.empty_field,{uFieldName} is empty.,{uFieldName} is empty.
+alert.object.voucher_template_no_season,Please select a season.,Please select a season.
+input.Message_to_send,Message to send,Message to send
+view_heading.Farmer_Upload_File,Farmer Upload File,Farmer Upload File
+button.FilterByParameters,FilterByParameters,FilterByParameters
+column_heading.farmer_location,Farmer location,Farmer location
+label.sms_content,Sms content,Sms content
+column.processing,Processing,Processing
+table_heading.selected_fertilizer,Selected fertilizer,Selected fertilizer
+column.User_Mobile_Number,User Mobile Number,User Mobile Number
+menu_item.PreReg_Farmers,PreReg Farmers,PreReg Farmers
+view_heading.crud_menu,Crud menu,Crud menu
+label.English_Content,English Content,English Content
+reportstableheading.Detailed_Till_Transactions_Report,Detailed Till Transactions Report,Detailed Till Transactions Report
+view_heading.manage_voucher,Manage voucher,Manage voucher
+custom_header.crop75,{DashboardUtil:uCrop75},{DashboardUtil:uCrop75}
+reportsviewheading.Stock_Recon_Report,Stock Reconciliation Report,Stock Reconciliation Report
+label.active,Active,Active
+reportsviewheading.Voucher_codes_sent,Voucher codes sent,Voucher codes sent
+input.select_form,Select form,Select form
+alert_success.sms.sms_injected,SMS Injected.,SMS Injected.
+column.Sub_County,Sub County,Sub County
+column.Season,Season,Season
+column.initial_budget,Initial budget,Initial budget
+table_column_heading.location_level_eight,location_level_eight,location_level_eight
+label.current_budget,Current budget,Current budget
+custom_header.crop36,{DashboardUtil:uCrop36},{DashboardUtil:uCrop36}
+column_heading.User_Uuid,User Uuid,User Uuid
+string_label.Barcode,Barcode,Barcode
+button.View,View,View
+button.Remove,Remove,Remove
+reportstableheading.Distribution_Costs_per_Depot,Distribution Costs per Depot,Distribution Costs per Depot
+view_heading.view_receipts,View receipts,View receipts
+button.save_and_finish,Save and finish,Save and finish
+alert_info.duplicate_flag_created,Duplicate flags on farmer corrected,Duplicate flags on farmer corrected
+reports_bagshandled.No_of_Bags_handled,No of Bags handled,No of Bags handled
+alert_error.recipient_count_empty,The recipient count is 0 . Please add people to Group.,The recipient count is 0 . Please add people to Group.
+column.Mobile_User_Name,Mobile User Name,Mobile User Name
+button.add_stock_item,Add stock item,Add stock item
+view_heading.manage_service_points,Manage service points,Manage service points
+view_heading.Location_Uploads_with_errors,Location Uploads with errors,Location Uploads with errors
+label.Units,Units,Units
+table_heading.Order_Items,Order Items,Order Items
+error.existing_user_group,This group already exists.,This group already exists.
+alert.object.voucher_batch_invalid_dates,Voucher Batch has invalid date parameters,Voucher Batch has invalid date parameters
+view_heading.manage_Group_Members,Manage Group Members,Manage Group Members
+string_label.Mobile_number,Mobile number,Mobile number
+button.add_fertilizer_template,Add product template,Add product template
+column_heading.File_Name,File Name,File Name
+view_heading.bank_deposits,Bank Deposits,Bank Deposits
+column.Transaction_Result,Transaction Result,Transaction Result
+column.voucher_batch,Voucher batch,Voucher batch
+view_heading.pay_Agro_Dealer,Pay Agro Dealer,Pay Agro Dealer
+label.Stock_Status,Stock Status,Stock Status
+reportsviewheading.Farmer_Voucher_Adoption,Farmer Voucher Adoption,Farmer Voucher Adoption
+custom_header.crop86,{DashboardUtil:uCrop86},{DashboardUtil:uCrop86}
+button.history,History,History
+view_heading.voucher_batch_top-up,Voucher batch top-up,Voucher batch top-up
+alert.bulk_message_rejected,Bulk Message rejected.,Bulk Message rejected.
+table_heading.stock_levels,Stock levels,Stock levels
+alert.select_end_status.error,Please Select a End Date,Please Select a End Date
+input.messageContent,MessageContent,MessageContent
+alert.object.voucher_batch_no_max_bags,Please enter a valid number for Maximum Bags per voucher.,Please enter a valid number for Maximum Bags per voucher.
+custom_header.crop41,{DashboardUtil:uCrop41},{DashboardUtil:uCrop41}
+button.View_Content,View Content,View Content
+label.Stock_Included,Stock Included,Stock Included
+column.first_name,First name,First name
+column.Language,Language,Language
+column.stock_item,Stock item,Stock item
+view_heading.User_Message,User Message,User Message
+view_heading.create_User_Group,Create User Group,Create User Group
+label.Service_Point_Stock_Totals_Aggregated,Service Point Stock Totals Aggregated,Service Point Stock Totals Aggregated
+button.roles,Roles,Roles
+custom_header.reportsgenerictemplate_column_location2,{ReportsGenericViewerLabels:column_location2},{ReportsGenericViewerLabels:column_location2}
+alert.crop.active_croptypetemplate,Crop is still in use by VoucherTemplate,Crop is still in use by VoucherTemplate
+input.Question,Question,Question
+button.Assign_Filter,Assign Filter,Assign Filter
+button.Edit_Definitions,Edit Definitions,Edit Definitions
+button.add_location,Add location,Add location
+column_heading.Error_Code,Error Code,Error Code
+alert.uploadfile.confirmdeletedone,Uploaded file has been deleted.,Uploaded file has been deleted.
+view_heading.SMS_Content_Uploads_with_errors,SMS Content Uploads with errors,SMS Content Uploads with errors
+label.Crops_Uploaded,Crops Uploaded,Crops Uploaded
+custom_header.crop58,{DashboardUtil:uCrop58},{DashboardUtil:uCrop58}
+table_heading.Orders,Orders,Orders
+custom_header.reportsgenerictemplate_column_int9,{ReportsGenericViewerLabels:column_int9},{ReportsGenericViewerLabels:column_int9}
+column_heading.expired,Expired,Expired
+reports_fertilizertype.Fertilizer_type,Fertilizer type,Fertilizer type
+stringgroup.Global_Translation_Parameter,Global Translation Parameter,Global Translation Parameter
+custom_header.crop31,{DashboardUtil:uCrop31},{DashboardUtil:uCrop31}
+label.first_name,First name,First name
+label.regCertNumber,RegCertNumber,RegCertNumber
+label.redeemed_total,Redeemed total,Redeemed total
+alert_error.resend.no_vouchers_found,No vouchers found for mobile number.,No vouchers found for mobile number.
+custom_header.crop12,{DashboardUtil:uCrop12},{DashboardUtil:uCrop12}
+custom_header.crop99,{DashboardUtil:uCrop99},{DashboardUtil:uCrop99}
+column_heading.servicePoint,Service Point,Service Point
+table_heading.user_group,User group,User group
+column_heading.verified,Verified,Verified
+reports_subsidyperbagksh.Subsidy_per_Bags_(Ksh),Subsidy per Bags (Ksh),Subsidy per Bags (Ksh)
+label.nationalid,Nationalid,Nationalid
+table_heading.benefit_templates,Benefit templates,Benefit templates
+column_heading.location_level_eight,Level 8,Level 8
+table_heading.farmer,Farmer,Farmer
+column_heading.Scheduled_Time,Scheduled Time,Scheduled Time
+alert_error.invalid_croptype,Invalid crop type specified.,Invalid crop type specified.
+input.Category_Name,Category Name,Category Name
+alert.field.updated,{uFieldName} updated.,{uFieldName} updated.
+custom_header.crop89,{DashboardUtil:uCrop89},{DashboardUtil:uCrop89}
+custom_header.crop56,{DashboardUtil:uCrop56},{DashboardUtil:uCrop56}
+column_heading.farmer.wardname,wardname,wardname
+column_heading.crop,Enterprise,Enterprise
+custom_header.location_level_two,Location level two,Location level two
+alert.active_service_points_found,Cannot archive Service Point Type there are active service points.,Cannot archive Service Point Type there are active service points.
+alert.object.found,{uObjectName} found.,{uObjectName} found.
+column_heading.location_level_four,Level 4,Level 4
+column.total_bags,Total bags,Total bags
+view_heading.edit_Voucher_Batch,Edit Voucher Batch,Edit Voucher Batch
+view_heading.view_benefit_template,View benefit template,View benefit template
+reportsviewheading.Detailed_Till_Transactions_Report,Detailed Till Transactions Report,Detailed Till Transactions Report
+alert.farmer.request.no_notification_record,Farmer did not receive notification for Voucher Batch: {fRequestCode},Farmer did not receive notification for Voucher Batch: {fRequestCode}
+column.crop_type,Crop type,Crop type
+table_heading.Selected_Vouchers,Selected Vouchers,Selected Vouchers
+reportsviewheading.Voucher_Redemption_Report,Voucher Redemption Report,Voucher Redemption Report
+reports_totalfarmers.Total_Farmers,Total Farmers,Total Farmers
+label.current_balance,Current balance,Current balance
+custom_header.reportsgenerictemplate_column_decimal3,{ReportsGenericViewerLabels:column_decimal3},{ReportsGenericViewerLabels:column_decimal3}
+label.name_*,Name *,Name *
+column_heading.location_level_one,Level 1,Level 1
+button.Back,Back,Back
+column_heading.farm_size,Enterprise units,Enterprise units
+button.view_available_stock,View Stock,View Stock
+column_heading.role_group,Role group,Role group
+custom_header.location_level_seven,Location level seven,Location level seven
+view_heading.manage_Web_User,Manage Web User,Manage Web User
+input.stock_item_csv,Stock item csv,Stock item csv
+column_heading.State,State,State
+column_heading.Description,Description,Description
+table_heading.crop_vouchers,Enterprise vouchers,Enterprise vouchers
+input_label.institute,Institute,Institute
+column.Total_Cost_To_Farmer,Total Cost To Farmer,Total Cost To Farmer
+info.Number_of_recipients_in_roles,Number of recipients in roles,Number of recipients in roles
+view_heading.Manage_Enterprise_Group,Manage Enterprise Group,Manage Enterprise Group
+label.bag_handling_fee,Handling fee,Handling fee
+sms.farmer.voucher_payment,"Dear {fFarmerName}, please pay {fCurrency}{fAmount} to redeem the {fCategoryName} voucher. Thank You - {fProviderName}.","Dear {fFarmerName}, please pay {fCurrency}{fAmount} to redeem the {fCategoryName} voucher. Thank You - {fProviderName}."
+button.filter_crops,Filter crops,Filter crops
+column_heading.farmer.farmownership,farmownership,farmownership
+custom_header.crop93,{DashboardUtil:uCrop93},{DashboardUtil:uCrop93}
+view_heading.edit_Internal_Support,Edit Internal Support,Edit Internal Support
+label.RoleGroup,RoleGroup,RoleGroup
+label.New_CaseSensitive_Text,New CaseSensitive Text,New CaseSensitive Text
+view_heading.view_farmer,View farmer,View farmer
+column_heading.farmer.leasedlrnumber,leasedlrnumber,leasedlrnumber
+alert.object.exists,{uObjectName} already exists.,{uObjectName} already exists.
+label.Enterprise_Category,Enterprise Category,Enterprise Category
+label.mobile_action,Mobile action,Mobile action
+view_heading.View_Stock,View Stock,View Stock
+column_heading.expiry,Expiry,Expiry
+label.Object_Types,Object Types,Object Types
+reports_utilizedorredeemedksh.Utilized_or_Redeemed_(Ksh),Utilized or Redeemed (Ksh),Utilized or Redeemed (Ksh)
+view_heading.Main_Menu,Main Menu,Main Menu
+button.add_service_point_type,Add service point type,Add service point type
+column.nationalCerealsandProduceBoard,NationalCerealsandProduceBoard,NationalCerealsandProduceBoard
+column_heading.First_Name,First Name,First Name
+alert.farmer.request.voucher_exists_active,Voucher already issued. Code: {voucherCode},Voucher already issued. Code: {voucherCode}
+reportstableheading.Enterprises_Supported_Status,Enterprises Supported Status,Enterprises Supported Status
+button.Add_Scheduled_Configuration,Add Scheduled Configuration,Add Scheduled Configuration
+alert.voucher.redeem_success,Voucher/s {fVoucherCodeSuccess} successfully redeemed.,Voucher/s {fVoucherCodeSuccess} successfully redeemed.
+sms.voucher_redemption.voucher_partially_redeemed,"Dear {fFarmerName}, you will receive new voucher codes for partially redeemed voucher {fRequestCode} within the next hour or two. Thank you - {fProviderName}.","Dear {fFarmerName}, you will receive new voucher codes for partially redeemed voucher {fRequestCode} within the next hour or two. Thank you - {fProviderName}."
+custom_header.crop77,{DashboardUtil:uCrop77},{DashboardUtil:uCrop77}
+reportstableheading.Products_Redeemed_Report,Products Redeemed Report,Products Redeemed Report
+table_heading.service_point_type,Service point type,Service point type
+reportsviewheading.Web_Reports,Web Reports,Web Reports
+table_column_heading.location_level_three,location_level_three,location_level_three
+reports_utilized.Utilized_(Redeemed_Bags),Utilized (Redeemed Bags),Utilized (Redeemed Bags)
+label.dob_*,Dob *,Dob *
+button.Change_Location,Change Location,Change Location
+input.Scheduled_Time,Scheduled Time,Scheduled Time
+custom_header.crop16,{DashboardUtil:uCrop16},{DashboardUtil:uCrop16}
+alert.object.voucher_template_no_category,Please select a category.,Please select a category.
+error.location_level_five,Level 5 cannot be empty,Level 5 cannot be empty
+column_heading.processing,Processing,Processing
+table_heading.agro_dealer_transaction,Agro dealer transaction,Agro dealer transaction
+confirm_body.remove_web_user_role,Are you sure you would like to remove this Role from this user?,Are you sure you would like to remove this Role from this user?
+alert.start_date_status.error,Start Date Can Not Be Less Than Current Date,Start Date Can Not Be Less Than Current Date
+button.Reject,Reject,Reject
+table.Select,Select,Select
+table_column_heading.location_level_four,location_level_four,location_level_four
+column.Active,Active,Active
+column.date_expired,Date expired,Date expired
+custom_header.crop1,{DashboardUtil:uCrop1},{DashboardUtil:uCrop1}
+stringgroup.Key,Key,Key
+view_heading.Set_Role_Group_Actions,Set Role Group Actions,Set Role Group Actions
+button.remove,Remove,Remove
+custom_header.reportsgenerictemplate_column_decimal5,{ReportsGenericViewerLabels:column_decimal5},{ReportsGenericViewerLabels:column_decimal5}
+row_action._Trigger,Trigger,Trigger
+button.Roles,Roles,Roles
+alert.object.voucher_batch_no_budget,Voucher Batch requires an Initial Budget,Voucher Batch requires an Initial Budget
+string_label.child_location,Child location,Child location
+button.Schedule,Schedule,Schedule
+table_heading.farmer_payment,Farmer payment,Farmer payment
+custom_header.reportsgenerictemplate_column_int6,{ReportsGenericViewerLabels:column_int6},{ReportsGenericViewerLabels:column_int6}
+view_heading.view_agro_dealer_profile,View agro dealer profile,View agro dealer profile
+column.paid_On,Paid On,Paid On
+button.update_stock,Update stock,Update stock
+table_heading.locations_with_errors,Locations with errors,Locations with errors
+button.Load_Defaults,Load Defaults,Load Defaults
+label.Order_Number,Order Number,Order Number
+alert.stock.stock_received,Stock received,Stock received
+reports_reportorder.Archived,Archived,Archived
+table_heading.Comments,Comments,Comments
+info.Uploader,Uploader,Uploader
+reports_reportdescription.Report_Description,Report Description,Report Description
+column.First_Name,First Name,First Name
+label.Type,Type,Type
+column.redeemed,Redeemed,Redeemed
+label.kephis_Cert_Number,Kephis Cert Number,Kephis Cert Number
+column.Ward,Ward,Ward
+button.add_crops,Add enterprises,Add enterprises
+string_label._Unit_name,Unit name,Unit name
+view_heading.Voucher_Batch_Crops,Voucher Batch Crops,Voucher Batch Crops
+string_label.Last_Connected,Last Connected,Last Connected
+label.request_code,Request code,Request code
+string_label.last_name,Last name,Last name
+string_label.Journey_Version,Journey Version,Journey Version
+confirm_subject.archive_location_level,Delete Location Level,Delete Location Level
+column.Number_of_farmers_registered,Number of farmers registered,Number of farmers registered
+table_column_heading.location_level_six,location_level_six,location_level_six
+table_heading.web_user,Web user,Web user
+view_heading.edit_farmer_payment,Edit farmer payment,Edit farmer payment
+view_heading.Upload_Bank_Deposit_File,Bank Deposits Proof of Payment,Bank Deposits Proof of Payment
+column_heading.location_level_ten,Level 10,Level 10
+column_heading.Question_Number,Question Number,Question Number
+custom_header.crop87,{DashboardUtil:uCrop87},{DashboardUtil:uCrop87}
+view_heading.Dashboard,Dashboard,Dashboard
+warn.multi_user_message,"NOTE: If a user has more than one role, only one message will be sent.","NOTE: If a user has more than one role, only one message will be sent."
+view_heading.vetting_pool,Vetting pool,Vetting pool
+label.Location,Location,Location
+custom_header.crop68,{DashboardUtil:uCrop68},{DashboardUtil:uCrop68}
+view_heading.manage_Service_Point_Types,Manage Service Point Types,Manage Service Point Types
+view_heading.create_Location,Create Location,Create Location
+column.date_archived,Date archived,Date archived
+custom_header.crop82,{DashboardUtil:uCrop82},{DashboardUtil:uCrop82}
+custom_header.hierarchy_level_six,Hierarchy level six,Hierarchy level six
+info.Objects_Available,Objects Available,Objects Available
+label.plotLR,PlotLR,PlotLR
+button_heading.select,Select,Select
+label.lipa_mpesa_number,Lipa mpesa number,Lipa mpesa number
+alert.voucher.redeemed.insufficent_voucher_amount,Insufficient amount left to redeem voucher.,Insufficient amount left to redeem voucher.
+column.gender,Gender,Gender
+label.quantity,Quantity,Quantity
+button.Update_All,Update All,Update All
+column.end,End,End
+heading.Filter_for_user_recipients,Filter for user recipients,Filter for user recipients
+alert.field.validation.required,This is a required field.,This is a required field.
+view_heading.Create_Web_user,Create Web user,Create Web user
+table_heading.fertilizer_type,Fertilizer type,Fertilizer type
+reports_generic.Report_Element,Report Element,Report Element
+row_action.archive,Archive,Archive
+alert.stock.invalid_destination,Please select a destination for stock transfer,Please select a destination for stock transfer
+view_heading.Bulk_Upload_Farmers,Bulk Upload Farmers,Bulk Upload Farmers
+column_heading.location_level_seven,Level 7,Level 7
+button.Error_logs,Error logs,Error logs
+view_heading.voucher_transactions_fee_menu,Voucher transactions fee menu,Voucher transactions fee menu
+datefield.End_Date,End Date,End Date
+column_heading.subcounty,Subcounty,Subcounty
+alert.farmer.request.voucher_exists_redeemed,Voucher already issued.,Voucher already issued.
+button.add_mobile_user,Add mobile user,Add mobile user
+custom_header.crop69,{DashboardUtil:uCrop69},{DashboardUtil:uCrop69}
+column.max_size,Max enterprise units,Max enterprise units
+table_heading.extension_officer_profile,Extension officer profile,Extension officer profile
+column_heading.farmer.lastname,lastname,lastname
+alert_error.unit_name_required,alert_error.unit_name_required,alert_error.unit_name_required
+input.To_Date,To Date,To Date
+button.Re-activate,Re-activate,Re-activate
+label.farmer_county,Farmer county,Farmer county
+table_heading.activity_logs,Activity logs,Activity logs
+menu_item.Configurable_Forms,Configurable Forms,Configurable Forms
+table_heading.stock_transaction,Stock transaction,Stock transaction
+email.descriptionKey,{emailDescription},{emailDescription}
+reports_fertilizertype.Fertilizer_Type,Fertilizer Type,Fertilizer Type
+custom_header.question_2,{Reportviewer:uQuestion2Header},{Reportviewer:uQuestion2Header}
+label.Location_Name,Location Name,Location Name
+column.payment_code,Payment code,Payment code
+label.payment_code,Payment code,Payment code
+model.system.setting,Settings,Settings
+button.injectMessage,InjectMessage,InjectMessage
+custom_header.crop63,{DashboardUtil:uCrop63},{DashboardUtil:uCrop63}
+column_heading.scheduled_events,Scheduled events,Scheduled events
+column.voucher_code,Voucher code,Voucher code
+view_heading.view_stock_transaction,View stock transaction,View stock transaction
+custom_header.reportsgenerictemplate_column_int10,{ReportsGenericViewerLabels:column_int10},{ReportsGenericViewerLabels:column_int10}
+label.bank_Name,Bank Name,Bank Name
+reportstableheading.Subsidy_Finance_Report,Subsidy Finance Report,Subsidy Finance Report
+alert.voucher.expired,Voucher {fCode} has already expired.,Voucher {fCode} has already expired.
+email.bodyKey,{emailBody},{emailBody}
+alert.farmer.request.voucher_batch_not_found,No Voucher Batches match your Request Code,No Voucher Batches match your Request Code
+input.Key,Key,Key
+input.sms_content_csv,Sms content csv,Sms content csv
+reports_depot.Depot,Depot,Depot
+button.Reset,Reset,Reset
+column.Farmers_Involved,Farmers Involved,Farmers Involved
+column.ward,Ward,Ward
+Select_User,Select User,Select User
+custom_header.crop11,{DashboardUtil:uCrop11},{DashboardUtil:uCrop11}
+reportstableheading.Assigned_Mobile_Users,Assigned Mobile Users,Assigned Mobile Users
+enum.ORDER_STATUS.Delivered,Delivered,Delivered
+view_heading.groups_menu,Groups menu,Groups menu
+column_heading.event_source,Event source,Event source
+column.regCertNumber,RegCertNumber,RegCertNumber
+view_heading.Edit_StringGroup,Edit StringGroup,Edit StringGroup
+label.national_ID,National ID,National ID
+column_heading.customer_name,Customer Name,Customer Name
+stringgroup.VersionKey,VersionKey,VersionKey
+column_heading.partial,Partial,Partial
+label.ServicePoint,ServicePoint,ServicePoint
+table_heading.Agro_Dealer_Transaction_Fee_Payment_History,Agro Dealer Transaction Fee Payment History,Agro Dealer Transaction Fee Payment History
+alert.object.not_found,{uObjectName} not found.,{uObjectName} not found.
+custom_header.crop52,{DashboardUtil:uCrop52},{DashboardUtil:uCrop52}
+button_heading.view_paid_orders,View Paid Orders,View Paid Orders
+table_heading.farmer_crop_vetting_pool,Farmer enterprise vetting pool,Farmer enterprise vetting pool
+column.reference,Reference,Reference
+view_heading.Outbound_bulk_messages,Outbound bulk messages,Outbound bulk messages
+error.location_level_two,Level 2 cannot be empty,Level 2 cannot be empty
+alert.object.updated,{uObjectName} updated.,{uObjectName} updated.
+sms.voucher_redemption.no_voucher_batch,No Voucher Batch found with code {fRequestCode}.,No Voucher Batch found with code {fRequestCode}.
+confirmation.reactivate_message_body,Are you sure you would like to re-activate this mobile number? User will begin receiving SMSes from the system again?,Are you sure you would like to re-activate this mobile number? User will begin receiving SMSes from the system again?
+column_heading.value,Value,Value
+alert_error.required_field,Please note this field is required.,Please note this field is required.
+label.verified_farm_size,Verified enterprise size,Verified enterprise size
+view_heading.edit_agro_dealer_transaction,Edit agro dealer transaction,Edit agro dealer transaction
+column.date_created,Date created,Date created
+button.add_farmer_payment,Add farmer payment,Add farmer payment
+button.add_extension_officer_profile,Add extension officer profile,Add extension officer profile
+menu_item.Agrodealer,Agrodealer,Agrodealer
+view_heading.View_Sms_Content,View Sms Content,View Sms Content
+custom_header.reportsgenerictemplate_column_int2,{ReportsGenericViewerLabels:column_int2},{ReportsGenericViewerLabels:column_int2}
+column.module,Module,Module
+table_heading.Agro_Dealer_Transaction_Fee_History,Agro Dealer Transaction Fee History,Agro Dealer Transaction Fee History
+column_heading.first_name,First name,First name
+alert_error.no_message_content,alert_error.no_message_content,alert_error.no_message_content
+column.number_of_plots,Number of plots,Number of plots
+label.name,Name,Name
+button.Add_Variable,Add Variable,Add Variable
+alert.comment.success,Your comment has been added,Your comment has been added
+view_heading.settings_menu,Settings menu Kilifi,Settings menu Kilifi
+label.Include_Own_Level,Include Own Level,Include Own Level
+view_heading.view_user_group,View user group,View user group
+table_title.tasks,Tasks,Tasks
+label.middleName,MiddleName,MiddleName
+column.Product_Name,Product Name,Product Name
+view_heading.edit_crop,Edit enterprise,Edit enterprise
+column_heading.farmer.preferredlanguage,Preferredlanguage,Preferredlanguage
+button.Point_In_Time,Point In Time,Point In Time
+column.weight,Weight,Weight
+view_heading.verify_farmer_crop,Verify farmer crop,Verify farmer crop
+table_heading.location_level,Location level,Location level
+custom_header.crop97,{DashboardUtil:uCrop97},{DashboardUtil:uCrop97}
+button.add_group_member,Add group member,Add group member
+reports_agrodealer.Agro_Dealer_Name,Agro Dealer Name,Agro Dealer Name
+view_heading.Order_Management,Order Management,Order Management
+label.Bags_Cost,Bags Cost,Bags Cost
+column.Event_Source,Event Source,Event Source
+label.CreateEditMode,CreateEditMode,CreateEditMode
+view_heading.Manage_benefit_template,Manage benefit template,Manage benefit template
+button.Invalid_Uploads,Invalid Uploads,Invalid Uploads
+column.processed,Processed,Processed
+label.Role_Service_Point,Role Service Point,Role Service Point
+menu_item.vouchers,Vouchers,Vouchers
+view_heading.task_management,Task management,Task management
+custom_header.location_level_nine,Location level nine,Location level nine
+alert.error.voucher_batch.select_stock,Please select Stock.,Please select Stock.
+view_heading.manage_Service_Points,Manage Service Points,Manage Service Points
+alert_error.Required_Field,Please note this field is required.,Please note this field is required.
+view_heading.farmer_Profile_-_Audit,Farmer Profile - Audit,Farmer Profile - Audit
+menu_item.ServicePointType,ServicePointType,ServicePointType
+column.batch_name,Batch name,Batch name
+reports_countydepot.County-Depot,County-Depot,County-Depot
+view_heading.Group_Message,Group Message,Group Message
+view_heading.Manage_Users,Manage Users,Manage Users
+alert.farmer.request.voucher_created,Voucher created.,Voucher created.
+label.profile_path,Profile path,Profile path
+column.mobile_role,Mobile role,Mobile role
+column_heading.Error,Error,Error
+custom_header.crop29,{DashboardUtil:uCrop29},{DashboardUtil:uCrop29}
+input.length,Length,Length
+label.size,Size,Size
+column_heading.county,County,County
+column.Date_Sent,Date Sent,Date Sent
+table_heading.Matching_Service_Point_Hierarchy,Matching Service Point Hierarchy,Matching Service Point Hierarchy
+column.Date_of_Birth,Date of Birth,Date of Birth
+column_heading.farmer.nokfirstname,nokfirstname,nokfirstname
+column_heading.bags_res,Bags res,Bags res
+view_heading.create_stock_item,Create stock item,Create stock item
+custom_header.reportsgenerictemplate_column_decimal7,{ReportsGenericViewerLabels:column_decimal7},{ReportsGenericViewerLabels:column_decimal7}
+label.id_number_*,Id number *,Id number *
+column.Object_Id,Object Id,Object Id
+model.logs.error_log,Error Log,Error Log
+label.farm_size,Farm size,Farm size
+column_heading.Price,Price,Price
+alert_error.invalid_dob,No date of birth specified.,No date of birth specified.
+string_label.password,Password,Password
+column_heading.res,Res,Res
+row_action._Toggle_Status,Toggle Status,Toggle Status
+custom_header.stock_code,code,code
+alert.object.voucher_batch_no_fertilizers,Please add Products to Voucher Batch before continuing.,Please add Products to Voucher Batch before continuing.
+label.start,Start,Start
+label.paid,Paid,Paid
+button.add_role_group,Add role group,Add role group
+view_heading.PreReg_Farmers,PreReg Farmers,PreReg Farmers
+label.Aggregate_By,Aggregate By,Aggregate By
+alert_error.invalid_month,Month value {month} is invalid month.,Month value {month} is invalid month.
+label.payment_Preference,Payment Preference,Payment Preference
+column.date,Date,Date
+custom_header.hierarchy_level_one,Hierarchy level one,Hierarchy level one
+column_heading.Object_Uuid,Object Uuid,Object Uuid
+label.dob,Dob,Dob
+reportsviewheading.Detailed_Fertilizer_Balance_per_Depot/Agro_dealer,Detailed Fertilizer Balance per Depot/Agro dealer,Detailed Fertilizer Balance per Depot/Agro dealer
+column.bags_available,Bags available,Bags available
+column_heading.ward,Ward,Ward
+button.create,Create,Create
+custom_header.crop43,{DashboardUtil:uCrop43},{DashboardUtil:uCrop43}
+button.finalise,Finalise,Finalise
+alert.uploadfile.no_fileupload,No file has been uploaded,No file has been uploaded
+column.id_number,Id number,Id number
+label.businessRegType,BusinessRegType,BusinessRegType
+column_heading.order_total,Order Total,Order Total
+column_heading.farmer.gender,gender,gender
+view_heading.Edit_TranslationPair,Edit TranslationPair,Edit TranslationPair
+column_heading.Number_of_recipients,Number of recipients,Number of recipients
+label.middle_name,Middle name,Middle name
+alert.error.no_agro_dealer,Could not determine AgroDealer,Could not determine AgroDealer
+view_heading.Farmer_crop_view,Farmer crop view,Farmer crop view
+column.Farmer_Mobile_Number,Farmer Mobile Number,Farmer Mobile Number
+view_heading.edit_group_member,Edit group member,Edit group member
+column.Farmers_with_GPS_coordinates,Farmers with GPS coordinates,Farmers with GPS coordinates
+reports_registeredfarmers.Registered_Farmers,Registered Farmers,Registered Farmers
+view_heading.Voucher_Request_Filter,Voucher Request Filter,Voucher Request Filter
+column.bankName,BankName,BankName
+custom_header.hierarchy_level_eight,Hierarchy level eight,Hierarchy level eight
+label.units_*,Units *,Units *
+custom_header.reportsgenerictemplate_viewHeading,{ReportsGenericViewerLabels:uViewHeading},{ReportsGenericViewerLabels:uViewHeading}
+label.units,Units,Units
+button.add_web_user,Add web user,Add web user
+alert.service_point_type_duplicate,A service point type with this name exists already,A service point type with this name exists already
+view_heading.agro_Dealer_Profile,Agro Dealer Profile,Agro Dealer Profile
+custom_header.crop8,{DashboardUtil:uCrop8},{DashboardUtil:uCrop8}
+menu_item.CropVouchersReport,CropVouchersReport,CropVouchersReport
+column.transaction,Transaction,Transaction
+button.action,Action,Action
+button_heading.view_deposits_orders,View Deposited Orders,View Deposited Orders
+label.payment_Code,Payment Code,Payment Code
+column.finalised,Finalised,Finalised
+label.Total_owed,Total owed,Total owed
+column_heading.Comment,Comment,Comment
+table_title.Locations,Locations,Locations
+custom_header.crop61,{DashboardUtil:uCrop61},{DashboardUtil:uCrop61}
+alert.uploadfile.confirmprocessbodyquick,Please confirm that you wish to process this file immediately?,Please confirm that you wish to process this file immediately?
+alert.uploadfile.confirmprocessbody,"Please confirm that you wish to process this file immediately, which may take some time?","Please confirm that you wish to process this file immediately, which may take some time?"
+column_heading.farmer.id_number,id number,id number
+label.Enterprise_Category*,Enterprise Category*,Enterprise Category*
+column_heading.DateCreated,DateCreated,DateCreated
+column_heading.farmer.farmlatitude,farmlatitude,farmlatitude
+view_heading.Voucher_Summary,Voucher Summary,Voucher Summary
+view_heading.upload_with_errors,Upload with errors,Upload with errors
+label.amount,Amount,Amount
+label.bags_redeemed,Units Redeemed,Units Redeemed
+alert.error.no_voucher_redeemer,Could not determine Voucher Redeemer,Could not determine Voucher Redeemer
+view_heading.view_role_group_profile,View role group profile,View role group profile
+view_heading.voucher_menu,Voucher menu,Voucher menu
+reportsviewheading.Eligible_Voucher_Requests,Eligible Voucher Requests,Eligible Voucher Requests
+column_heading.effect,Effect,Effect
+label.sub_depot,Sub depot,Sub depot
+custom_header.question_4,{Reportviewer:uQuestion4Header},{Reportviewer:uQuestion4Header}
+menu_item.stock,Stock,Stock
+column.User_Name,User Name,User Name
+view_heading.manage_Service_Point,Manage Service Point,Manage Service Point
+alert.error.voucher_batch.insufficient_stock,Insufficient stock for {fStockName} in county {fCountyName},Insufficient stock for {fStockName} in county {fCountyName}
+input_label.Mobile_User,Mobile User,Mobile User
+column_heading.Male_Farmers,Male Farmers,Male Farmers
+view_heading.Form_Filter,Form Filter,Form Filter
+column_heading.code,Code,Code
+column_heading.farmer.middlename,middlename,middlename
+view_heading.activity_log,Activity log,Activity log
+info.scheduled_function_config_updated,Scheduled Function updated,Scheduled Function updated
+reportstableheading.Stock_Recon_Report,Stock Reconiliation Report,Stock Reconiliation Report
+column.bags_requested,Units requested,Units requested
+menu_item.config,Config,Config
+column.Enrolled,Enrolled,Enrolled
+table_heading.configs,Configs,Configs
+column.bag_cost,Unit cost,Unit cost
+reports_crops.Crops,Enterprises,Enterprises
+column.days,Days,Days
+button.view_members,View members,View members
+reportsviewheading.Subsidy_Finance_Report,Subsidy Finance Report,Subsidy Finance Report
+alert_error.empty_message,Please enter content for the message.,Please enter content for the message.
+alert.farmer_crop_verfied,Farmer Crop Verified,Farmer Crop Verified
+button.assign,Assign,Assign
+reports_farmertelno.Farmer_Tel_No,Farmer Tel No,Farmer Tel No
+view_heading.edit_institute_config,Edit institute config,Edit institute config
+custom_header.crop40,{DashboardUtil:uCrop40},{DashboardUtil:uCrop40}
+table_heading.scheduled_event_logs,Scheduled event logs,Scheduled event logs
+button.add_voucher_batch,Add voucher batch,Add voucher batch
+info.Number_of_recipients_in_groups,Number of recipients in groups,Number of recipients in groups
+alert.error.no_service_point,Could not determine Service Point,Could not determine Service Point
+column.Beneficiary_Name,Beneficiary Name,Beneficiary Name
+column.JourneryAppVersion,JourneryAppVersion,JourneryAppVersion
+custom_header.reportsgenerictemplate_column_int4,{ReportsGenericViewerLabels:column_int4},{ReportsGenericViewerLabels:column_int4}
+alert.object.voucher_batch_name_exists_already,The voucher batch name {fAttributeName} exists already.,The voucher batch name {fAttributeName} exists already.
+column_heading.farmer.locationlevel4,locationlevel4,locationlevel4
+input.category,Category,Category
+button.voucher_logs,Voucher logs,Voucher logs
+column.verfied_date,Verfied date,Verfied date
+column_heading.Content,Content,Content
+button.LoadRoleServicePoint,LoadRoleServicePoint,LoadRoleServicePoint
+table_heading.Available_Role_Groups,Available Role Groups,Available Role Groups
+reports_unallocatedksh.Unallocated_(Ksh),Unallocated (Ksh),Unallocated (Ksh)
+column_heading.User,User,User
+view_heading.View_Paid_Orders,All orders paid,All orders paid
+column_heading.Level,Level,Level
+view_heading.Issue_Stock,Issue Stock,Issue Stock
+button.add_action,Add action,Add action
+view_heading.Create_Sms_Language,Create Sms Language,Create Sms Language
+table_heading.location,Location,Location
+custom_header.hierarchy_level_nine,Hierarchy level nine,Hierarchy level nine
+alert.uploadfile.scheduled,This file has been scheduled for processing and the status cannot be changed.,This file has been scheduled for processing and the status cannot be changed.
+view_heading.Manage_Sms_Type,Manage Sms Type,Manage Sms Type
+label.Enterprise_Ownership_*,Enterprise Ownership *,Enterprise Ownership *
+label.paymentCode,PaymentCode,PaymentCode
+table_heading.role_group,Role group,Role group
+input.sms_message,Sms message,Sms message
+table_heading.Fertilizer_Selected,Product Selected,Product Selected
+column.location_level,Location level,Location level
+button.reupload,Reupload,Reupload
+column_heading.voucher_batch_requestcode,Voucher batch requestcode,Voucher batch requestcode
+button.update_template,Update template,Update template
+column_heading.Created_by,Created by,Created by
+error.location_level_nine,Level 9 cannot be empty,Level 9 cannot be empty
+view_heading.receive_Stock,Receive Stock,Receive Stock
+column.Date_Range,Date Range,Date Range
+label.voucher_active_days,Voucher active days,Voucher active days
+reportsviewheading.Enterprises_Supported_Status,Enterprises Supported Status,Enterprises Supported Status
+column_heading.mobile_number,Mobile number,Mobile number
+heading.System_Initiators,System Initiators,System Initiators
+button.Unit_Test,Unit Test,Unit Test
+input.messageOriginInject_sms,MessageOriginInject sms,MessageOriginInject sms
+input_label.is_mobile_role,Is mobile role,Is mobile role
+column_heading.Order_Created_Date,Order Created Date,Order Created Date
+alert.object.activated,{uObjectName} active status changed.,{uObjectName} active status changed.
+column_heading.datetimestampStarted,DatetimestampStarted,DatetimestampStarted
+custom_header.crop34,{DashboardUtil:uCrop34},{DashboardUtil:uCrop34}
+table_heading.voucher_template,Voucher template,Voucher template
+table_heading.Assigned_Action,Assigned Action,Assigned Action
+column_heading.voucher_batch_name,Voucher batch name,Voucher batch name
+input.Re-Enroll,Re-Enroll,Re-Enroll
+button.next,Next,Next
+column.institute,Institute,Institute
+button_heading.Remove,Remove,Remove
+label.fertiliser,Product,Product
+custom_header.reportsgenerictemplate_column_decimal9,{ReportsGenericViewerLabels:column_decimal9},{ReportsGenericViewerLabels:column_decimal9}
+column_heading.Status,Status,Status
+label.Bags_available,Available,Available
+alert.object.voucher_batch_request_code_required,Please enter a valid alphanumeric Request Code,Please enter a valid alphanumeric Request Code
+alert.farmer.request.voucher_batch_insufficient_stock,Insufficient Stock for Voucher Batch,Insufficient Stock for Voucher Batch
+alert.role_created,New user role created.,New user role created.
+column_heading.Gender,Gender,Gender
+button.Verify,Verify,Verify
+custom_header.stock_group_price,group_price,group_price
+alert_error.Wrong_time_format,The time is in the incorrect format please use HH:00,The time is in the incorrect format please use HH:00
+label.member_count,Member count,Member count
+label.outstanding_balance,Outstanding balance,Outstanding balance
+alert_error.sms.no_content,No SMS content.,No SMS content.
+table_heading.Fertilizer_Available,Fertilizer Available,Fertilizer Available
+column_heading.farmer.croptypename,croptypename,croptypename
+column_heading.error,Error,Error
+column.datetime_created,Datetime created,Datetime created
+custom_header.location_level_five,Location level five,Location level five
+view_heading.view_voucher_batch_transaction,View voucher batch transaction,View voucher batch transaction
+view_heading.edit_User_Group,Edit User Group,Edit User Group
+view_heading.manage_Internal_Support,Manage Internal Support,Manage Internal Support
+confirm_subject.archive_generic,Delete Record,Delete Record
+column_heading.farmer.firstname,firstname,firstname
+label.VAT_Number,VAT Number,VAT Number
+table_column_heading.location_level_nine,location_level_nine,location_level_nine
+label.description,Description,Description
+view_heading.view_farmer_recruitment,View farmer recruitment,View farmer recruitment
+table_heading.Scheduled_Function_Configurations,Scheduled Function Configurations,Scheduled Function Configurations
+alert.uploadfile.confirmscheduledone,The uploaded file has been scheduled for processing. One file is processed per cycle. Please monitor this page for completion.,The uploaded file has been scheduled for processing. One file is processed per cycle. Please monitor this page for completion.
+alert.message.error,Please complete the comment field,Please complete the comment field
+column.qty_selected,Qty selected,Qty selected
+custom_header.crop76,{DashboardUtil:uCrop76},{DashboardUtil:uCrop76}
+view_heading.view_group_member,View group member,View group member
+label.last_name,Last name,Last name
+alert.object.activate,{uObjectName} set to active.,{uObjectName} set to active.
+view_heading.view_role_group,View role group,View role group
+label.Point_In_Time,Point In Time,Point In Time
+column_heading.langfileentry,langfileentry,langfileentry
+column.datetime_modified,Datetime modified,Datetime modified
+button.Restore_langfileentries,Restore langfileentries,Restore langfileentries
+result.config_value_set,Config value set.,Config value set.
+input.Description,Description,Description
+button_label.back,Back,Back
+reports_sold.Quantity_Sold,Quantity Sold,Quantity Sold
+alert.voucher.redeem.insufficient_stock,Insufficient stock,Insufficient stock
+sms.voucher_redemption.voucher_batch_exhausted,There is currently no budget available for VoucherBatch {fRequestCode}.,There is currently no budget available for VoucherBatch {fRequestCode}.
+table_heading.Voucher_log,Voucher log,Voucher log
+label.date_archived,Date archived,Date archived
+table_heading.Farmer_CropVouchers,Farmer CropVouchers,Farmer CropVouchers
+column.initial_quantity,Initial quantity,Initial quantity
+label.season,Season,Season
+input.config_value,Config value,Config value
+table_heading.Download_Template,Download Template,Download Template
+view_heading.view_institute_config,View institute config,View institute config
+button.add_farmer_crop,Add farmer crop,Add farmer crop
+table_heading.Farmer_Crop_Vouchers_Report_Detail,Farmer Crop Vouchers Report Detail,Farmer Crop Vouchers Report Detail
+view_heading.assign_Service_Point_Role_Access,Assign Service Point Role Access,Assign Service Point Role Access
+custom_header.reportsgenerictemplate_column_datetime2,{ReportsGenericViewerLabels:column_datetime2},{ReportsGenericViewerLabels:column_datetime2}
+view_heading.Deployment_Variables,Deployment Variables,Deployment Variables
+table_heading.Farmer_Vouchers,Farmer Vouchers,Farmer Vouchers
+custom_header.crop9,{DashboardUtil:uCrop9},{DashboardUtil:uCrop9}
+column.Recipient_Name,Recipient Name,Recipient Name
+custom_header.crop54,{DashboardUtil:uCrop54},{DashboardUtil:uCrop54}
+alert.object.voucher_batch_no_crops,There are no Enterprises for Voucher Batch,There are no Enterprises for Voucher Batch
+table_heading.agro_dealer_profile,Agro dealer profile,Agro dealer profile
+button.Bulk_Upload,Bulk Upload,Bulk Upload
+column_heading.filter_by_location,Filter by location,Filter by location
+action.back,Back,Back
+column_heading.Name,Name,Name
+reportsviewheading.Configurable_Questions,Configurable Questions,Configurable Questions
+column_heading.Group,Group,Group
+custom_header.location_level_ten,Location level ten,Location level ten
+table.heading.Voucher_Requests,Voucher Requests,Voucher Requests
+reports_reportdate.Date,Date,Date
+view_heading.edit_stock_item,Edit stock item,Edit stock item
+view_heading.Edit_Question_Setup,Edit Question Setup,Edit Question Setup
+column_heading.location_level_six,Level 6,Level 6
+reports_subcounty.Sub_county,Sub county,Sub county
+column_heading.status_date,Status Date,Status Date
+custom_header.crop45,{DashboardUtil:uCrop45},{DashboardUtil:uCrop45}
+table_heading.group_member,Group member,Group member
+column_heading.batch,Batch,Batch
+column_heading.Message_Type,Message Type,Message Type
+label.size_*,Size *,Size *
+column_heading.language,Language,Language
+button.verify,Verify,Verify
+input.label.toDate,ToDate,ToDate
+column.By_Time,By Time,By Time
+column_heading.location_level_five,Level 5,Level 5
+button.Upload_Stock_Items,Upload Stock Items,Upload Stock Items
+label.bankAccountNumber,BankAccountNumber,BankAccountNumber
+column.quantity,Quantity,Quantity
+column.Acreage_/_Units,Acreage / Units,Acreage / Units
+result.config_description_updated,Config description updated.,Config description updated.
+view_heading._Manage_Scheduled_Functions,Manage Scheduled Functions,Manage Scheduled Functions
+view_heading.view_farmer_payment,View farmer payment,View farmer payment
+column_heading.Location,Location,Location
+column.Sync_Location,Sync Location,Sync Location
+column.bag_handling_fee,Bag handling fee,Bag handling fee
+alert.end_date_status.error,End Date Can Not Be Bigger Than Current Date,End Date Can Not Be Bigger Than Current Date
+alert.voucher.redeemed,Voucher {fCode} has already been redeemed.,Voucher {fCode} has already been redeemed.
+table_heading.agro_Dealer_Transactions,Agro Dealer Transactions,Agro Dealer Transactions
+column.customRoleName,CustomRoleName,CustomRoleName
+confirm_body.archive_location_level,Are you sure you would like to delete this Location Level?,Are you sure you would like to delete this Location Level?
+reportstableheading.Eligible_Voucher_Request_Report,Eligible Voucher Request Report,Eligible Voucher Request Report
+alert_error.invalid_farm_size_big,Farm size too big.,Farm size too big.
+info.Upload_Time,Upload Time,Upload Time
+custom_header.crop46,{DashboardUtil:uCrop46},{DashboardUtil:uCrop46}
+info.LastUpdatePath,LastUpdatePath,LastUpdatePath
+label.Preferred_Language,Preferred Language,Preferred Language
+label.isGenericReport,IsGenericReport,IsGenericReport
+label.mobile_role,Mobile role,Mobile role
+info.Type,Type,Type
+error.file_empty,File empty,File empty
+button.back,Back,Back
+table_heading.agro_Dealers,Agro Dealers,Agro Dealers
+view_heading.Default_Data_Population,Default Data Population,Default Data Population
+label.days,Days,Days
+column_heading.stackTrace,StackTrace,StackTrace
+alert.deposit.successful,Deposit successfully confirmed,Deposit successfully confirmed
+sms_alert.new_role_registration,New role registration completed successfully.,New role registration completed successfully.
+column.vatNumber,VatNumber,VatNumber
+confirm_subject.Archive_Message_Schedule_Config,Archive Message Schedule Configuration,Archive Message Schedule Configuration
+table_heading.crop,Enterprise,Enterprise
+alert_error.webuser.mobile_exists,WebUser already exists with mobile number: {fAttributeName}.,WebUser already exists with mobile number: {fAttributeName}.
+alert.role_updated,Role updated.,Role updated.
+alert.uploadfile.confirmprocessdone,The uploaded file has been processed successfully.,The uploaded file has been processed successfully.
+table_heading.sms_logs,Sms logs,Sms logs
+table.Added_roles,Added roles,Added roles
+menu_item.location,Location,Location
+label.Report_Element,Report Element,Report Element
+result.config_deleted,Config setting deleted.,Config setting deleted.
+custom_header.crop70,{DashboardUtil:uCrop70},{DashboardUtil:uCrop70}
+view_heading.edit_action,Edit action,Edit action
+column.cost_per_bag,Cost per bag,Cost per bag
+column_heading.Message,Message,Message
+error.location_level_ten,Level 10 cannot be empty,Level 10 cannot be empty
+confirm_subject.Archive_Item,Archive Item,Archive Item
+button.confirm,Confirm,Confirm
+label.reg_Cert_Number,Reg Cert Number,Reg Cert Number
+button.Include_Archived,Include Archived,Include Archived
+confirm_body.Archive_Message_Schedule_Config,Are you sure you would like to archive this Message Schedule Configuration item?,Are you sure you would like to archive this Message Schedule Configuration item?
+view_heading.edit_fertilizer_template,Edit fertilizer template,Edit fertilizer template
+table_heading.voucher_batch,Voucher batch,Voucher batch
+input_label.active,Active,Active
+table_heading.institute_config,Institute config,Institute config
+view_heading.role_group_message,Role group message,Role group message
+alert.stock.invalid_amount,Please enter a valid positive transfer amount,Please enter a valid positive transfer amount
+custom_header.location_level_three,Location level three,Location level three
+label.Farmer_group,Farmer group,Farmer group
+view_heading.view_extension_officer_profile,View extension officer profile,View extension officer profile
+column.Group_Id,Group Id,Group Id
+label.nok_mobile_number,Nok mobile number,Nok mobile number
+label.nok_first_name,Nok first name,Nok first name
+label.business_Name,Business Name,Business Name
+label.Group_Id,Group Id,Group Id
+custom_header.reportsgenerictemplate_column_string5,{ReportsGenericViewerLabels:column_string5},{ReportsGenericViewerLabels:column_string5}
+table_heading.report_result,Report result,Report result
+column.verified_size,Verified size,Verified size
+custom_header.hierarchy_level_five,Hierarchy level five,Hierarchy level five
+column_heading.Units,Units,Units
+button.change_ward,Change ward,Change ward
+label.government_Personnele_Number,Government Personnele Number,Government Personnele Number
+table_heading.stock_item,Stock item,Stock item
+label.NCPB,NCPB,NCPB
+column.content,Content,Content
+label.village,Village,Village
+column.Upload_Date,Upload Date,Upload Date
+reportsviewheading.Daily_registration,Daily registration,Daily registration
+label.Farmer_mobile,Farmer mobile,Farmer mobile
+button.create_template,Create template,Create template
+info.user_location,User location,User location
+button.add_agro_dealer_profile,Add agro dealer profile,Add agro dealer profile
+alert.error.voucher_batch.select_institute,Please select an Institute.,Please select an Institute.
+button.Upload_SMS_Content,Upload SMS Content,Upload SMS Content
+label.Total_Redeemed_Voucher,Total Redeemed Voucher,Total Redeemed Voucher
+button.View_File,View File,View File
+view_heading.Edit_Sms_Language,Edit Sms Language,Edit Sms Language
+column_heading.source,Source,Source
+label.bags_available,Bags available,Bags available
+table_heading.Deposited_Orders,Deposited Orders,Deposited Orders
+alert.object.voucher_batch_no_location,"Please select a location. If none exist, please create locations first.","Please select a location. If none exist, please create locations first."
+column_heading.farmer.status,status,status
+button.Next,Next,Next
+button.Add_Question,Add Question,Add Question
+button.Toggle_Active,Toggle Active,Toggle Active
+reports_vouchercode.Voucher_Code,Voucher Code,Voucher Code
+button.Cancel,Cancel,Cancel
+alert.voucher.redeem_failure,Voucher/s {fVoucherCodeFailure} have not been processed successfully.,Voucher/s {fVoucherCodeFailure} have not been processed successfully.
+custom_header.reportsgenerictemplate_column_int8,{ReportsGenericViewerLabels:column_int8},{ReportsGenericViewerLabels:column_int8}
+reportstableheading.Redeemed_Vouchers_Report,Redeemed Vouchers Report,Redeemed Vouchers Report
+column_heading.VersionKey,VersionKey,VersionKey
+button.All_Location_Hierarchy,All Location Hierarchy,All Location Hierarchy
+view_heading.farmer_Audit_Log,Farmer Audit Log,Farmer Audit Log
+alert_error.wrong_date_format,"Wrong date format, please use yyyy-mm-dd.","Wrong date format, please use yyyy-mm-dd."
+custom_header.crop39,{DashboardUtil:uCrop39},{DashboardUtil:uCrop39}
+table_heading.error_logs,Error logs,Error logs
+label.status,Status,Status
+reportsviewheading.Products_Redeemed_Report,Products Redeemed Report,Products Redeemed Report
+column_heading.farmer.farmlongitude,farmlongitude,farmlongitude
+view_heading.manage_season,Manage season,Manage season
+label.gender_*,Gender *,Gender *
+view_heading.assign_mobile_user_to_group,Assign mobile user to group,Assign mobile user to group
+view_heading.User_bulk_message,User bulk message,User bulk message
+alert.field.validation.decimal,{uFieldName} needs to be a valid decimal.,{uFieldName} needs to be a valid decimal.
+button.sms_logs,Sms logs,Sms logs
+column_heading.Type,Type,Type
+view_heading.Upload_Locations,Upload Locations,Upload Locations
+label.date_synced,Date synced,Date synced
+input.Dropdown_Item,Dropdown Item,Dropdown Item
+column_heading.question_order,Question order,Question order
+column.Gender,Gender,Gender
+column.Order,Order,Order
+table_heading.Roles_with_Profiles,Roles with Profiles,Roles with Profiles
+alert_error.invalid_cropsize,No farm size specified or farm size of less than 0 specified.,No farm size specified or farm size of less than 0 specified.
+view_heading.manage_crop,Manage Enterprises,Manage Enterprises
+alert.farmer.request.voucher_batch_not_active,Voucher Batch no longer active,Voucher Batch no longer active
+view_heading.Opt_-_Out_Numbers,Opt - Out Numbers,Opt - Out Numbers
+button.Details,Details,Details
+label.physical_address,Physical address,Physical address
+alert.stock.insufficient_amount,There is insufficient Stock available to process the transfer,There is insufficient Stock available to process the transfer
+column_heading.redeemed,Redeemed,Redeemed
+column_heading._Status,Status,Status
+input.farmers_csv,Farmers csv,Farmers csv
+column.verified,Verified,Verified
+row_action.Archive,Archive,Archive
+input.CSV,CSV,CSV
+column_heading.Sub_County,Sub County,Sub County
+column_heading.content,Content,Content
+view_heading.Voucher_Request_Details,Voucher Request Details,Voucher Request Details
+column_heading.success,Success,Success
+error.not_allowed_to_approve,You cannot approve messages created by yourself.,You cannot approve messages created by yourself.
+column.county,County,County
+button.Add_Farmer_Group,Add Farmer Group,Add Farmer Group
+reportsviewheading.Fertilizer_Distribution_Status,Product Distribution Status,Product Distribution Status
+table_heading.Sms_Content,Sms Content,Sms Content
+reportsviewheading.Zanaco_Payments,Zanaco Payments,Zanaco Payments
+custom_header.Voucher_Value,Voucher Value,Voucher Value
+column_heading.end,End,End
+custom_header.crop85,{DashboardUtil:uCrop85},{DashboardUtil:uCrop85}
+info.Upload_Date,Upload Date,Upload Date
+reportstableheading.Voucher_Redemption_Report,Voucher Redemption Report,Voucher Redemption Report
+view_heading.Manage_Sms_Language,Manage Sms Language,Manage Sms Language
+button_heading.view_paid_deposits,View Paid Deposit,View Paid Deposit
+column.Date_Last_Updated,Date Last Updated,Date Last Updated
+custom_header.reportsgenerictemplate_column_datetime4,{ReportsGenericViewerLabels:column_datetime4},{ReportsGenericViewerLabels:column_datetime4}
+string_label.Device_OS,Device OS,Device OS
+column.Service_Point_Type,Service Point Type,Service Point Type
+error.location_level_one,Level 1 cannot be empty,Level 1 cannot be empty
+reports_budgetallocatedksh.Budget_allocated_(Ksh),Budget allocated (Ksh),Budget allocated (Ksh)
+reportstableheading.Daily_Beneficiary_Total_Report,Daily Beneficiary Total Report,Daily Beneficiary Total Report
+table_heading.Farmers_by_Subcounty,Farmers by Subcounty,Farmers by Subcounty
+button.Add_Language,Add Language,Add Language
+custom_header.hierarchy_level_two,Hierarchy level two,Hierarchy level two
+column_heading.Error_Description,Error Description,Error Description
+model.system.config,Configs,Configs
+input.amount_to_pay,Amount to pay,Amount to pay
+view_heading.issue_Stock,Issue Stock,Issue Stock
+input.Message_Type,Message Type,Message Type
+button.Refresh_Filter,Refresh Filter,Refresh Filter
+alert_error.invalid_mobilenumber,No mobile number specified.,No mobile number specified.
+view_heading.view_service_point_type,Stock Locations,Stock Locations
+custom_header.Farmers_by_reportlevel,Farmers by {DashboardUtil:uReportLevelName},Farmers by {DashboardUtil:uReportLevelName}
+input.Value,Value,Value
+button_label.Filter_Refresh,Filter Refresh,Filter Refresh
+label.nationalId,NationalId,NationalId
+button_heading.View_All_Orders,View All Orders,View All Orders
+alert.field.validation.integer,{uFieldName} needs to be a valid integer.,{uFieldName} needs to be a valid integer.
+table_heading.role_group_profile,Role group profile,Role group profile
+label.Report_Key,Report Key,Report Key
+column.Amount_Paid,Amount Paid,Amount Paid
+column.Percentage_of_verified_farmers,Percentage of verified farmers,Percentage of verified farmers
+reports_reportdescription.isGenericReport,IsGenericReport,IsGenericReport
+table_column_heading.location_level_two,location_level_two,location_level_two
+column_heading._Function,Function,Function
+error.location_level_three,Level 3 cannot be empty,Level 3 cannot be empty
+result.config_not_found,Config setting not found.,Config setting not found.
+reports_reportorder.Report_order,Report order,Report order
+label.Language,Language,Language
+custom_header.reportsgenerictemplate_column_datetime5,{ReportsGenericViewerLabels:column_datetime5},{ReportsGenericViewerLabels:column_datetime5}
+table_heading.Transactions_history,Transactions history,Transactions history
+column.current_budget,Current budget,Current budget
+column.last_name,Last name,Last name
+label.Customer_Name,Customer Name,Customer Name
+column_heading.event_desc,Event desc,Event desc
+view_heading.manage_farmer,Manage farmer,Manage farmer
+table_heading.voucher,Voucher,Voucher
+reports_transactiondate.Transaction_Date,Transaction Date,Transaction Date
+alert.bulk_message_success,Bulk Message created and sent for approval.,Bulk Message created and sent for approval.
+custom_header.crop23,{DashboardUtil:uCrop23},{DashboardUtil:uCrop23}
+table_heading.selected_role_groups_for_service_point_type,Selected role groups for service point type,Selected role groups for service point type
+info.locations_to_upload,Locations to upload,Locations to upload
+alert.object.voucher_batch_no_template,"Please select a Voucher Template. If none exist, please create Voucher Templates first.","Please select a Voucher Template. If none exist, please create Voucher Templates first."
+column_heading.location_level,Location level,Location level
+column.businessRegType,BusinessRegType,BusinessRegType
+custom_header.location_level_six,Location level six,Location level six
+button.load,Load,Load
+alert.object.voucher_batch_no_category,Please select a category.,Please select a category.
+table_column_heading.location_level_seven,location_level_seven,location_level_seven
+column.Verified_farmers,Verified farmers,Verified farmers
+reportsviewheading.Reports_Permission,Reports Permission,Reports Permission
+column_heading.farmer.nokmobilenumber,nokmobilenumber,nokmobilenumber
+stringgroup.Known_GroupTypes,Known GroupTypes,Known GroupTypes
+column.Date_Synced,Date Synced,Date Synced
+alert.object.voucher_batch_no_days,Please enter a valid number for Active voucher days.,Please enter a valid number for Active voucher days.
+result.config_value_updated,Config value updated.,Config value updated.
+info.Total_Amount,Total Amount,Total Amount
+button_heading.All_Orders,All Orders,All Orders
+column_heading.Row,Row,Row
+error.location_level_eight,Level 8 cannot be empty,Level 8 cannot be empty
+table_heading.Voucher_Redeemers,Voucher Redeemers,Voucher Redeemers
+alert.Configurable_Setup_Still_Active,Configurable Setup still active,Configurable Setup still active
+table_column_heading.location_level_one,location_level_one,location_level_one
+alert.farmer.not_found,Farmer not found,Farmer not found
+alert.error.farmer_age_not_eligible,Farmer needs to be at least {minimumAge} to be eligible for the programme.,Farmer needs to be at least {minimumAge} to be eligible for the programme.
+view_heading.Select_Location,Select Location,Select Location
+column_heading.Bank_Deposit_Date,Bank Deposit Date,Bank Deposit Date
+column.Amount_Earned,Amount Earned,Amount Earned
+custom_header.reportsgenerictemplate_column_int1,{ReportsGenericViewerLabels:column_int1},{ReportsGenericViewerLabels:column_int1}
+table_heading.farmer_recruitment,Farmer recruitment,Farmer recruitment
+label.paymentPreference,PaymentPreference,PaymentPreference
+alert.Configurable_Drop_Down_Still_Active,Configurable Drop Down still active,Configurable Drop Down still active
+reportsviewheading.Permissions,Permissions,Permissions
+button.cancel,Cancel,Cancel
+view_heading.view_Agro_Dealer_Payments,View Agro Dealer Payments,View Agro Dealer Payments
+validation.required,This is a required field.,This is a required field.
+table_heading.Location_Hierarchy,Location Hierarchy,Location Hierarchy
+table_heading.Available_Object_Types,Available Object Types,Available Object Types
+label.Enterprise_Category_*,Enterprise Category *,Enterprise Category *
+custom_header.reportsgenerictemplate_column_string2,{ReportsGenericViewerLabels:column_string2},{ReportsGenericViewerLabels:column_string2}
+view_heading.audit_scheduled_function_log,Audit scheduled function log,Audit scheduled function log
+column.governmentPersonneleNumber,GovernmentPersonneleNumber,GovernmentPersonneleNumber
+view_heading.config_menu,Config menu,Config menu
+custom_header.reportsgenerictemplate_column_decimal1,{ReportsGenericViewerLabels:column_decimal1},{ReportsGenericViewerLabels:column_decimal1}
+column_heading.quantity,Quantity,Quantity
+table_heading.mobile_user,Mobile user,Mobile user
+view_heading.Select_groups_to_message,Select groups to message,Select groups to message
+label.Name,Name,Name
+view_heading.edit_Location,Edit Location,Edit Location
+info.csv_headers,Csv headers,Csv headers
+column_heading.farmer.cropsize,cropsize,cropsize
+reportstableheading.Voucher_Codes_Sent_Report,Voucher Codes Sent Report,Voucher Codes Sent Report
+view_heading.View_Agro_Dealer_Transaction_Fee_History,View Agro Dealer Transaction Fee History,View Agro Dealer Transaction Fee History
+view_heading.capture_stock_transaction,Capture stock transaction,Capture stock transaction
+validation.validation_successful,Successful,Successful
+column.Account_Name,Account Name,Account Name
+reportsviewheading.Filtered_Voucher_Redemption_Report,Filtered Voucher Redemption Report,Filtered Voucher Redemption Report
+alert.object.voucher_template_name_required,Voucher Template name required.,Voucher Template name required.
+reports_acreage.Acreage,Acreage,Acreage
+column.date_synced,Date synced,Date synced
+custom_header.location_level_one,Location level one,Location level one
+reportstableheading.Voucher_report_per_county_per_depot,Voucher report per county per depot,Voucher report per county per depot
+column.total_owed,Total owed,Total owed
+menu_item.Farmer_Recruitment,Farmer Recruitment,Farmer Recruitment
+button.Refresh,Refresh,Refresh
+view_heading.view_Internal_Support,View Internal Support,View Internal Support
+view_heading.Send_SMS,Send SMS,Send SMS
+column_heading.DateModified,DateModified,DateModified
+reportstableheading.Filtered_Voucher_Redemption_Report,Filtered Voucher Redemption Report,Filtered Voucher Redemption Report
+alert.no_matches_found,No users found,No users found
+column.Voucher_Batch,Voucher Batch,Voucher Batch
+button.archive,Archive,Archive
+alert.invalid_locations_found,Invalid Locations Found,Invalid Locations Found
+string_label.mobile_number,Mobile number,Mobile number
+custom_header.reportsgenerictemplate_column_decimal2,{ReportsGenericViewerLabels:column_decimal2},{ReportsGenericViewerLabels:column_decimal2}
+button.add_fertilizer,Add fertilizer,Add fertilizer
+label.Dob_*,Dob *,Dob *
+alert.helpers.unkown_role,Unknown role.,Unknown role.
+confirmation.reject_messages_subject,Reject Messages?,Reject Messages?
+reports_ward.Ward,Ward,Ward
+column.subsidy_per_bag,Subsidy per bag,Subsidy per bag
+column.reserved,Reserved,Reserved
+table_heading.Orders_Ready_To_Confirm,Orders Ready To Confirm,Orders Ready To Confirm
+view_heading.create_Internal_Support,Create Internal Support,Create Internal Support
+column.fee_received,Fee received,Fee received
+column.name,Name,Name
+column.Date_Redeemed,Date Redeemed,Date Redeemed
+column_heading.created,Created,Created
+table.Dropdown_List,Dropdown List,Dropdown List
+table_heading.Enterprises_by_reportlevel,Enterprises by reportlevel,Enterprises by reportlevel
+column.nationalId,NationalId,NationalId
+column_heading.Parent,Parent,Parent
+view_heading.manage_user_group,Manage user group,Manage user group
+column_heading.Last_Name,Last Name,Last Name
+label.mobile_number,Mobile number,Mobile number
+alert.uploadfile.confirmdeletebody,Please confirm that you wish to delete this uploaded file?,Please confirm that you wish to delete this uploaded file?
+input.From_Date,From Date,From Date
+custom_header.location_level_four,Location level four,Location level four
+view_heading.Upload_SMS_Content,Upload SMS Content,Upload SMS Content
+view_heading.Manage_Categories,Manage Categories,Manage Categories
+custom_header.hierarchy_level_ten,Hierarchy level ten,Hierarchy level ten
+alert.Message_Schedule_Config_Still_Active,Message Schedule Configuration still active,Message Schedule Configuration still active
+label.Bags_selected,Bags selected,Bags selected
+label.Note,Note,Note
+button.Archive,Archive,Archive
+custom_header.reportstableheading,{Reportviewer:uZanacoPaymentReportName},{Reportviewer:uZanacoPaymentReportName}
+menu_item.Configurable_Questions,Configurable Questions,Configurable Questions
+column_heading.red,Red,Red
+alert.crop.active_vouchers,Enterprise is still in use by active vouchers.,Enterprise is still in use by active vouchers.
+column.County,County,County
+view_heading.edit_web_user,Edit web user,Edit web user
+button_heading.Show_List,Show List,Show List
+label.To_Date,To Date,To Date
+alert_error.invalid_firstname,No first name specified.,No first name specified.
+column.Error_Message,Error Message,Error Message
+view_heading.edit_voucher_batch_transaction,Edit voucher batch transaction,Edit voucher batch transaction
+model.system.result,Result,Result
+label.location_level,Location level,Location level
+custom_header.crop30,{DashboardUtil:uCrop30},{DashboardUtil:uCrop30}
+column.datetime_archived,Datetime archived,Datetime archived
+row_action.Assign,Assign,Assign
+column_heading.Error_Effect,Error Effect,Error Effect
+info.characters,Characters,Characters
+button.Fix_Erros,Fix Erros,Fix Erros
+custom_header.hierarchy_level_three,Hierarchy level three,Hierarchy level three
+column_heading.Product_Name,Product Name,Product Name
+button.add_role_group_profile,Add role group profile,Add role group profile
+alert.object.voucher_template_no_max_bags,Please enter a valid number for Maximum Bags per voucher.,Please enter a valid number for Maximum Bags per voucher.
+reports_generic.Report_Definition_Management,Report Definition Management,Report Definition Management
+label.destination,Destination,Destination
+custom_header.crop96,{DashboardUtil:uCrop96},{DashboardUtil:uCrop96}
+column.mobile_number,Mobile number,Mobile number
+custom_header.question_1,{Reportviewer:uQuestion1Header},{Reportviewer:uQuestion1Header}
+input.Archived,Archived,Archived
+row_action.(Un)Archive,(Un)Archive,(Un)Archive
+column.description,Description,Description
+view_heading.Agrodealer_Menu,Agrodealer Menu,Agrodealer Menu
+alert.farmer.mobile_number_null,Farmer mobile number is null,Farmer mobile number is null
+table_heading.Language,Language,Language
+column.qty_redeemed,Qty redeemed,Qty redeemed
+custom_header.reportsgenerictemplate_column_string3,{ReportsGenericViewerLabels:column_string3},{ReportsGenericViewerLabels:column_string3}
+view_heading.manage_voucher_category,Manage voucher category,Manage voucher category
+stringgroup.Description,Description,Description
+column.By_Date,By Date,By Date
+column.Last_Name,Last Name,Last Name
+reportstableheading.Forms_Captured_Report,Forms Captured Report,Forms Captured Report
+custom_header.Eligible_Voucher_Value,{Reportviewer:uEligibleVoucherRequestHeader},{Reportviewer:uEligibleVoucherRequestHeader}
+column.Amount,Amount,Amount
+input.Crop_Filter,Crop Filter,Crop Filter
+menu_item.EnterpriseGroups,EnterpriseGroups,EnterpriseGroups
+error.location_level_four,Level 4 cannot be empty,Level 4 cannot be empty
+label.Location_Level,Location Level,Location Level
+reports_preregisteredfarmers.Pre-Registered_Farmers,Pre-Registered Farmers,Pre-Registered Farmers
+column.Crop,Crop,Crop
+custom_header.reportsgenerictemplate_column_string4,{ReportsGenericViewerLabels:column_string4},{ReportsGenericViewerLabels:column_string4}
+column.Name,Name,Name
+column_heading.farmer.cropstatus,cropstatus,cropstatus
+view_heading.farmer_bulk_message,Farmer bulk message,Farmer bulk message
+label.Original_CaseSensitive_Text,Original CaseSensitive Text,Original CaseSensitive Text
+reportstableheading.Daily_Registration_Report,Daily Registration Report,Daily Registration Report
+label.Request_Code,Request Code,Request Code
+view_heading.Location_Upload_File,Location Upload File,Location Upload File
+confirm_subject.remove,Remove Role,Remove Role
+view_heading.dev_testing,Dev testing,Dev testing
+button.upload_locations,Upload Locations,Upload Locations
+reports_generic.String_Value,String Value,String Value
+label.Receipt_Measure,Receipt Measure,Receipt Measure
+view_heading.pay_transaction_fee,Pay transaction fee,Pay transaction fee
+column.expired,Expired,Expired
+custom_header.location_level_eight,Location level eight,Location level eight
+custom_header.hierarchy_level_seven,Hierarchy level seven,Hierarchy level seven
+column.outstanding_balance,Outstanding balance,Outstanding balance
+button.audit_logs,Audit logs,Audit logs
+label.sms_type,Sms type,Sms type
+button.view,View,View
+column_heading.farmer.farmsize,farmsize,farmsize
+alert_error.invalid_cropstatus,Invalid crop status specified.,Invalid crop status specified.
+view_heading.Add_Crop_To_Voucher_Template,Add Enterprise To Voucher Template,Add Enterprise To Voucher Template
+column_heading.Date_Created,Date Created,Date Created
+view_heading.Error_Log,Error Log,Error Log
+confirmation.send_messages_subject,Approve this message?,Approve this message?
+column.Date,Date,Date
+column.Balance_Before,Balance Before,Balance Before
+column.Date_modified,Date modified,Date modified
+custom_header.stock_description,description,description
+column.First_Completed,First Completed,First Completed
+column.bags_redeemed,Bags redeemed,Bags redeemed
+view_heading.Manage_Configurable_Questions,Manage Configurable Questions,Manage Configurable Questions
+custom_header.reportsgenerictemplate_column_location5,{ReportsGenericViewerLabels:column_location5},{ReportsGenericViewerLabels:column_location5}
+reportstableheading.Detailed_Fertilizer_Balance_per_Depot/Agro_dealer,Detailed Fertilizer Balance per Depot/Agro dealer,Detailed Fertilizer Balance per Depot/Agro dealer
+column.fee_earned,Fee earned,Fee earned
+column.S/No,S/No,S/No
+row_action.Edit,Edit,Edit
+column.bag_subsidy,Bag subsidy,Bag subsidy
+button.Upload_Farmers,Upload Farmers,Upload Farmers
+column.mobile_action,Mobile action,Mobile action
+button.add_user_group,Add user group,Add user group
+column.Voucher_Code,Voucher Code,Voucher Code
+reports_generic.Definitions,Definitions,Definitions
+column.receipt_number,Receipt number,Receipt number
+custom_header.reportsgenerictemplate_column_date3,{ReportsGenericViewerLabels:column_date3},{ReportsGenericViewerLabels:column_date3}
+fileupload.Bank_Deposits,Bank Deposits,Bank Deposits
+custom_header.reportlevel,{DashboardUtil:uReportLevelName},{DashboardUtil:uReportLevelName}
+table_heading.receipts,Receipts,Receipts
+custom_header.reportsgenerictemplate_column_int3,{ReportsGenericViewerLabels:column_int3},{ReportsGenericViewerLabels:column_int3}
+button.Rejected_Uploads,Rejected Uploads,Rejected Uploads
+label.Content,Content,Content
+button.Search,Search,Search
+alert.uploadfile.file_format,"Only PDF , JPG , PNG files that are copies or images of proof of payment allowed","Only PDF , JPG , PNG files that are copies or images of proof of payment allowed"
+custom_header.reportsgenerictemplate_column_string7,{ReportsGenericViewerLabels:column_string7},{ReportsGenericViewerLabels:column_string7}
+button.Upload_Content,Upload Content,Upload Content
+view_heading.edit_benefit_template,Edit benefit template,Edit benefit template
+custom_header.reportsgenerictemplate_reportstableHeading,{ReportsGenericViewerLabels:uReportstableHeading},{ReportsGenericViewerLabels:uReportstableHeading}
+custom_header.reportsgenerictemplate_column_location4,{ReportsGenericViewerLabels:column_location4},{ReportsGenericViewerLabels:column_location4}
+reports_reportdescription.Report_Key,Report Key,Report Key
+custom_header.reportsgenerictemplate_column_string9,{ReportsGenericViewerLabels:column_string9},{ReportsGenericViewerLabels:column_string9}
+custom_header.question_7,{Reportviewer:uQuestion7Header},{Reportviewer:uQuestion7Header}
+label.business_Reg_Type,Business Reg Type,Business Reg Type
+view_heading.Create_Enterprise_Group,Create Enterprise Group,Create Enterprise Group
+custom_header.reportsgenerictemplate_column_string10,{ReportsGenericViewerLabels:column_string10},{ReportsGenericViewerLabels:column_string10}
+custom_header.reportsgenerictemplate_column_datetime3,{ReportsGenericViewerLabels:column_datetime3},{ReportsGenericViewerLabels:column_datetime3}
+view_heading.Edit_Enterprise_Group,Edit Enterprise Group,Edit Enterprise Group
+label.Mobile_Number,Mobile Number,Mobile Number
+custom_header.question_6,{Reportviewer:uQuestion6Header},{Reportviewer:uQuestion6Header}
+reports_generic.Date_Archived,Date Archived,Date Archived
