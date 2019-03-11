@@ -5,7 +5,7 @@ Developer : Jaco Brits
 Email : jaco@netstart.co.za
 
 Description:
-Slack 3rd Party config file.
+AddressBook 3rd Party config file.
 The token CSRF security on the ajax calls was removed
 
 Also a remote mySQL DB connection to save alarm details
@@ -13,8 +13,8 @@ Also a remote mySQL DB connection to save alarm details
 
 Functions:
 
-sentToSlack($token,$message,$channel)
-setAReminderSlack($token,$message,$channel,$time)
+sentToAddressBook($token,$message,$channel)
+setAReminderAddressBook($token,$message,$channel,$time)
 insertAlarmToDB($uuid,$alarm,$message)
 rowActiveUpdate($dbconnection,$uuid)
 rowSelectall($dbconnection)
@@ -28,15 +28,15 @@ $room= "#general";
 
 /**
  * Conection details to a Remote Hosted DB
- * Table: slackAlarm
+ * Table: AddressBookAlarm
  * id , uuid , message , alarm , active , time_created
- * 
- * 
+ *
+ *
  */
   $servername = "medmin.co.za";
-  $username = "medminco_demo";
-  $password = "D3m0!234";
-  $db_name = "medminco_task";
+  $username = "medminco_address";
+  $password = "p28nZXt#th3Y";
+  $db_name = "medminco_address";
   $invalid_characters = array("$", "%", "#", "<", ">", "|");
 
 
@@ -48,17 +48,17 @@ $room= "#general";
   }
 
 /**
- * Send a Message to a Slack Channel.
+ * Send a Message to a AddressBook Channel.
  *
- * 
+ *
  * @param string $token already setup ontop of file.
  * @param string $message The message to post into a channel.
  * @param string $channel The name of the channel prefixed with #, example #foobar
- * @return value of slack connection
+ * @return value of AddressBook connection
  */
-function sentToSlack($token,$message,$channel)
+function sentToAddressBook($token,$message,$channel)
 {
-    $ch = curl_init("https://slack.com/api/chat.postMessage");
+    $ch = curl_init("https://AddressBook.com/api/chat.postMessage");
     $data = http_build_query([
         "token" => $token,
     	"channel" => $channel,
@@ -71,23 +71,23 @@ function sentToSlack($token,$message,$channel)
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
     $result = curl_exec($ch);
     curl_close($ch);
-    
+
     return $result;
 }
 
 /**
- * Set a reminder to Slack.
+ * Set a reminder to AddressBook.
  *
- * 
+ *
  * @param string $token already setup ontop of file.
  * @param string $message The message to post into a channel.
  * @param string $channel The name of the channel prefixed with #, example #foobar
  * @param string $time in UNIX format
- * @return value of slack connection
+ * @return value of AddressBook connection
  */
-function setAReminderSlack($token,$message,$channel,$time)
+function setAReminderAddressBook($token,$message,$channel,$time)
 {
-    $ch = curl_init("https://slack.com/api/reminders.add");
+    $ch = curl_init("https://AddressBook.com/api/reminders.add");
     $data = http_build_query([
         "token" => $token,
     	"channel" => $channel,
@@ -100,14 +100,14 @@ function setAReminderSlack($token,$message,$channel,$time)
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
     $result = curl_exec($ch);
     curl_close($ch);
-    
+
     return $result;
 }
 
 /**
  * Insert row to DB
  *
- * 
+ *
  * @param string $databaseConnection use current or another DB connection.
  * @param string $table_name table to insert values to.
  * @param string $form_data array of [fieldname] => Value inserted
@@ -131,7 +131,7 @@ function rowInsert($databaseConnection,$table_name, $form_data)
 /**
  * Update spesific row to non active from UUID
  *
- * 
+ *
  * @param string $databaseConnection use current or another DB connection.
  * @param string $uuid.
  * @return object
@@ -140,7 +140,7 @@ function rowInsert($databaseConnection,$table_name, $form_data)
 function rowActiveUpdate($databaseConnection,$uuid)
 {
     // build the update query to set active to 0
-    $sql = "UPDATE slackAlarm SET sla_active = 0 WHERE sla_uuid='".$uuid."'";
+    $sql = "UPDATE AddressBookAlarm SET sla_active = 0 WHERE sla_uuid='".$uuid."'";
     // run and return the query result
     return mysqli_query($databaseConnection,$sql);
 }
@@ -148,12 +148,12 @@ function rowActiveUpdate($databaseConnection,$uuid)
 /**
  * Select spesific row on DB
  *
- * 
+ *
  * @param string $databaseConnection use current or another DB connection.
  * @param string $table_name table to insert values to.
  * @param string $form_data array of [fieldname] => Value inserted
  * @param string $where_clause is by default empty and can be spesified
- * @return object 
+ * @return object
  */
 function rowSelect($databaseConnection,$table_name, $where_clause='')
 {
@@ -182,18 +182,18 @@ function rowSelect($databaseConnection,$table_name, $where_clause='')
 }
 
 /**
- * Select all rows from slackAlarms on DB
+ * Select all rows from AddressBookAlarms on DB
  *
- * 
+ *
  * @param string $databaseConnection use current or another DB connection.
  * @return Object of all rows
  */
 
 function rowSelectall($databaseConnection)
 {
-    
+
     // start the actual SQL statement
-    $sql = "SELECT * FROM `slackAlarms` ";
+    $sql = "SELECT * FROM `AddressBookAlarms` ";
 
     // run and return the query result
     return mysqli_query($databaseConnection,$sql);
@@ -202,19 +202,19 @@ function rowSelectall($databaseConnection)
 /**
  * Populate JSON structure for return
  *
- * 
+ *
  * @param string $databaseConnection use current or another DB connection.
  * @return string in json format
  */
 
-function jsonfyAlarms($dbObject)
+function jsonfyResults($dbObject)
 {
     $returnJson ="[";
     foreach($dbObject as $row){
         $JsonEncode = '{
-            "id":"'.$row["sla_uuid"].'",
-            "name":"'.$row["sla_name"].'",
-            "alarm_at":"'.$row["sla_alarm"].'"
+            "id":"'.$row["add_id"].'",
+            "name":"'.$row["add_id"].'",
+            "alarm_at":"'.$row["add_id"].'"
         }';
         $returnJson= $returnJson.$JsonEncode.",";
     }
