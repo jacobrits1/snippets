@@ -1,0 +1,27 @@
+/*!
+ * Mobilee Apps
+ * Custom CSS overrides
+ * Autor :
+ */
+.extra-big {
+  height: 100px !important;
+  width: 100%;
+  font-size : 20px;
+}
+
+.button-block{
+  width: 100%;
+}
+
+.button-tables{
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+.space10 {
+  height: 10px;
+}
+
+.text18{
+     font-size:18pt;
+}

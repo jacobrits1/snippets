@@ -1,0 +1,50 @@
+
+<div class="center-align">
+  <h4>Contacts</h4>
+  <button class="waves-effect waves-light btn" type="button" ><i class="material-icons left">add</i>Add Contact</button>
+  <table id="address_table" class="display" >
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Cellnumber</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+      </thead>
+
+      <tfooter>
+        <tr>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Cellnumber</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+      </tfooter>
+
+    </table>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var table = $('#address_table').DataTable( {
+        "ajax": {
+                  "url": "api/action.php/list",
+                  "data": {
+                      "id": 1
+                  }
+                },
+        "columnDefs": [ {
+            "targets": -1,
+            "data": null,
+            "defaultContent": "<button class='waves-effect waves-light btn' type='button' ><i class='material-icons left'>edit</i>Edit</button>"
+        } ]
+    } );
+
+    $('#address_table tbody').on( 'click', 'button', function () {
+        var data = table.row( $(this).parents('tr') ).data();
+        alert( data[0] +"'s salary is: "+ data[ 4 ] );
+    } );
+} );
+</script>

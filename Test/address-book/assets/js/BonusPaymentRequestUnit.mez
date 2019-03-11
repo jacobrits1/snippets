@@ -1,0 +1,25 @@
+/**
+ * BonusPaymentRequest Util
+ */
+unit BonusPaymentRequestUnit;
+
+BonusPaymentRequest[] findByStatus(string pStatus){
+  BonusPaymentRequest[] requests = BonusPaymentRequest:and(equals(status,pStatus),equals(archived,"No"));
+  return requests;
+}
+
+BonusPaymentRequest[] findByBranch(Branch pBranch){
+  BonusPaymentRequest[] requests = BonusPaymentRequest:and(relationshipIn(branch,pBranch),equals(archived,"No"));
+  return requests;
+}
+
+BonusPaymentRequest[] findByArchived(string pArchived){
+  BonusPaymentRequest[] requests = BonusPaymentRequest:equals(archived,pArchived);
+  return requests;
+}
+
+
+BonusPaymentTransaction[] getTransactionsByRequest(BonusPaymentRequest pRequest){
+  BonusPaymentTransaction[] transactions = BonusPaymentTransaction:and(relationshipIn(bonusPaymentRequest,pRequest),equals(archived,"No"));
+  return transactions;
+}
