@@ -2,7 +2,7 @@
 <div class="center-align">
   <h4>Contacts</h4>
   <button class="waves-effect waves-light btn" type="button" ><i class="material-icons left">add</i>Add Contact</button>
-  <table id="address_table" class="display" >
+  <table id="address_table" class="display">
       <thead>
         <tr>
             <th>Name</th>
@@ -38,13 +38,14 @@
         "columnDefs": [ {
             "targets": -1,
             "data": null,
-            "defaultContent": "<button class='waves-effect waves-light btn' type='button' ><i class='material-icons left'>edit</i>Edit</button>"
+            "defaultContent": "<button class='waves-effect waves-light btn' type='button' ><i class='material-icons left'>edit</i></button>"
         } ]
     } );
 
     $('#address_table tbody').on( 'click', 'button', function () {
         var data = table.row( $(this).parents('tr') ).data();
-        alert( data[0] +"'s salary is: "+ data[ 4 ] );
+        edit_person(data[ 4 ]);
+        //alert( data[0] +"'s salary is: "+ data[ 4 ] );
     } );
 } );
 </script>
